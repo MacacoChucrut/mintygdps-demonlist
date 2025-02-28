@@ -98,9 +98,14 @@ export default {
                             </li>
                         </ol>
                     </template>
+
+
+
+
+
                     <h3>Level Rules</h3>
                     <p>
-                        The level MUST be physically possible
+                        The level MUST be atleast 30 seconds long
                     </p>
                     <p>
                         You can remake already existing levels, but do NOT directly copy them
@@ -108,7 +113,7 @@ export default {
                     
                     <h3>Submission Requirements</h3>
                     <p>
-                        Verification videos are not required, but if you record one, please follow these rules
+                        Clicks/Taps in the video are required
                     </p>
                     <p>
                         The recording must include the death animation of the previous attempt, unless the completion is on the first attempt
@@ -120,14 +125,16 @@ export default {
                         Cheat Indicator is REQUIRED if a modmenu with the feature is being used
                     </p>
                     <p>
-                        Clicks/Taps in the video are optional
-                    </p>
-                    <p>
                         CBF and FPS bypass are allowed
                     </p>
                 </div>
             </div>
         </main>
+
+
+
+
+
     `,
     data: () => ({
         list: [],
