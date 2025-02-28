@@ -1,0 +1,18 @@
+{
+    "id": 1051,
+    "name": "Fractal Reality",
+    "author": "pime2005",
+    "creators": ["pime2005"],
+    "verifier": "pime2005",
+    "verification": "https://youtu.be/NXsk624CM8o",
+    "percentToQualify": "61",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

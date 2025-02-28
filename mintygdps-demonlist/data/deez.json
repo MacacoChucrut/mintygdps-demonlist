@@ -1,0 +1,24 @@
+{
+    "id": 737,
+    "name": "Deez",
+    "author": "justabook",
+    "creators": ["justabook"],
+    "verifier": "justabook",
+    "verification": "https://youtu.be/_2Xa5MqTDWo",
+    "percentToQualify": "66",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

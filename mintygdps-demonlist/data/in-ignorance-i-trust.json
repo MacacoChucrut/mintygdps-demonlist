@@ -1,0 +1,18 @@
+{
+    "id": 2111,
+    "name": "In Ignorance I Trust",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "https://youtu.be/uVqzldrKC1g",
+    "percentToQualify": "66",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

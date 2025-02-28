@@ -1,0 +1,24 @@
+{
+    "id": 1103,
+    "name": "Thanks Level",
+    "author": "Denz8ty",
+    "creators": ["Denz8ty"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "62",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

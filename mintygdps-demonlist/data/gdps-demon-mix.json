@@ -1,0 +1,30 @@
+{
+    "id": 895,
+    "name": "GDPS Demon Mix",
+    "author": "Dunkin Dash",
+    "creators": ["Dunkin Dash, Tiger8, ElLucas7Oficial, NbbT, WrongBlock, NotSoDevy"],
+    "verifier": "Dunkin Dash",
+    "verification": "#",
+    "percentToQualify": "69",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dact",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
