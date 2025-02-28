@@ -1,0 +1,24 @@
+{
+    "id": 760,
+    "name": "memoryfactory",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "https://youtu.be/4RvNfpwfYK4",
+    "percentToQualify": "59",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": 1377,
+    "name": "Blue!",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/qXUobZDvgTE",
+    "percentToQualify": "74",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360,
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360,
+        },
+        {
+            "user": "Dact",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 93,
+            "hz": 240
+        }
+    ]
+}

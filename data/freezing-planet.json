@@ -1,0 +1,37 @@
+{
+    "id": 817,
+    "name": "Freezing Planet",
+    "author": "Gonci30",
+    "creators": ["Gonci30, WrongBlock"],
+    "verifier": "Gonci30",
+    "verification": "#",
+    "percentToQualify": "72",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "carti",
+            "link": "",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Dact",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

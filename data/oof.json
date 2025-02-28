@@ -1,0 +1,24 @@
+{
+    "id": 1322,
+    "name": "oof",
+    "author": "CashyArchive",
+    "creators": ["Cash"],
+    "verifier": "Cash",
+    "verification": "https://youtu.be/XmoCX8mxfXI",
+    "percentToQualify": "65",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

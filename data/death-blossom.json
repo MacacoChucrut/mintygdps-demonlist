@@ -1,0 +1,24 @@
+{
+    "id": 860,
+    "name": "Death Blossom",
+    "author": "mlny",
+    "creators": ["mlny"],
+    "verifier": "Dact",
+    "verification": "https://youtu.be/5CBh6OdYzMw?t=104",
+    "percentToQualify": "64",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

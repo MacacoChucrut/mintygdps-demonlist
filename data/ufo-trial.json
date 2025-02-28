@@ -1,0 +1,30 @@
+{
+    "id": 2211,
+    "name": "UFO Trial",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/kB3iPii99Ug",
+    "percentToQualify": "60",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Hydra",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

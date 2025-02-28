@@ -1,0 +1,24 @@
+{
+    "id": 729,
+    "name": "Zacheron",
+    "author": "ZacanaiiUwU",
+    "creators": ["ZacanaiiUwU"],
+    "verifier": "ZacanaiiUwU",
+    "verification": "https://youtu.be/AG9nHsdL4Ns",
+    "percentToQualify": "68",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "justabook",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

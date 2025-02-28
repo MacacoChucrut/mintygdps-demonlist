@@ -1,0 +1,30 @@
+{
+    "id": 874,
+    "name": "superfearmeworld",
+    "author": "Darwin",
+    "creators": ["Darwin"],
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/YsCfRfKVZyg",
+    "percentToQualify": "65",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Dact",
+            "link": "https://youtu.be/5CBh6OdYzMw",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

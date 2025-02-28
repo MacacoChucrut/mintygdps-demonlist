@@ -1,0 +1,24 @@
+{
+    "id": 450,
+    "name": "Power Trip II",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "Dact",
+    "verification": "https://youtu.be/YxCSRuzPcAQ?t=5840",
+    "percentToQualify": "60",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
