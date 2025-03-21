@@ -29,7 +29,20 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2><span style="background-color: #ffffff">MintyGDPS Demonlist</h2>
+
+
+                
+                <h2><span style="display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(70deg,var(--color-on-primary) 88%,transparent 89%);
+    height: var(--navbar-height);
+    width: 18rem;
+    min-width: 14rem;
+    gap: .6rem;">MintyGDPS Demonlist</h2>
+
+
+                
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
