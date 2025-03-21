@@ -105,27 +105,24 @@ export default {
 
                     <h3>Level Rules</h3>
                     <p>
-                        The level MUST be atleast 30 seconds long
+                        The level must be at least 30 seconds long
                     </p>
                     <p>
-                        You can remake already existing levels, but do NOT directly copy them
+                        You can remake already existing levels, but do NOT directly copy them (If the level is rated, it is exempt from this rule)
                     </p>
-                    
+
                     <h3>Submission Requirements</h3>
-                    <p>
-                        Clicks/Taps in the video are required
-                    </p>
                     <p>
                         The recording must include the death animation of the previous attempt, unless the completion is on the first attempt
                     </p>
                     <p>
-                        The recording must show the end stats screen
+                        Cheat indicator is required if a modmenu with the feature is being used
+                    </p>
+                     <p>
+                        The end stats screen must be fully shown for at least 1 frame
                     </p>
                     <p>
-                        Cheat Indicator is REQUIRED if a modmenu with the feature is being used
-                    </p>
-                    <p>
-                        CBF and FPS bypass are allowed
+                        *CBF and FPS bypass are allowed
                     </p>
                 </div>
             </div>
