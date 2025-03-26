@@ -1,13 +1,19 @@
 {
     "id": 1322,
     "name": "oof",
-    "author": "CashyArchive",
+    "author": "Cash",
     "creators": ["Cash"],
     "verifier": "Cash",
     "verification": "https://youtu.be/XmoCX8mxfXI",
     "percentToQualify": "65",
     "difficulty": "Insane Demon",
     "records": [
+        {
+            "user": "TotallyTheEgg",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
         {
             "user": "MacacoChucrut",
             "link": "",
@@ -19,6 +25,12 @@
             "link": "",
             "percent": 100,
             "hz": 360
-        }
+        },
+        {
+            "user": "drip",
+            "link": "",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
     ]
 }
