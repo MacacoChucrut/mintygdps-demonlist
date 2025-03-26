@@ -1,1 +1,18 @@
-
+{
+    "id": 509,
+    "name": "moc",
+    "author": "JustaGdPlayer",
+    "creators": ["JustaGdPlayer"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "83",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "justabook",
+            "link": "",
+            "percent": 83,
+            "hz": 360,
+        }
+    ]
+}
