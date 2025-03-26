@@ -1,0 +1,51 @@
+{
+    "id": 2258,
+    "name": "Wave Trial",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100,
+            "hz": 360,
+        },
+        {
+            "user": "Gonci30",
+            "link": "",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hydra",
+            "link": "",
+            "percent": "100",
+            "hz": 360
+        },
+        {
+            "user": "drip",
+            "link": "",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "HyperisticGD20",
+            "link": "",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+    ]
+}
