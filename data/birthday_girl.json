@@ -1,0 +1,24 @@
+{
+    "id": 366,
+    "name": "Birthday Girl",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "65",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100,
+            "hz": 360,
+        },
+        {
+            "user": "justabook",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
