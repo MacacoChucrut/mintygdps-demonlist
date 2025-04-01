@@ -1,0 +1,25 @@
+{
+    "id": 1116,
+    "name": "Level of Awesomeness",
+    "author": "Kevus",
+    "creators": ["Kevus"],
+    "verifier": "Kevus",
+    "verification": "#",
+    "percentToQualify": "76",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Quantium9",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+    ]
+}
