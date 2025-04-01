@@ -1,0 +1,24 @@
+{
+    "id": 1204,
+    "name": "Hardest Ship",
+    "author": "Denz8ty",
+    "creators": ["Denz8ty, Herobrain"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "94",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "arrctic",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dact",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
