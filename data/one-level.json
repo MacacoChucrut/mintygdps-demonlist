@@ -1,0 +1,24 @@
+{
+    "id": 1094,
+    "name": "one level",
+    "author": "KauanValads123",
+    "creators": ["KauanValads123"],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "percentToQualify": "78",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "N5LX",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
