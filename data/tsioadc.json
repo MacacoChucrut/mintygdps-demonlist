@@ -1,0 +1,24 @@
+{
+    "id": 2551,
+    "name": "The Superficial Introspection of a Dying Consciousness",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "52",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
