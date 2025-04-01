@@ -1,0 +1,110 @@
+{
+    "id": 281,
+    "name": "Eighto Deluxe",
+    "author": "WrongBlock",
+    "creators": ["WrongBlock"],
+    "verifier": "WrongBlock",
+    "verification": "#",
+    "percentToQualify": "67",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "TotallyTheEgg",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Pancake0o",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Cash",
+            "link": "#",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "funkyclearer",
+            "link": "#",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "fluke",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Steadler",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
