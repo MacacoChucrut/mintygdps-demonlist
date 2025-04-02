@@ -1,0 +1,26 @@
+{
+    "id": 1039,
+    "name": "The Abyss",
+    "author": "KauanValads123",
+    "creators": ["KauanValads123"],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "N5LX",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}

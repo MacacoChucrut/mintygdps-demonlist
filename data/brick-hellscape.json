@@ -1,0 +1,47 @@
+{
+    "id": 923,
+    "name": "Brick hellscape",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/LYWzIeNmLpI",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
+        },
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}
