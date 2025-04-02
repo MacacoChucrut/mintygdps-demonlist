@@ -1,0 +1,31 @@
+{
+    "id": 844,
+    "name": "Rakshasa",
+    "author": "NotSoDevy",
+    "creators": ["NotSoDevy"],
+    "verifier": "NotSoDevy",
+    "verification": "#",
+    "percentToQualify": "65",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Ryth",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
