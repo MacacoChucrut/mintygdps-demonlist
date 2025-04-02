@@ -1,0 +1,24 @@
+{
+    "id": 2414,
+    "name": "supe so astro very u",
+    "author": "Dracorex",
+    "creators": ["Dracorex, Herobrain"],
+    "verifier": "Dracorex",
+    "verification": "#",
+    "percentToQualify": "62",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 84,
+            "hz": 75
+        }
+    ]
+}
