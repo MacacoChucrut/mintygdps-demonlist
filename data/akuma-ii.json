@@ -1,0 +1,69 @@
+{
+    "id": 1972,
+    "name": "Akuma II",
+    "author": "sSnuk",
+    "creators": ["sSnuk"],
+    "verifier": "sSnuk",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MajinBOB",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "rankmon",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Macc",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "HyperisticGD20",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
