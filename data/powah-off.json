@@ -1,0 +1,40 @@
+{
+    "id": 1023,
+    "name": "Powah Off",
+    "author": "Gonci30",
+    "creators": ["Gonci30"],
+    "verifier": "Gonci30",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "HyperisticGD20",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+    ]
+}

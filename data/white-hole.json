@@ -1,0 +1,54 @@
+{
+    "id": 694,
+    "name": "White Hole",
+    "author": "Tiger8",
+    "creators": ["Tiger8"],
+    "verifier": "Tiger8",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
+    ]
+}
