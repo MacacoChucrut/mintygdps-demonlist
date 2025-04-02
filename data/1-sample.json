@@ -1,26 +1,96 @@
 {
-    "id": 1,
-    "name": "Level Name",
-    "author": "Publisher",
-    "creators": ["Creators"],
-    "verifier": "Verifier",
+    "id": 517,
+    "name": "memeclysm",
+    "author": "Zceliojunior",
+    "creators": ["Zceliojunior"],
+    "verifier": "Zceliojunior",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Demon",
+    "difficulty": "Hard Demon",
     "records": [
         {
-            "user": "Victor_1",
+            "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 240,
+            "hz": 360,
             "mobile": false
         },
         {
-            "user": "Victor_2",
+            "user": "Pancake0o",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "abdgdps",
             "link": "#",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Dunkin Dash",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "FPR",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Sorrow",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
