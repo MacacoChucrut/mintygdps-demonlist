@@ -1,0 +1,24 @@
+{
+    "id": 2945,
+    "name": "Mountian Dew Circles",
+    "author": "SpaceCanada",
+    "creators": ["SpaceXD, Atlas2011"],
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/UnFp6cZ5gPA",
+    "percentToQualify": "68",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "IlluminaXML",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
