@@ -1,0 +1,18 @@
+{
+    "id": 1222,
+    "name": "Green world",
+    "author": "Kevus",
+    "creators": ["Kevus"],
+    "verifier": "Kevus",
+    "verification": "#",
+    "percentToQualify": "70",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
