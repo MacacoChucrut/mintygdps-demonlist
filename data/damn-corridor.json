@@ -1,0 +1,30 @@
+{
+    "id": 2292,
+    "name": "Damn Corridor",
+    "author": "Herobrain",
+    "creators": ["Herobrain, lilac"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "61",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 71,
+            "hz": 360
+        }
+    ]
+}
