@@ -1,0 +1,37 @@
+{
+    "id": 2458,
+    "name": "demon level",
+    "author": "Gonci30",
+    "creators": ["Gonci30"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "66",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 89,
+            "hz": 360
+        },
+        {
+            "user": "rankmon",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+    ]
+}
