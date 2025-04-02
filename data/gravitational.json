@@ -1,0 +1,24 @@
+{
+    "id": 2714,
+    "name": "GRAVITATIONAL",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "ribbonera",
+    "verification": "#",
+    "percentToQualify": "61",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 85,
+            "hz": 75
+        }
+    ]
+}
