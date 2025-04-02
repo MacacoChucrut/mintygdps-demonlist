@@ -67,7 +67,8 @@
             "user": "Dunkin Dash",
             "link": "#",
             "percent": 100,
-            "hz": 360
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "Robocoin",
