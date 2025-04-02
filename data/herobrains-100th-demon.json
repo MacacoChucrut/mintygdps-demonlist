@@ -1,0 +1,30 @@
+{
+    "id": 2246,
+    "name": "Herobrains 100th Demon",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "68",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
