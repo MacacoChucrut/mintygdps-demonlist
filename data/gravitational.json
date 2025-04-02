@@ -5,7 +5,7 @@
     "creators": ["ribbonera"],
     "verifier": "ribbonera",
     "verification": "#",
-    "percentToQualify": "61",
+    "percentToQualify": "100",
     "difficulty": "Hard Demon",
     "records": [
         {
@@ -13,12 +13,6 @@
             "link": "#",
             "percent": 100,
             "hz": 240
-        },
-        {
-            "user": "Herobrain",
-            "link": "#",
-            "percent": 85,
-            "hz": 75
         }
     ]
 }
