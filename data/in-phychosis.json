@@ -1,0 +1,26 @@
+{
+    "id": 689,
+    "name": "IN Psychosis",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}

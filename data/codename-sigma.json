@@ -1,0 +1,26 @@
+{
+    "id": 1586,
+    "name": "CODENAME SIGMA",
+    "author": "lilac",
+    "creators": ["lilac, Herobrain"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}
