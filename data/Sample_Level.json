@@ -1,22 +1,23 @@
 {
-    "id": 100,
+    "id": 1,
     "name": "Level Name",
     "author": "Publisher",
     "creators": ["Creators"],
-    "verifier": "Verified",
+    "verifier": "Verifier",
     "verification": "#",
     "percentToQualify": "100",
     "difficulty": "Demon",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "",
+            "user": "Victor_1",
+            "link": "#",
             "percent": 100,
             "hz": 240,
+            "mobile": false
         },
         {
-            "user": "Sample_Victor_2",
-            "link": "",
+            "user": "Victor_2",
+            "link": "#",
             "percent": 100,
             "hz": 60,
             "mobile": true
