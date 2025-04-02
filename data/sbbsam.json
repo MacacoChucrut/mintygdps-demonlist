@@ -1,0 +1,40 @@
+{
+    "id": 780,
+    "name": "Shock Breaker by Spectex and more",
+    "author": "ZacanaiiUwU",
+    "creators": ["ZacanaiiUwU"],
+    "verifier": "ZacanaiiUwU",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
+    ]
+}

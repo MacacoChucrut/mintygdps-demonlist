@@ -1,0 +1,19 @@
+{
+    "id": 1983,
+    "name": "Brazil Time",
+    "author": "KauanValads123",
+    "creators": ["KauanValads123"],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        }
+    ]
+}
