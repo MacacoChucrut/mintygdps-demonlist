@@ -1,0 +1,36 @@
+{
+    "id": 2131,
+    "name": "Cube Trial",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "62",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "lilac",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
