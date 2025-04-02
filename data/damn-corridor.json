@@ -5,7 +5,7 @@
     "creators": ["Herobrain, lilac"],
     "verifier": "Herobrain",
     "verification": "#",
-    "percentToQualify": "61",
+    "percentToQualify": "100",
     "difficulty": "Hard Demon",
     "records": [
         {
@@ -18,12 +18,6 @@
             "user": "yeeee",
             "link": "#",
             "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "lilac",
-            "link": "#",
-            "percent": 71,
             "hz": 360
         }
     ]
