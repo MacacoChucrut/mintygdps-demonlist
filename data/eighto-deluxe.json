@@ -11,95 +11,80 @@
         {
             "user": "MacacoChucrut",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "TotallyTheEgg",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Pancake0o",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Cash",
             "link": "#",
-            "percent": 100,
-            "hz": 144
+            "percent": 100
         },
         {
             "user": "funkyclearer",
             "link": "#",
-            "percent": 100,
-            "hz": 60
+            "percent": 100
         },
         {
             "user": "nightsIris",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "ZacanaiiUwU",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "justabook",
             "link": "#",
-            "percent": 100,
-            "hz": 60
+            "percent": 100
         },
         {
             "user": "drip",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Dunkin Dash",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Robocoin",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "fluke",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Steadler",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "yeeee",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Hydra",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         }
     ]
 }
