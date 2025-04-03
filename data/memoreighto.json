@@ -5,27 +5,18 @@
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "https://youtu.be/s0wOzL2fBFk",
-    "percentToQualify": "62",
+    "percentToQualify": "63",
     "difficulty": "Insane Demon",
     "records": [
         {
             "user": "ZacanaiiUwU",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "MacacoChucrut",
             "link": "",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mop",
-            "link": "",
-            "percent": 62,
-            "hz": 60,
-            "mobile": true
+            "percent": 100
         }
     ]
 }
