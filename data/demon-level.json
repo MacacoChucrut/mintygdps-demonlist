@@ -11,26 +11,22 @@
         {
             "user": "Anduval",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Ryth",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Hydra",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "rankmon",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         }
     ]
