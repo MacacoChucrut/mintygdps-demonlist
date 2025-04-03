@@ -1,26 +1,47 @@
 {
-    "id": 1,
-    "name": "Level Name",
-    "author": "Publisher",
-    "creators": ["Creators"],
-    "verifier": "Verifier",
-    "verification": "#",
+    "id": 3082,
+    "name": "Yes",
+    "author": "MacacoChucrut",
+    "creators": ["MacacoChucrut"],
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/Wokpi6LgEno",
     "percentToQualify": "100",
-    "difficulty": "Demon",
+    "difficulty": "Insane Demon",
     "records": [
         {
-            "user": "Victor_1",
+            "user": "Dact",
+            "link": "https://youtu.be/TWVvvSFOhLE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Pancake0o",
+            "link": "https://youtu.be/99LAROOAasc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "justabook",
             "link": "#",
             "percent": 100,
             "hz": 240,
             "mobile": false
         },
         {
-            "user": "Victor_2",
-            "link": "#",
+            "user": "nightsIris",
+            "link": "https://youtu.be/cUb9XYpodSE",
             "percent": 100,
-            "hz": 60,
-            "mobile": true
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "https://youtu.be/foxQS586CII",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
