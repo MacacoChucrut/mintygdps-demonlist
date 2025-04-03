@@ -11,14 +11,12 @@
         {
             "user": "Anduval",
             "link": "#",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "IlluminaXML",
             "link": "#",
             "percent": 100,
-            "hz": 360
         }
     ]
 }
