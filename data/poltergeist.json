@@ -11,14 +11,12 @@
          {
             "user": "ZacanaiiUwU",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Fluke",
             "link": "",
             "percent": 64,
-            "hz": 60,
             "mobile": true
         }
     ]
