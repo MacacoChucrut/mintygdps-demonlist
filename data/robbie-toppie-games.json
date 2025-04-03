@@ -11,14 +11,12 @@
         {
             "user": "Cash",
             "link": "https://youtu.be/ZQwcfbYGS-8",
-            "percent": 100,
-            "hz": 144
+            "percent": 100
         },
         {
             "user": "MacacoChucrut",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         }
     ]
 }
