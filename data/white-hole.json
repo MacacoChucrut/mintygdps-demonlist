@@ -12,42 +12,36 @@
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "ZacanaiiUwU",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Dunkin Dash",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "nightsIris",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Fluke",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Herobrain",
             "link": "#",
             "percent": 100,
-            "hz": 75,
             "mobile": false
         }
     ]
