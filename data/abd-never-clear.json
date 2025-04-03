@@ -12,25 +12,21 @@
             "user": "ZacanaiiUwU",
             "link": "",
             "percent": 100,
-            "hz": 360
         },
         {
             "user": "Hydra",
             "link": "",
             "percent": 100,
-            "hz": 360
         },
         {
             "user": "Litoks",
             "link": "",
             "percent": 100,
-            "hz": 240
         },
         {
             "user": "Grayson",
             "link": "",
             "percent": 79,
-            "hz": 60,
             "mobile": true
         }
     ]
