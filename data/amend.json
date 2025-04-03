@@ -8,5 +8,12 @@
     "percentToQualify": "58",
     "difficulty": "Insane Demon",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
