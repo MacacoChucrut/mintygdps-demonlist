@@ -54,7 +54,8 @@
         {
             "user": "Anduval",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": true
         }
     ]
 }
