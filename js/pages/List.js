@@ -98,40 +98,34 @@ export default {
                             </li>
                         </ol>
                     </template>
-
-
-
-
-
-                    <h3>Level Rules</h3>
                     <p>
-                        The level must be at least 30 seconds long
+                        Only Hard, Insane and Extreme Demons will be accepted into the list.
                     </p>
-                    <p>
-                        You can remake already existing levels, but do NOT directly copy them (If the level is rated, it is exempt from this rule)
-                    </p>
-
                     <h3>Submission Requirements</h3>
                     <p>
-                        The recording must include the death animation of the previous attempt, unless the completion is on the first attempt
+                        (Levels uploaded before the List are exempt from these rules)
                     </p>
                     <p>
-                        Cheat indicator is required if a modmenu with the feature is being used
-                    </p>
-                     <p>
-                        The end stats screen must be fully shown for at least 1 frame
+                        Extreme Demon completions must include audible clicks/taps.
                     </p>
                     <p>
-                        *CBF and FPS bypass are allowed
+                        Cheat indicator is required if a modmenu with the feature is being used.
+                    </p>
+                    <p>
+                        The level complete endscreen must be shown.
+                    </p>
+                    <p>
+                        If you are using an LDM or a bugfix copy of a level, make sure it does not change gameplay or removes so much decoration that it makes the level easier. If you are uncertain whether or not your LDM/bugfix copy of a level is acceptable, you can ask a Demonlist staff memnber.
+                    </p>
+                    <p>
+                        Physics Bypass is NOT allowed.
+                    </p>
+                    <p>
+                        CBF and FPS bypass are allowed.
                     </p>
                 </div>
             </div>
         </main>
-
-
-
-
-
     `,
     data: () => ({
         list: [],
