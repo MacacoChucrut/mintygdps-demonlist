@@ -22,7 +22,8 @@
         {
             "user": "Anduval",
             "link": "",
-            "percent": 55
+            "percent": 55,
+            "mobile": true
         }
     ]
 }
