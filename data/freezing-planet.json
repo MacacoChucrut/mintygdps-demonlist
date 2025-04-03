@@ -11,27 +11,23 @@
         {
             "user": "MacacoChucrut",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "ZacanaiiUwU",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "carti",
             "link": "",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Dact",
             "link": "",
-            "percent": 100,
-            "hz": 240
+            "percent": 100
         }
     ]
 }
