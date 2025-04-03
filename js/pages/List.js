@@ -121,7 +121,7 @@ export default {
                         Physics Bypass is NOT allowed.
                     </p>
                     <p>
-                        CBF and FPS bypass are allowed.
+                        CBF and FPS/TPS bypass are allowed.
                     </p>
                 </div>
             </div>
