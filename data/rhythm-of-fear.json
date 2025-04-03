@@ -12,21 +12,18 @@
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Dunkin Dash",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Actived",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         }
     ]
