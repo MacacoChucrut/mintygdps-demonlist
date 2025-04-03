@@ -11,40 +11,34 @@
         {
             "user": "MacacoChucrut",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "Gonci30",
             "link": "",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "Hydra",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "drip",
             "link": "",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "yeeee",
             "link": "",
-            "percent": 100,
-            "hz": 360
+            "percent": 100
         },
         {
             "user": "HyperisticGD20",
             "link": "",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         }
     ]
