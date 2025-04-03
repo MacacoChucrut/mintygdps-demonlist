@@ -12,28 +12,24 @@
             "user": "nightsIris",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Robocoin",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Herobrain",
             "link": "#",
             "percent": 100,
-            "hz": 75,
             "mobile": false
         }
     ]
