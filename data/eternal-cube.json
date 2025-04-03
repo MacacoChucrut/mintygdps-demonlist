@@ -12,21 +12,18 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100,
-            "hz": 75,
             "mobile": false
         },
         {
             "user": "Fluke",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         }
     ]
