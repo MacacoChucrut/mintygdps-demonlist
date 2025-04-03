@@ -12,35 +12,30 @@
             "user": "justabook",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": false
         },
         {
             "user": "Dunkin Dash",
             "link": "#",
             "percent": 100,
-            "hz": 60,
             "mobile": true
         },
         {
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         },
         {
             "user": "Dracorex",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": true
         },
         {
             "user": "Anduval",
             "link": "#",
             "percent": 100,
-            "hz": 360,
             "mobile": false
         }
     ]
