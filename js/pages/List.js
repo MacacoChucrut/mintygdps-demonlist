@@ -103,7 +103,7 @@ export default {
                         The level complete endscreen must be shown.
                     </p>
                     <p>
-                        If you are using an LDM or a bugfix copy of a level, make sure it does not change gameplay or removes so much decoration that it makes the level easier. If you are uncertain whether or not your LDM/bugfix copy of a level is acceptable, you can always ask a Demonlist staff member through the MintyGDPS Discord server.
+                        If you are using an LDM or a bugfix copy of a level, make sure it does not change gameplay or removes so much decoration that it makes the level easier. If you are uncertain whether or not your LDM/bugfix copy of a level is acceptable, you can always ask a Demonlist staff member through Discord.
                     </p>
                     <p>
                         Physics Bypass is NOT allowed.
