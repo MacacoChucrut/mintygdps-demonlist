@@ -97,12 +97,6 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        (Levels uploaded before the List are exempt from these rules)
-                    </p>
-                    <p>
-                        Extreme Demon completions must include audible clicks/taps.
-                    </p>
-                    <p>
                         Cheat indicator is required if a modmenu with the feature is being used.
                     </p>
                     <p>
