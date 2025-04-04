@@ -95,9 +95,6 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <p>
-                        Only Hard, Insane and Extreme Demons will be accepted into the list.
-                    </p>
                     <h3>Submission Requirements</h3>
                     <p>
                         (Levels uploaded before the List are exempt from these rules)
