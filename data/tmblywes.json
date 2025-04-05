@@ -1,0 +1,36 @@
+{
+    "id": 1447,
+    "name": "The Most Balanced Level You Will Ever See",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dact",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Sorrow",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
