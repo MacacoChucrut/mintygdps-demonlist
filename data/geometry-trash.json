@@ -1,0 +1,27 @@
+{
+    "id": 2113,
+    "name": "Geometry Trash",
+    "author": "roma",
+    "creators": ["roma"],
+    "verifier": "roma",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
