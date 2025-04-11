@@ -1,0 +1,22 @@
+{
+    "id": 3031,
+    "name": "Fobos",
+    "author": "rankmon",
+    "creators": ["rankmon"],
+    "verifier": "rankmon",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}

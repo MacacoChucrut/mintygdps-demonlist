@@ -1,0 +1,17 @@
+{
+    "id": 3111,
+    "name": "Beautiful Death",
+    "author": "lilac",
+    "creators": ["lilac"],
+    "verifier": "lilac",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
