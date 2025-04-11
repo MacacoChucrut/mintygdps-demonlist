@@ -1,26 +1,36 @@
 {
-    "id": 1,
-    "name": "Level Name",
-    "author": "Publisher",
-    "creators": ["Creators"],
-    "verifier": "Verifier",
+    "id": 1634,
+    "name": "My level decorated",
+    "author": "KauanValads123",
+    "creators": ["KauanValads123"],
+    "verifier": "KauanValads123",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Demon",
+    "difficulty": "Medium Demon",
     "records": [
         {
-            "user": "Victor_1",
+            "user": "Dracorex",
             "link": "#",
             "percent": 100,
-            "hz": 240,
             "mobile": false
         },
         {
-            "user": "Victor_2",
+            "user": "MacacoChucrut",
             "link": "#",
             "percent": 100,
-            "hz": 60,
-            "mobile": true
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
