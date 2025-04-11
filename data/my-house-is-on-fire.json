@@ -1,0 +1,18 @@
+{
+    "id": 62,
+    "name": "my house is on fire",
+    "author": "TotallyTheEgg",
+    "creators": ["TotallyTheEgg"],
+    "verifier": "TotallyTheEgg",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
