@@ -1,0 +1,61 @@
+{
+    "id": 84,
+    "name": "Icicle World",
+    "author": "TotallyTheEgg",
+    "creators": ["TotallyTheEgg"],
+    "verifier": "TotallyTheEgg",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ribbonera",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "tokyo",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Artimae",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
