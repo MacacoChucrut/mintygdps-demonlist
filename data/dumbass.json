@@ -9,8 +9,13 @@
     "difficulty": "Insane Demon",
     "records": [
         {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
             "user": "MacacoChucrut",
-            "link": "",
+            "link": "#",
             "percent": 100
         }
     ]
