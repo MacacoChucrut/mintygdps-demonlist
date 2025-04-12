@@ -1,26 +1,24 @@
 {
-    "id": ,
-    "name": "",
-    "author": "",
-    "creators": [""],
-    "verifier": "",
+    "id": 1,
+    "name": "Name",
+    "author": "Publisher",
+    "creators": ["Creator"],
+    "verifier": "Verifier",
     "verification": "#",
-    "percentToQualify": "",
+    "percentToQualify": "100",
     "difficulty": "Demon",
     "records": [
         {
-            "user": "",
+            "user": "Name",
             "link": "#",
-            "percent": ,
-            "hz": ,
-            "mobile": 
+            "percent": 100,
+            "mobile": false
         },
         {
-            "user": "",
+            "user": "Name",
             "link": "#",
-            "percent": ,
-            "hz": ,
-            "mobile": 
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
