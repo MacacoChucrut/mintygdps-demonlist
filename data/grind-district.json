@@ -1,0 +1,30 @@
+{
+    "id": 1637,
+    "name": "Grind District",
+    "author": "ZacanaiiUwU",
+    "creators": ["ZacanaiiUwU"],
+    "verifier": "ZacanaiiUwU",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Lucio",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
