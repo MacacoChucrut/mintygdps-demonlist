@@ -1,0 +1,22 @@
+{
+    "id": 3126,
+    "name": "Blitzo Prismatic",
+    "author": "Blitzerwave09",
+    "creators": ["Blitzerwave09"],
+    "verifier": "Blitzerwave09",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
