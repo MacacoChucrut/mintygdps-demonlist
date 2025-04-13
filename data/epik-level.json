@@ -1,0 +1,28 @@
+{
+    "id": 2352,
+    "name": "Epik level",
+    "author": "yeeee",
+    "creators": ["yeeee, Herobrain"],
+    "verifier": "yeeee",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+	},
+	{
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+	    "mobile": true
+        }
+    ]
+}

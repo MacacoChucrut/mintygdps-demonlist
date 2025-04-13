@@ -1,0 +1,22 @@
+{
+    "id": 3020,
+    "name": "causa circles",
+    "author": "PiGuy300",
+    "creators": ["PiGuy300"],
+    "verifier": "PiGuy300",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": 1968,
+    "name": "Circles",
+    "author": "VoidGD",
+    "creators": ["VoidGD"],
+    "verifier": "VoidGD",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+	},
+	{
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Mop",
+            "link": "#",
+            "percent": 100,
+	    "mobile": true
+	{
+            "user": "Quantium9",
+            "link": "#",
+            "percent": 100,
+	    "mobile": true
+        },
+	{
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Sorrow",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "sSunk",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Andvual",
+            "link": "#",
+            "percent": 100,
+	    "mobile": true
+        }
+    ]
+}

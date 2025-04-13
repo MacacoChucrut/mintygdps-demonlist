@@ -1,0 +1,27 @@
+{
+    "id": 2565,
+    "name": "WORKFIRE",
+    "author": "DunkinGD",
+    "creators": ["DunkinGD"],
+    "verifier": "DunkinGD",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+	{
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+	},
+	{
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
