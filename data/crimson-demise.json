@@ -1,0 +1,42 @@
+{
+    "id": 2020,
+    "name": "Crimson Demise",
+    "author": "Ryth",
+    "creators": ["Ryth"],
+    "verifier": "Ryth",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Denz8ty",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "iITHENCSFANIi",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ]
+}
