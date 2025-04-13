@@ -1,0 +1,83 @@
+{
+    "id": 73,
+    "name": "Cold Planet",
+    "author": "WrongBlock",
+    "creators": ["WrongBlock"],
+    "verifier": "WrongBlock",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "arrctic",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "Gonci",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "Drip",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "ZacanaiiUWU",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "Lilac",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "pancake",
+            "link": "#",
+            "percent": 100
+        },
+
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+    ]
+}
