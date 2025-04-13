@@ -11,7 +11,8 @@
         {
             "user": "ZacanaiiUwU",
             "link": "",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "Hydra",
@@ -22,6 +23,12 @@
             "user": "Litoks",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "Grayson",
