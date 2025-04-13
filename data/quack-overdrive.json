@@ -1,0 +1,18 @@
+{
+    "id": 3130,
+    "name": "Quack Overdrive",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/3jC_PxqTexk",
+    "percentToQualify": "73",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/e_hRDNw4Adg",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
