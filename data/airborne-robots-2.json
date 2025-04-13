@@ -1,0 +1,18 @@
+{
+    "id": 2549,
+    "name": "Airborne Robots 2",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "ribbonera",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
