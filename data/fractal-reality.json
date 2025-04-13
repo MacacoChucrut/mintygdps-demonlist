@@ -9,8 +9,33 @@
     "difficulty": "Extreme Demon",
     "records": [
         {
+            "user": "FPR",
+            "link": "#",
+            "percent": 100
+        },
+        {
             "user": "MacacoChucrut",
-            "link": "",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "th3uz1n",
+            "link": "#",
+            "percent": 100
+        }
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
             "percent": 100
         }
     ]
