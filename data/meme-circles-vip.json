@@ -1,0 +1,18 @@
+{
+    "id": 3143,
+    "name": "MEME CIRCLES VIP",
+    "author": "Tiger8",
+    "creators": ["Tiger8"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
