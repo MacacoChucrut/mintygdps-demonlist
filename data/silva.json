@@ -1,0 +1,24 @@
+{
+    "id": 2386,
+    "name": "Silva",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "ribbonera",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
