@@ -27,6 +27,12 @@
             "mobile": false
         },
         {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
             "user": "KauanValads123",
             "link": "#",
             "percent": 100,
@@ -37,6 +43,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
