@@ -9,75 +9,122 @@
     "difficulty": "Medium Demon",
     "records": [
         {
-            "user": "Herobrain",
+            "user": "nobodyasked",
             "link": "#",
             "percent": 100
         },
-
         {
-            "user": "Hydra",
+            "user": "abdgdps",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": true
         },
-
         {
-            "user": "arrctic",
+            "user": "MacacoChucrut",
             "link": "#",
             "percent": 100
         },
-
-        {
-            "user": "Fluke",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "GeometryDash",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "Gonci30",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "Drip",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "DunkinGD",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "ZacanaiiUWU",
-            "link": "#",
-            "percent": 100
-        },
-
-        {
-            "user": "NightsIris",
-            "link": "#",
-            "percent": 100
-        },
-
         {
             "user": "Pancake0o",
             "link": "#",
             "percent": 100
         },
-
         {
-            "user": "MacacoChucrut",
+            "user": "ZacanaiiUwU",
             "link": "#",
             "percent": 100
-        }
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Darwin",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "FPR",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "thiagoc12",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "arrctic",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "T1ag0",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ribbonera",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        },
     ]
 }
