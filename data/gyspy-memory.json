@@ -1,0 +1,82 @@
+{
+    "id": 519,
+    "name": "gyspy memory",
+    "author": "SinXxy2",
+    "creators": ["SinXxy2"],
+    "verifier": "SinXxy2",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+	},
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "NightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "KewlPotatoYEE",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ElLucas7Ofical",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ZCelioJunior",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Artimae",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
