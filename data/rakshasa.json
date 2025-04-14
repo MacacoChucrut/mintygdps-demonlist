@@ -23,6 +23,12 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ]
 }
