@@ -1,0 +1,24 @@
+{
+    "id": 848,
+    "name": "ToE IV",
+    "author": "NotSoDevy",
+    "creators": ["NotSoDevy"],
+    "verifier": "NotSoDevy",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
