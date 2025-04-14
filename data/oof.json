@@ -5,8 +5,8 @@
     "creators": ["Cash"],
     "verifier": "Cash",
     "verification": "https://youtu.be/XmoCX8mxfXI",
-    "percentToQualify": "65",
-    "difficulty": "Insane Demon",
+    "percentToQualify": "100",
+    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "TotallyTheEgg",
