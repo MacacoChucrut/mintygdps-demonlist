@@ -61,7 +61,8 @@
         {
             "user": "Dracorex",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
