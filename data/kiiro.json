@@ -10,18 +10,23 @@
     "records": [
         {
             "user": "MacacoChucrut",
-            "link": "",
+            "link": "#",
             "percent": 100
         },
         {
             "user": "Fluke",
-            "link": "",
+            "link": "#",
             "percent": 90,
             "mobile": true
         },
         {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
             "user": "Anduval",
-            "link": "",
+            "link": "#",
             "percent": 55,
             "mobile": true
         }
