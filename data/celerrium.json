@@ -1,0 +1,47 @@
+{
+    "id": 294,
+    "name": "Celerrium",
+    "author": "Ribbonera",
+    "creators": ["Ribbonera"],
+    "verifier": "Ribbonera",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+	},
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "NightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
