@@ -1,0 +1,48 @@
+{
+    "id": 1800,
+    "name": "1800",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "yusda223",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
