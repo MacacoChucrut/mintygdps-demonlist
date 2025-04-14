@@ -1,0 +1,97 @@
+{
+    "id": 655,
+    "name": "Black Hole",
+    "author": "Tiger8",
+    "creators": ["Tiger8"],
+    "verifier": "Tiger8",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+	},
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "NightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "GangtasHadow",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ZacanaiiUWU",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ElLucas7Ofical",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ZCelioJunior",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "N5LX",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Mop",
+            "link": "#",
+            "percent": 100
+	},
+        {
+            "user": "zarthus2ND",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "IlTHENCSFANlI",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dracoo",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
