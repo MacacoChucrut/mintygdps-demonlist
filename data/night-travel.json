@@ -1,0 +1,24 @@
+{
+    "id": 906,
+    "name": "night travel",
+    "author": "drip",
+    "creators": ["drip"],
+    "verifier": "drip",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
