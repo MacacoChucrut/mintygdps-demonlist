@@ -30,6 +30,12 @@
             "user": "Dracorex",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
