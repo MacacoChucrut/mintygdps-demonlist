@@ -1,0 +1,24 @@
+{
+    "id": 3152,
+    "name": "Blitzo Prismatic II",
+    "author": "Quantium9",
+    "creators": ["Quantium9"],
+    "verifier": "Quantium9",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
