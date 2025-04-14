@@ -11,12 +11,14 @@
         {
             "user": "MacacoChucrut",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "ribbonera",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "DunkinGD",
@@ -27,12 +29,14 @@
         {
             "user": "Robocoin",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "GeometryDash",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "Herobrain",
