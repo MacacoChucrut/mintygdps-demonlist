@@ -50,8 +50,13 @@
             "percent": 100,
             "mobile": false
         },
-	    {
+	{
             "user": "Blitzerwave09",
+            "link": "#",
+            "percent": 100
+	},
+	{
+            "user": "Quantium9",
             "link": "#",
             "percent": 100
         }
