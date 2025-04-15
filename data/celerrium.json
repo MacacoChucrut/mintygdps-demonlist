@@ -1,9 +1,9 @@
 {
     "id": 294,
     "name": "Celerrium",
-    "author": "Ribbonera",
-    "creators": ["Ribbonera"],
-    "verifier": "Ribbonera",
+    "author": "ribbonera",
+    "creators": ["ribbonera"],
+    "verifier": "ribbonera",
     "verification": "#",
     "percentToQualify": "100",
     "difficulty": "Medium Demon",
@@ -11,12 +11,14 @@
         {
             "user": "abdgdps",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+	    "mobile": true
         },
         {
             "user": "DunkinGD",
             "link": "#",
             "percent": 100,
+	    "mobile": true
 	},
         {
             "user": "Dracorex",
@@ -34,7 +36,7 @@
             "percent": 100
         },
         {
-            "user": "NightsIris",
+            "user": "nightsIris",
             "link": "#",
             "percent": 100
         },
