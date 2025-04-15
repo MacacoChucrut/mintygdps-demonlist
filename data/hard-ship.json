@@ -1,0 +1,72 @@
+{
+    "id": 831,
+    "name": "Hard Ship",
+    "author": "NotSoDevy",
+    "creators": ["NotSoDevy"],
+    "verifier": "NotSoDevy",
+    "verification": "#",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Drip",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "DunkinGD",
+            "link": "#",
+            "percent": 100,
+	},
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "NightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "arrctic",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ZacanaiiUWU",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "undead",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dracoo",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dact",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dracoo",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
