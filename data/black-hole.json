@@ -3,8 +3,8 @@
     "name": "Black Hole",
     "author": "Tiger8",
     "creators": ["Tiger8"],
-    "verifier": "Tiger8",
-    "verification": "#",
+    "verifier": "NightsIris",
+    "verification": "https://youtu.be/wUXouCvJvvo",
     "percentToQualify": "100",
     "difficulty": "Medium Demon",
     "records": [
@@ -34,7 +34,7 @@
             "percent": 100
         },
         {
-            "user": "nightsIris",
+            "user": "Tiger8",
             "link": "#",
             "percent": 100
         },
