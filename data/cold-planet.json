@@ -58,7 +58,8 @@
         {
             "user": "drip",
             "link": "#",
-            "percent": 100
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "Gonci30",
