@@ -52,7 +52,7 @@
             "user": "drip",
             "link": "#",
             "percent": 100,
-            "mobile": true
+            "mobile": false
         },
         {
             "user": "DunkinGD",
