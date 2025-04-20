@@ -1,0 +1,18 @@
+{
+    "id": 3174,
+    "name": "Brick Hellscape II",
+    "author": "Herobrain",
+    "creators": ["Quantium9"],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/n_26JAk-kRg",
+    "percentToQualify": "66",
+    "difficulty": "Extreme Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/hdP9KeMGd58",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
