@@ -1,0 +1,24 @@
+{
+    "id": 3177,
+    "name": "The Return",
+    "author": "ElLucas7Oficial",
+    "creators": ["ElLucas7Oficial"],
+    "verifier": "ElLucas7Oficial",
+    "verification": "https://youtu.be/nth0WXjamdw",
+    "percentToQualify": "100",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "Quantium9",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
