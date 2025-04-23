@@ -100,7 +100,6 @@ export default {
 async mounted() {
     const [leaderboard, err] = await fetchLeaderboard();
     
-    // Excluir al jugador llamado "None"
     this.leaderboard = leaderboard.filter(player => player.user !== "None");
     
     this.err = err;
