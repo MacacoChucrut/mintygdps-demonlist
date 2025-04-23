@@ -18,12 +18,8 @@ export function score(rank, percent, minPercent) {
         return 0;
     }
 
-    // Nueva fórmula que decae de 200 a 0 entre los puestos 1 y 100
-    const maxRank = 100;
-    const maxScore = 200;
-    const base = Math.pow(maxRank - 1, 0.4);
-    const multiplier = maxScore / base;
-    let score = multiplier * (base - Math.pow(rank - 1, 0.4));
+   // Fórmula lineal: puesto 1 → 200, puesto 100 → 1
+    let score = -2.0101 * rank + 202.0101;
 
     score *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
