@@ -1,0 +1,18 @@
+{
+    "id": 3195,
+    "name": "Standard Verlet",
+    "author": "feml0c17y",
+    "creators": ["feml0c17y"],
+    "verifier": "feml0c17y",
+    "verification": "https://youtu.be/ED5I1Z8ABE8",
+    "percentToQualify": "71",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
