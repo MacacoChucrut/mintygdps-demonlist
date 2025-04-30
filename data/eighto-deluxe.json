@@ -5,7 +5,7 @@
     "creators": ["WrongBlock"],
     "verifier": "WrongBlock",
     "verification": "#",
-    "percentToQualify": "67",
+    "percentToQualify": "100",
     "difficulty": "Insane Demon",
     "records": [
         {
