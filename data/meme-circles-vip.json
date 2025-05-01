@@ -28,8 +28,8 @@
         {
             "user": "Gonci30",
             "link": "#",
-            "precent": "100",
-            "mobile": "false"
+            "precent": 100,
+            "mobile": false
         }
     ]
 }
