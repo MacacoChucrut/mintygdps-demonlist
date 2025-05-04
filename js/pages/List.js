@@ -91,7 +91,10 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Submission Rules</h3>
+                    <p>
+                        Recordings are REQUIRED for Extreme Demons
+                    </p>
                     <p>
                         Cheat indicator is required if a modmenu with the feature is being used.
                     </p>
