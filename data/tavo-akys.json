@@ -1,0 +1,17 @@
+{
+    "id": 3233,
+    "name": "Tavo Akys",
+    "author": "MintyGuy",
+    "creators": ["MintyGuy"],
+    "verifier": "MintyGuy",
+    "verification": "https://youtu.be/rIXEcDbeSBA",
+    "percentToQualify": "73",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        }
+    ]
+}
