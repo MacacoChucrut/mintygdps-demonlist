@@ -93,7 +93,7 @@ export default {
                     </template>
                     <h3>Submission Rules</h3>
                     <p>
-                        Recordings are REQUIRED for Extreme Demons.
+                        Video proof is REQUIRED for Extreme Demons.
                     </p>
                     <p>
                         Cheat indicator is required if a modmenu with the feature is being used.
