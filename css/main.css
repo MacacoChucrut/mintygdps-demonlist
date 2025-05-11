@@ -50,8 +50,8 @@ header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
     height: 4rem;
-    background-color: var(--color-primary);
-    color: var(--color-on-primary);
+    background-color: var(--color-background);
+    color: var(--color-on-background);
 
     margin: 1rem 2rem;
     border-radius: 12px;
