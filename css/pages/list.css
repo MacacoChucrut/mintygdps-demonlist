@@ -5,6 +5,10 @@
 }
 .page-list .list-container {
     padding-inline: 1rem;
+    margin: 2rem;
+    background-color: var(--color-primary);
+    border-radius: 12px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
 }
 .page-list .meta-container {
     padding-right: 2rem;
