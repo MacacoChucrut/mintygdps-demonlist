@@ -4,7 +4,7 @@ e.page-list .list-container,
     padding-block: 2rem;
 }
 .page-list .list-container {
-    padding-inline: 1rem;
+    padding: 1rem;
     margin: 2rem;
     border-radius: 12px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 1);
