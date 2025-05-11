@@ -164,5 +164,25 @@ export default {
     methods: {
         embed,
         score,
+        getContrastColor(hexColor) {
+            if (!hexColor) return 'var(--color-on-background)';
+            
+            hexColor = hexColor.replace('#', '');
+            
+            let r, g, b;
+            if (hexColor.length === 3) {
+                r = parseInt(hexColor[0] + hexColor[0], 16);
+                g = parseInt(hexColor[1] + hexColor[1], 16);
+                b = parseInt(hexColor[2] + hexColor[2], 16);
+            } else {
+                r = parseInt(hexColor.substr(0, 2), 16);
+                g = parseInt(hexColor.substr(2, 2), 16);
+                b = parseInt(hexColor.substr(4, 2), 16);
+            }
+            
+            const brightness = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+            
+            return brightness > 0.5 ? '#000000' : '#FFFFFF';
+        }
     },
 };
