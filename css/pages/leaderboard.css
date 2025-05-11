@@ -8,7 +8,7 @@
     grid-template-rows: max-content 1fr;
     column-gap: 2rem;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: 5rem 0 0 0;
 }
 .page-leaderboard > div {
     overflow-y: auto;
