@@ -165,4 +165,44 @@ export default {
         embed,
         score,
     },
+    computed: {
+    entry() {
+        return this.list[this.selected];
+    },
+},
+async mounted() {
+    const [list, err] = await fetchList(); // Puedes cambiar fetchLeaderboard si tiene otro nombre más adecuado
+    this.list = list;
+    this.err = err;
+    this.loading = false;
+    this.applyRankEffects();
+},
+methods: {
+    localize,
+    applyRankEffects() {
+        this.$nextTick(() => {
+            const ranks = [
+                { index: 0, color: '#FFD700', animation: 'breathingGold' },
+                { index: 1, color: '#C0C0C0', animation: 'breathingSilver' },
+                { index: 2, color: '#CD7F32', animation: 'breathingBronze' },
+            ];
+
+            for (const { index, color, animation } of ranks) {
+                const rank = document.querySelector(`#rank-${index}`);
+                const user = document.querySelector(`#user-${index}`);
+                const total = document.querySelector(`#total-${index}`);
+                if (rank && user && total) {
+                    this.addGlowEffect(rank, color, animation);
+                    this.addGlowEffect(user, color, animation);
+                    this.addGlowEffect(total, color, animation);
+                }
+            }
+        });
+    },
+    addGlowEffect(element, color, animationName) {
+        element.style.transition = "all 0.5s ease-in-out";
+        element.style.fontWeight = 'bold';
+        element.style.color = color;
+        element.style.animation = `${animationName} 3s infinite alternate`;
+    }
 };
