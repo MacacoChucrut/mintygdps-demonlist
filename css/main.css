@@ -52,7 +52,7 @@ header {
     height: 4rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
-    box-shadow: 0 25px 60px -12px rgb(255 0 0 / 1);
+    box-shadow: 0 25px 50px -50px rgb(255 0 0 / 1);
     z-index: 100;
 }
 @media screen and (min-width: 1366px) {
