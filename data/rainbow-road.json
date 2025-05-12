@@ -8,5 +8,10 @@
     "percentToQualify": "100",
     "difficulty": "Insane Demon",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        }
     ]
 }
