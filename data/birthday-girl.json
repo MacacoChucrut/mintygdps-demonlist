@@ -3,8 +3,8 @@
     "name": "Birthday Girl",
     "author": "ribbonera",
     "creators": ["ribbonera"],
-    "verifier": "None",
-    "verification": "#",
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/-YS478D9Nqk",
     "percentToQualify": "65",
     "difficulty": "Extreme Demon",
     "records": [
@@ -15,11 +15,6 @@
         },
         {
             "user": "justabook",
-            "link": "#",
-            "percent": 100
-        },
-        {
-            "user": "MacacoChucrut",
             "link": "#",
             "percent": 100
         }
