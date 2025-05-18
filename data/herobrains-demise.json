@@ -3,15 +3,10 @@
     "name": "Herobrains Demise",
     "author": "Denz8ty",
     "creators": ["Denz8ty"],
-    "verifier": "None",
+    "verifier": "MacacoChucrut",
     "verification": "#",
     "percentToQualify": "62",
     "difficulty": "Extreme Demon",
     "records": [
-        {
-            "user": "MacacoChucrut",
-            "link": "#",
-            "percent": 100
-        }
     ]
 }
