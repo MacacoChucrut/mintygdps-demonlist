@@ -119,9 +119,9 @@ export default {
                     const user = document.querySelector(`#user-${index}`);
                     const total = document.querySelector(`#total-${index}`);
                     if (rank && user && total) {
-                        this.addGlowEffect(rank, color, animation);
-                        this.addGlowEffect(user, color, animation);
-                        this.addGlowEffect(total, color, animation);
+                        this.addGlowEffect(rank, color);
+                        this.addGlowEffect(user, color);
+                        this.addGlowEffect(total, color);
                     }
                 }
             });
