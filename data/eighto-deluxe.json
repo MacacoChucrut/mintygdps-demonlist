@@ -90,6 +90,12 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ]
 }
