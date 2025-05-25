@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/8-r2pCI5PRM",
     "percentToQualify": "66",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://youtu.be/tedy-RzMTR0",
+            "percent": 100,
+            "mobile": true
+        }
     ]
 }
