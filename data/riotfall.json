@@ -8,11 +8,5 @@
     "percentToQualify": "35",
     "difficulty": "Extreme Demon",
     "records": [
-        {
-            "user": "Herobrain",
-            "link": "https://youtu.be/sEk4_FpNt_g",
-            "percent": 100,
-            "mobile": true
-        }
     ]
 }
