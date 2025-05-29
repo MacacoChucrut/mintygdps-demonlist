@@ -1,0 +1,23 @@
+{
+    "id": 1696,
+    "name": "grugrj",
+    "author": "ZacanaiiUwU",
+    "creators": ["ZacanaiiUwU"],
+    "verifier": "ZacanaiiUwU",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
