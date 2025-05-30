@@ -1,0 +1,71 @@
+{
+    "id": 723,
+    "name": "Shitty Eighto Deluxe",
+    "author": "MacacoChucrut",
+    "creators": ["MacacoChucrut, WrongBlock"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Lucio",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "undead",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pancake0o",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
