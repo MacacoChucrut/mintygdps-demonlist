@@ -1,0 +1,77 @@
+{
+    "id": 107,
+    "name": "Intense Jumps",
+    "author": "sy3n",
+    "creators": ["sy3n"],
+    "verifier": "sy3n",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "jose",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "WrongBlock",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "polis",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pancake0o",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "th3uz1n",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "RobTopaltver",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
