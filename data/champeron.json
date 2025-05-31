@@ -1,0 +1,23 @@
+{
+    "id": 2876,
+    "name": "Champeron",
+    "author": "Quantium9",
+    "creators": ["Quantium9"],
+    "verifier": "Quantium9",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
