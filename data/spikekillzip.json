@@ -1,0 +1,23 @@
+{
+    "id": 3112,
+    "name": "spikekillZIP",
+    "author": "WolfpetGames",
+    "creators": ["WolfpetGames"],
+    "verifier": "WolfpetGames",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
