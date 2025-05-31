@@ -25,7 +25,12 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <pclass="type-label-lg" :style="{ color: i + 1 > 150 ? 'darkgrey' : 'inherit' }">#{{ i + 1 }}</p>
+                        <p
+  class="type-label-lg"
+  :style="{ color: i + 1 > 150 ? 'darkgrey' : 'inherit' }"
+>
+  #{{ i + 1 }}
+</p>
 
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
