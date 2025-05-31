@@ -93,7 +93,7 @@ export default {
                     </template>
                     <h3>Submission Rules</h3>
                     <p>
-                        Video proof is REQUIRED for Extreme Demons.
+                        Video proof is required for Top 30 Demons.
                     </p>
                     <p>
                         Cheat indicator is required if a modmenu with the feature is being used.
