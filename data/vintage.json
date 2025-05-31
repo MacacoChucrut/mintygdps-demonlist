@@ -1,0 +1,29 @@
+{
+    "id": 3196,
+    "name": "vintage",
+    "author": "Kwarton",
+    "creators": ["Kwarton"],
+    "verifier": "Kwarton",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
