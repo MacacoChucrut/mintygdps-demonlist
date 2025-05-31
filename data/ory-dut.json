@@ -1,0 +1,35 @@
+{
+    "id": 3042,
+    "name": "Ory Dut",
+    "author": "MaxLainoto",
+    "creators": ["MaxLainoto"],
+    "verifier": "MaxLainoto",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
