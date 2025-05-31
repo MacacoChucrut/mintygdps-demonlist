@@ -1,0 +1,23 @@
+{
+    "id": ,
+    "name": "Kiiro But Yellow",
+    "author": "Herobrain",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
