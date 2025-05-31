@@ -1,0 +1,29 @@
+{
+    "id": 2788,
+    "name": "Gem Circles I",
+    "author": "Artimae",
+    "creators": ["Artimae"],
+    "verifier": "Artimae",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
