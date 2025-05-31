@@ -1,0 +1,29 @@
+{
+    "id": 3136,
+    "name": "White World Rebirth",
+    "author": "A01",
+    "creators": ["A01"],
+    "verifier": "A01",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
