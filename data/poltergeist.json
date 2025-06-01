@@ -4,7 +4,7 @@
     "author": "Denz8ty",
     "creators": ["Denz8ty"],
     "verifier": "MacacoChucrut",
-    "verification": "https://youtu.be/1i1ObfK8peY",
+    "verification": "https://youtu.be/0SaxgnVExWw",
     "percentToQualify": "57",
     "difficulty": "Extreme Demon",
     "records": [
@@ -17,7 +17,7 @@
             "user": "Fluke",
             "link": "",
             "percent": 64,
-            "mobile": true
+            "mobile": false
         }
     ]
 }
