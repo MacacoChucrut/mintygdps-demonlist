@@ -1,0 +1,35 @@
+{
+    "id": 2278,
+    "name": "Amity of Nature",
+    "author": "lilac",
+    "creators": ["nightsIris"],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Artimae",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
