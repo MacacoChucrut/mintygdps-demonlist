@@ -9,11 +9,6 @@
     "difficulty": "Medium Demon",
     "records": [
         {
-            "user": "nobodyasked",
-            "link": "#",
-            "percent": 100
-        },
-        {
             "user": "abdgdps",
             "link": "#",
             "percent": 100,
@@ -40,7 +35,7 @@
             "percent": 100
         },
         {
-            "user": "DunkinGD",
+            "user": "TheDunkinGD",
             "link": "#",
             "percent": 100,
             "mobile": true
