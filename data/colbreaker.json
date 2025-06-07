@@ -1,0 +1,35 @@
+{
+    "id": 2272,
+    "name": "ColBreaker",
+    "author": "Quantium9",
+    "creators": ["Quantium9"],
+    "verifier": "Quantium9",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Anduval",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
