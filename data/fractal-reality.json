@@ -37,6 +37,12 @@
             "user": "yeeee",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ]
 }
