@@ -32,8 +32,6 @@ if (rank > 55 && rank <= 150) {
     score = null; // Manejo de valores fuera del rango esperado
 }
 
-console.log(score);
-
     score *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
 
