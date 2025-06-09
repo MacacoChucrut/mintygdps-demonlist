@@ -77,7 +77,7 @@
             "user": "Blitzerwave09",
             "link": "#",
             "percent": 100,
-            "mobile": 
+            "mobile": false
         },
         {
             "user": "Dino",
@@ -95,7 +95,7 @@
             "user": "Z3pH4x",
             "link": "#",
             "percent": 100,
-            "mobile": 
+            "mobile": false
         }
     ]
 }
