@@ -15,7 +15,24 @@ export function score(rank, percent, minPercent) {
         return 0;
     }
 
-    let score = -1 * rank + 151;
+/**
+    old formula: let score = -1 * rank + 151;
+*/
+    let score;
+
+if (rank > 55 && rank <= 150) {
+    score = 56.191 * 2 * (54.147 - (rank + 3.2)) * (Math.log(50) / 99) + 6.273;
+} else if (rank > 35 && rank <= 55) {
+    score = 212.61 * 1.036 * (1 - rank) + 25.071;
+} else if (rank > 20 && rank <= 35) {
+    score = (250 - 83.389) * 1.0099685 * (2 - rank) - 31.152;
+} else if (rank > 0 && rank <= 20) {
+    score = (250 - 100.39) * 1.168 * (1 - rank) + 100.39;
+} else {
+    score = null; // Manejo de valores fuera del rango esperado
+}
+
+console.log(score);
 
     score *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
