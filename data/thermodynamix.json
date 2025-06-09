@@ -1,0 +1,65 @@
+{
+    "id": 1935,
+    "name": "Thermodynamiz",
+    "author": "atals omg",
+    "creators": ["atals omg"],
+    "verifier": "atals omg",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "arthur",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ]
+}
