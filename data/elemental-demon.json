@@ -1,0 +1,47 @@
+{
+    "id": 1974,
+    "name": "Elemental Demon",
+    "author": "GangtasHadow",
+    "creators": ["GangtasHadow"],
+    "verifier": "GangtasHadow",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZephyrGMD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ]
+}
