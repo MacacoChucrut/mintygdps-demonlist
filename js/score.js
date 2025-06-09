@@ -28,8 +28,6 @@ if (rank > 55 && rank <= 150) {
     score = (250 - 83.389) * 1.0099685 * (2 - rank) - 31.152;
 } else if (rank > 0 && rank <= 20) {
     score = (250 - 100.39) * 1.168 * (1 - rank) + 100.39;
-} else {
-    score = null; // Manejo de valores fuera del rango esperado
 }
 
     score *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
