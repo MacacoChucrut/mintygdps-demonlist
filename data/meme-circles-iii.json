@@ -1,0 +1,101 @@
+{
+    "id": 159,
+    "name": "meme circles III",
+    "author": "Zceliojunior",
+    "creators": ["Zceliojunior"],
+    "verifier": "Zceliojunior",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Tiger8",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "SiriusGd",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Steadler",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GangtasHadow",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Dact",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Blitzerwave09",
+            "link": "#",
+            "percent": 100,
+            "mobile": 
+        },
+        {
+            "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Z3pH4x",
+            "link": "#",
+            "percent": 100,
+            "mobile": 
+        }
+    ]
+}
