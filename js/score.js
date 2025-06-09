@@ -15,8 +15,7 @@ export function score(rank, percent, minPercent) {
         return 0;
     }
 
-   // Fórmula lineal: puesto 1 → 150, puesto 100 → 1
-    let score = (-140 / 149) * rank + 150.9;
+    let score = -1 * rank + 151;
 
     score *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
