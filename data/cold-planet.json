@@ -150,5 +150,6 @@
             "percent": 100,
             "mobile": true
         }
-    ]
+    ],
+    "tags": ["Timings", "Slow-Paced", "Medium"]
 }
