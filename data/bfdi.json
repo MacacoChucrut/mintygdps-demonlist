@@ -7,5 +7,6 @@
     "verification": "#",
     "percentToQualify": "100",
     "records": [
-    ]
+    ],
+    "tags": ["Memory", "Slow-Paced"]
 }
