@@ -32,5 +32,6 @@
             "percent": 100,
             "mobile": true
         }
-    ]
+    ],
+    "tags": ["Robot", "Chokepoints", "Slow-Paced", "Medium"]
 }
