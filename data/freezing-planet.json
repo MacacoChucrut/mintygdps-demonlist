@@ -40,5 +40,6 @@
             "percent": 100,
             "mobile": true
         }
-    ]
+    ],
+    "tags": ["Robot", "Timings", "Slow-Paced", "Medium"]
 }
