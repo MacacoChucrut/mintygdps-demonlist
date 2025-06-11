@@ -241,5 +241,6 @@
             "percent": 100,
             "mobile": true
         }
-    ]
+    ],
+    "tags": ["Wave", "Medium"]
 }
