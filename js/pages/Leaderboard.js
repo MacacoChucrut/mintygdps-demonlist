@@ -112,6 +112,8 @@ export default {
                     { index: 0, color: '#FFD700' },
                     { index: 1, color: '#C0C0C0' },
                     { index: 2, color: '#CD7F32' },
+                    { index: 3, color: '#4169E1' },
+                    { index: 4, color: '#50C878' },
                 ];
 
                 for (const { index, color, animation } of ranks) {
