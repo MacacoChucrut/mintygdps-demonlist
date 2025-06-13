@@ -1,0 +1,36 @@
+{
+    "id": 1911,
+    "name": "Brick Rebuild",
+    "author": "Dino",
+    "creators": ["Dino"],
+    "verifier": "Dino",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Learny", "Medium"]
+}
