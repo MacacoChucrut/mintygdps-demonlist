@@ -116,41 +116,15 @@ export default {
                     { index: 4, color: '#50C878' },
                 ];
 
-                for (const { index, color, animation } of ranks) {
+                for (const { index, color } of ranks) {
                     const rank = document.querySelector(`#rank-${index}`);
                     const user = document.querySelector(`#user-${index}`);
                     const total = document.querySelector(`#total-${index}`);
-                    if (rank && user && total) {
-                        this.addGlowEffect(rank, color);
-                        this.addGlowEffect(user, color);
-                        this.addGlowEffect(total, color);
-                    }
+                    if (rank) rank.style.color = color;
+                    if (user) user.style.color = color;
+                    if (total) total.style.color = color;
                 }
             });
-        },
-        addGlowEffect(element, color, animationName) {
-            element.style.transition = "all 0.5s ease-in-out";
-            element.style.fontWeight = 'bold';
-            element.style.color = color;
-            element.style.animation = `${animationName} 3s infinite alternate`;
         }
     },
 };
-
-// Add breathing glow CSS animations
-const style = document.createElement('style');
-style.innerHTML = `
-@keyframes breathingGold {
-    0% { text-shadow: 0 0 5px rgba(255,215,0,0.65), 0 0 10px rgba(255,215,0,0.65); }
-    100% { text-shadow: 0 0 20px rgba(255,215,0,0.25), 0 0 50px rgba(255,215,0,0.25); }
-}
-@keyframes breathingSilver {
-    0% { text-shadow: 0 0 5px rgba(192,192,192,0.65), 0 0 10px rgba(192,192,192,0.65); }
-    100% { text-shadow: 0 0 20px rgba(192,192,192,0.25), 0 0 50px rgba(192,192,192,0.25); }
-}
-@keyframes breathingBronze {
-    0% { text-shadow: 0 0 5px rgba(205,127,50,0.65), 0 0 10px rgba(205,127,50,0.65); }
-    100% { text-shadow: 0 0 20px rgba(205,127,50,0.25), 0 0 50px rgba(205,127,50,0.25); }
-}
-`;
-document.head.appendChild(style);
