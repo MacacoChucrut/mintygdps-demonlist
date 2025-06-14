@@ -43,7 +43,7 @@ main {
             16em,
             1fr
         );
-    column-gap: 0rem;
+    column-gap: 2rem;
 }
 
 header {
@@ -67,7 +67,7 @@ header .logo {
     gap: 1rem;
 }
 header .nav {
-    flex: 1;
+    flex: 100;
 }
 
 main {
