@@ -4,10 +4,10 @@ e.page-list .list-container,
     padding-block: 2rem;
 }
 .page-list .list-container {
-    padding-inline: 1rem
+    padding-inline: 1rem;
 }
 .page-list .meta-container {
-    padding-right: 2rem
+    padding-right: 2rem;
 }
 .page-list .list {
     table-layout: auto;
