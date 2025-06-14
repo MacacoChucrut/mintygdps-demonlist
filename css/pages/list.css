@@ -140,8 +140,8 @@ e.page-list .list-container,
     background-color: #407040;
     padding: 7px;
     text-shadow:
-        -2px -2px 0 black,
-         2px -2px 0 black,
-        -2px  2px 0 black,
-         2px  2px 0 black;
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
