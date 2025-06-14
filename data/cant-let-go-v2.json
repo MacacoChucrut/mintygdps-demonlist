@@ -1,0 +1,54 @@
+{
+    "id": 1611,
+    "name": "Cant Let Go v2",
+    "author": "ElLucas7Oficial",
+    "creators": ["ElLucas7Oficial"],
+    "verifier": "ElLucas7Oficial",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "PiGuy300",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium9",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": ["Cube", "Learny", "Slow-Paced", "Long"]
+}
