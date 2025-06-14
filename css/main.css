@@ -44,11 +44,6 @@ main {
             1fr
         );
     column-gap: 2rem;
-    text-shadow:
-        -1px -1px 0 black,
-         1px -1px 0 black,
-        -1px  1px 0 black,
-         1px  1px 0 black;
 }
 
 header {
@@ -58,6 +53,11 @@ header {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
     z-index: 100;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 @media screen and (min-width: 1366px) {
     header {
