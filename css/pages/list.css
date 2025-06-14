@@ -139,5 +139,9 @@ e.page-list .list-container,
     color: white;
     background-color: #407040;
     padding: 7px;
-    -webkit-text-stroke: 2px black;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
