@@ -137,6 +137,7 @@ e.page-list .list-container,
     display:block;
     border-radius: 14px;
     color: white;
-    background-color: #506050;
+    background-color: #407040;
     padding: 7px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
