@@ -8,20 +8,5 @@
         "role": "admin",
         "name": "Herobrain",
         "link": "https://www.youtube.com/@Herobrain1000"
-    },
-    {
-        "role": "helper",
-        "name": "None",
-        "link": ""
-    },
-    {
-        "role": "trial",
-        "name": "None",
-        "link": ""
-    },
-    {
-        "role": "dev",
-        "name": "None",
-        "link": ""
     }
 ]
