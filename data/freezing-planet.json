@@ -39,6 +39,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Robot", "Timings", "Slow-Paced", "Medium"]
