@@ -3,21 +3,22 @@
     "name": "Thanks Level",
     "author": "Denz8ty",
     "creators": ["Denz8ty"],
-    "verifier": "nightsIris",
+    "verifier": "MacacoChucrut",
     "verification": "#",
     "percentToQualify": "100",
     "difficulty": "Insane Demon",
     "records": [
         {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
             "user": "ZacanaiiUwU",
             "link": "",
             "percent": 100
         },
-        {
-            "user": "MacacoChucrut",
-            "link": "",
-            "percent": 100
-        }
     ],
     "tags": ["Wave", "Timings", "Memory", "Nine Circles", "High CPS", "Medium"]
 }
