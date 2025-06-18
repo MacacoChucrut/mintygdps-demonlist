@@ -3,21 +3,22 @@
     "name": "Thanks Level",
     "author": "Denz8ty",
     "creators": ["Denz8ty"],
-    "verifier": "nightsIris",
-    "verification": "#",
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/Hz8msPf9hm0",
     "percentToQualify": "100",
     "difficulty": "Insane Demon",
     "records": [
         {
-            "user": "ZacanaiiUwU",
+            "user": "nightsIris",
             "link": "#",
             "percent": 100,
             "mobile": false
         },
         {
-            "user": "MacacoChucrut",
-            "link": "",
-            "percent": 100
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         },
         {
             "user": "Herobrain",
