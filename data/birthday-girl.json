@@ -6,7 +6,6 @@
     "verifier": "MacacoChucrut",
     "verification": "https://youtu.be/xvYroCN19Zk",
     "percentToQualify": "100",
-    "difficulty": "Extreme Demon",
     "records": [
         {
             "user": "ZacanaiiUwU",
@@ -17,6 +16,12 @@
             "user": "justabook",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Chokepoints", "Long", "Former Top 1"]
