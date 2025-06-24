@@ -1,0 +1,30 @@
+{
+    "id": 1439,
+    "name": "Poems of a Machine",
+    "author": "lilac",
+    "creators": ["MacacoChucrut"],
+    "verifier": "MacacoChucrut",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": 
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": 
+        },
+        {
+            "user": "Quantium9",
+            "link": "#",
+            "percent": 100,
+            "mobile": 
+        }
+    ],
+    "tags": ["Cube", "Long"]
+}
