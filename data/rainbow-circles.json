@@ -1,0 +1,48 @@
+{
+    "id": 1545,
+    "name": "rainbow circles",
+    "author": "jchani001",
+    "creators": ["jchani001"],
+    "verifier": "jchani001",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "BlitzzrGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [""]
+}
