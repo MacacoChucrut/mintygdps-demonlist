@@ -1,0 +1,39 @@
+{
+    "id": 69696969,
+    "name": "Poo Fart Among Us v6",
+    "author": "tmkis",
+    "creators": ["tmkis"],
+    "verifier": "Gauzz",
+    "verification": "https://youtu.be/OZmGknfP1Co?si=AuD2l7wJiF-WWvTP",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "PurpleStep",
+            "link": "https://youtu.be/58SJT3gLOR4",
+            "percent": 100,
+            "mobile": false
+        },  
+	  	  {
+		  	    "user": "MacacoChucrut",
+		  	    "link": "https://youtu.be/xpG3GoltkqY?feature=shared",
+			      "percent": 100,
+	  	  },
+		    {
+		      	"user": "NojusGamingg",
+		      	"link": "https://youtu.be/InzXbYn35Vo",
+		      	"percent": 100,
+	  	  },
+		    {
+		      	"user": "OneShot786",
+		      	"link": "https://youtu.be/k1Y-h5r1_Ug",
+		      	"percent": 100,
+		    },
+		    {
+			      "user": "tmkis",
+		      	"link": "https://youtu.be/D6Hx8CbJb40",
+			      "percent": 100,
+			      "mobile": true
+		    }
+    ],
+    "tags": ["Overall", "Fast-Paced", "High CPS", "Gimmicky", "Memory", "Long"]
+}
