@@ -13,27 +13,27 @@
             "percent": 100,
             "mobile": false
         },  
-	  	  {
-		  	    "user": "MacacoChucrut",
-		  	    "link": "https://youtu.be/xpG3GoltkqY?feature=shared",
-			      "percent": 100,
-	  	  },
-		    {
-		      	"user": "NojusGamingg",
-		      	"link": "https://youtu.be/InzXbYn35Vo",
-		      	"percent": 100,
-	  	  },
-		    {
-		      	"user": "OneShot786",
-		      	"link": "https://youtu.be/k1Y-h5r1_Ug",
-		      	"percent": 100,
-		    },
-		    {
-			      "user": "tmkis",
-		      	"link": "https://youtu.be/D6Hx8CbJb40",
-			      "percent": 100,
-			      "mobile": true
-		    }
+	{
+	    "user": "MacacoChucrut",
+	    "link": "https://youtu.be/xpG3GoltkqY?feature=shared",
+	    "percent": 100,
+	},
+	{
+	    "user": "NojusGamingg",
+	    "link": "https://youtu.be/InzXbYn35Vo",
+	    "percent": 100,
+	},
+	{
+	    "user": "OneShot786",
+	    "link": "https://youtu.be/k1Y-h5r1_Ug",
+	    "percent": 100,
+	},
+	{
+	    "user": "tmkis",
+	    "link": "https://youtu.be/D6Hx8CbJb40",
+	    "percent": 100,
+	    "mobile": true
+	}
     ],
     "tags": ["Overall", "Fast-Paced", "High CPS", "Gimmicky", "Memory", "Long"]
 }
