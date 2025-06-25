@@ -17,6 +17,12 @@
             "user": "justabook",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/FrigidJoyousLouseCopyThis-4URJPaW5aH_S-Shw",
+            "percent": 100,
+            "mobile": false
         }
     ]
 }
