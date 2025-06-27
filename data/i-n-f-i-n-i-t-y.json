@@ -1,0 +1,42 @@
+{
+    "id": 1379,
+    "name": "I N F I N I T Y",
+    "author": "Quantium9",
+    "creators": ["Quantium9"],
+    "verifier": "Quantium9",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZephyrGMD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [""]
+}
