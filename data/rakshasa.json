@@ -33,6 +33,12 @@
             "user": "Quantium9",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Memory", "Long"]
