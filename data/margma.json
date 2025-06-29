@@ -1,0 +1,48 @@
+{
+    "id": 1280,
+    "name": "Margma",
+    "author": "Dracorex",
+    "creators": ["Dracorex"],
+    "verifier": "Dracorex",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "N5LX",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Grayson",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Overall", "Slow-Paced", "Medium"]
+}
