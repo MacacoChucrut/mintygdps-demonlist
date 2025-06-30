@@ -23,7 +23,13 @@
             "user": "velocity",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
-    "tags": ["Cube", "Clicksync", "Learny", "Medium"]
+    "tags": ["Cube", "Timings", "Clicksync", "Learny", "Medium"]
 }
