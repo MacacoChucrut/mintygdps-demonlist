@@ -17,6 +17,12 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Ship", "Memory", "Long"]
