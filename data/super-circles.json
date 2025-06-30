@@ -64,6 +64,12 @@
             "user": "velocity",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "teardropist",
+            "link": "https://youtu.be/GGjdJtIJYoM",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Learny", "Nine Circles", "Medium"]
