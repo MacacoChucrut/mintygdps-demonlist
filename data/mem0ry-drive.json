@@ -1,0 +1,60 @@
+{
+    "id": 1164,
+    "name": "Mem0ry drive",
+    "author": "Namc0z4",
+    "creators": ["ZephyrGMD"],
+    "verifier": "ZephyrGMD",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "WhitoGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": ["Cube", "Learny", "Medium"]
+}
