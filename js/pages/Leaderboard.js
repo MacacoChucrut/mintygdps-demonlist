@@ -99,7 +99,9 @@ export default {
     },
     async mounted() {
         const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
+        
+        this.leaderboard = leaderboard.filter(player => player.user !== "None");
+        
         this.err = err;
         this.loading = false;
         this.applyRankEffects();
