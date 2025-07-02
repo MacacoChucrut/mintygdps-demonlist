@@ -1,0 +1,35 @@
+{
+    "id": 1124,
+    "name": "Mintyguy bossfight",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": ["Wave", "Learny", "Bossfight", "Medium"]
+}
