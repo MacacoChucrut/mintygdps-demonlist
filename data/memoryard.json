@@ -1,0 +1,65 @@
+{
+    "id": 924,
+    "name": "MemorYard",
+    "creators": ["Herobrain"],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "iITHENCSFANIi",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": ["Cube", "Timings", "Memory", "Slow-Paced", "Medium"]
+}
