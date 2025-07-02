@@ -101,7 +101,7 @@ export default {
         const [leaderboard, err] = await fetchLeaderboard();
         
         // Banned players go here
-        const excludedUsers = ["None", "ribbonera", "Artimae"];
+        const excludedUsers = ["None", "ribbonera", "Artimae", "Cash];
 
         this.leaderboard = leaderboard.filter(player => !excludedUsers.includes(player.user));
         
