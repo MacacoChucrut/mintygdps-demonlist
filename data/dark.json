@@ -6,6 +6,30 @@
     "verification": "#",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "thiagoc12",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
     ],
     "tags": ["Ship", "Wave", "Learny", "Medium"]
 }
