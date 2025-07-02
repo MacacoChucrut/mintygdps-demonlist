@@ -1,0 +1,23 @@
+{
+    "id": 964,
+    "name": "ClaustroPhobia IV",
+    "creators": ["SirioBlueX14"],
+    "verifier": "SirioBlueX14",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Timings", "Slow-Paced", "Medium"]
+}
