@@ -100,7 +100,7 @@ export default {
     async mounted() {
         const [leaderboard, err] = await fetchLeaderboard();
         
-        this.leaderboard = leaderboard.filter(player => player.user !== "None");
+        this.leaderboard = leaderboard.filter(player => player.user !== "None", "MacacoChucrut", "Herobrain");
         
         this.err = err;
         this.loading = false;
