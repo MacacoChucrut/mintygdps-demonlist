@@ -1,0 +1,35 @@
+{
+    "id": 823,
+    "name": "Jump",
+    "creators": ["YeahhColix"],
+    "verifier": "YeahhColix",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Cube", "Timings", "Learny", "Long"]
+}
