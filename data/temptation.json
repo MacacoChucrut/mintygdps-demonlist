@@ -32,6 +32,12 @@
             "user": "Herobrain",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "KanyeWestOfficial",
+            "link": "https://youtu.be/kXhuztY59XE",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Chokepoints", "Medium", "Former Top 1"]
