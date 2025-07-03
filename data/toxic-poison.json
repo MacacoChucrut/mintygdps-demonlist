@@ -1,0 +1,125 @@
+{
+    "id": 143,
+    "name": "Toxic Poison",
+    "creators": ["ElLucas7Oficial"],
+    "verifier": "ElLucas7Oficial",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "sy3n",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pancakepuzzle",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Huggytecomera1",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Actived",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "alemaneiroGDPS",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ItsNico99",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Robocoin",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "novabuilds",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pancakepuzzle",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Wave", "Medium"]
+}
