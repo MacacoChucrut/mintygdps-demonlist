@@ -27,6 +27,12 @@
             "user": "velocity",
             "link": "https://www.youtube.com/watch?v=OUiwvt0NGtM",
             "percent": 100
+        },
+        {
+            "user": "KanyeWestOfficial",
+            "link": "https://youtu.be/7Ck3HScVCaw",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Fast-Paced", "Chokepoints", "Medium"]
