@@ -7,10 +7,10 @@
     "percentToQualify": "100",
     "records": [
         {
-            "user": "Drip",
+            "user": "drip",
             "link": "#",
             "percent": 100,
-            "mobile": 
+            "mobile": false
         },
         {
             "user": "Herobrain",
