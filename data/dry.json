@@ -1,0 +1,59 @@
+{
+    "id": 395,
+    "name": "Dry",
+    "creators": ["Orange"],
+    "verifier": "Orange",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "sy3n",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KewlPotatoYEE",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Kevus",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ItsNico99",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [""]
+}
