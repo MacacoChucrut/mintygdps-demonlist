@@ -1,0 +1,47 @@
+{
+    "id": 813,
+    "name": "femur breaker",
+    "creators": ["Zceliojunior"],
+    "verifier": "Zceliojunior",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pimenz1nn",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Razlboy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Wave", "Memory", "Nine Circles", "Medium"]
+}
