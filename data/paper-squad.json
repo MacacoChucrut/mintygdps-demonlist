@@ -1,0 +1,83 @@
+{
+    "id": 164,
+    "name": "paper squad",
+    "creators": ["Zceliojunior"],
+    "verifier": "Zceliojunior",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheOnceLer",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "abdgdps",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "alemaneiroGDPS",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "thetissiane",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dact",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MaxLainoto",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Overall", "Learny", "Medium"]
+}
