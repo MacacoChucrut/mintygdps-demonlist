@@ -30,6 +30,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "TheBobGD",
+            "link": "https://youtu.be/cpLd9AkkdjM?si=MBatUSTy6r37qFyD",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Nine Circles", "Medium"]
