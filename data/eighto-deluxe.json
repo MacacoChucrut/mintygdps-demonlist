@@ -96,12 +96,6 @@
             "link": "#",
             "percent": 100,
             "mobile": true
-        },
-        {
-            "user": "KanyeWestOfficial",
-            "link": "https://youtu.be/c_dV7XxZNCk",
-            "percent": 100,
-            "mobile": false
         }
     ],
     "tags": ["Ship", "Medium"]
