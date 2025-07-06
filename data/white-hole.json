@@ -53,6 +53,12 @@
             "user": "Quantium9",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "TheBobGD",
+            "link": "https://youtu.be/Xd5nSx_Fzik",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Medium"]
