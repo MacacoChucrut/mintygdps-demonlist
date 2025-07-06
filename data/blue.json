@@ -27,6 +27,12 @@
             "user": "velocity",
             "link": "https://www.youtube.com/watch?v=OUiwvt0NGtM",
             "percent": 100
+        },
+        {
+            "user": "TheBobGD",
+            "link": "https://youtu.be/gjPoCVTOaOU?si=Q_cfw5Welyxp78mW",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Fast-Paced", "Chokepoints", "Medium"]
