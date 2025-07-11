@@ -1,0 +1,23 @@
+{
+    "id": 3531,
+    "name": "The Twilight Zone",
+    "creators": ["goofyman"],
+    "verifier": "goofyman",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Timings", "Duals", "Medium"]
+}
