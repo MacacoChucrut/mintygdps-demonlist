@@ -6,6 +6,12 @@
     "verification": "https://youtu.be/mJpD4Vxf-ok",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/eytanE-ZYGk",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Overall", "Fast-Paced", "Long"]
 }
