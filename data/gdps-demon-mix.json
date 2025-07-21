@@ -27,6 +27,18 @@
             "user": "Herobrain",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "pancakepuzzle",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Wave", "Learny", "Long"]
