@@ -129,11 +129,12 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        toggledShowcase: false,
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
             if (!this.level.showcase) {
