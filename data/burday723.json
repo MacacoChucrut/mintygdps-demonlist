@@ -7,6 +7,12 @@
     "showcase": "https://www.youtube.com/watch?v=9AdMe-LW1_Y",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/kVLkMCRtDxI",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Wave", "Learny", "Fast-Paced", "Medium"]
 }
