@@ -35,6 +35,12 @@
             "user": "Gonci30",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Timings", "Learny", "Slow-Paced", "Medium"]
