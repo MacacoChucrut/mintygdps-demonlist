@@ -1,12 +1,10 @@
 {
     "id": 519,
     "name": "gypsy memory",
-    "author": "SinXxy2",
     "creators": ["SinXxy2"],
     "verifier": "SinXxy2",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "abdgdps",
@@ -83,7 +81,13 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-        }
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+	}
     ],
     "tags": ["Memory", "Fast-Paced", "Medium"]
 }
