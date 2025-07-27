@@ -1,12 +1,10 @@
 {
     "id": 517,
     "name": "memeclysm",
-    "author": "Zceliojunior",
     "creators": ["Zceliojunior"],
     "verifier": "Zceliojunior",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -99,6 +97,12 @@
         {
             "user": "TheBobGD",
             "link": "https://youtu.be/SkqjrpOjdgY?si=O-5X3eNGJZL7fuFE",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
             "percent": 100,
             "mobile": false
         }
