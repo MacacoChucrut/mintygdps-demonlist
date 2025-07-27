@@ -1,12 +1,10 @@
 {
     "id": 817,
     "name": "Freezing Planet",
-    "author": "Gonci30",
     "creators": ["Gonci30, WrongBlock"],
     "verifier": "Gonci30",
     "verification": "https://youtu.be/ojSq_U7Hbu0?si=cxilHjQ-ef6mcttu",
     "percentToQualify": "100",
-    "difficulty": "Insane Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -49,6 +47,12 @@
         {
             "user": "TheBobGD",
             "link": "https://youtu.be/6X7cGLgvT8s?si=jJIZ_4ogZuet1k7l",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
             "percent": 100,
             "mobile": false
         }
