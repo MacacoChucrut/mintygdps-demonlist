@@ -1,12 +1,10 @@
 {
     "id": 975,
     "name": "MemorEIGHTo",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "https://youtu.be/s0wOzL2fBFk",
     "percentToQualify": "100",
-    "difficulty": "Insane Demon",
     "records": [
         {
             "user": "ZacanaiiUwU",
@@ -17,6 +15,12 @@
             "user": "MacacoChucrut",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Chokepoints", "Memory", "Medium"]
