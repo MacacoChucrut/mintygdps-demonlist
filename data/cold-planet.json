@@ -1,12 +1,10 @@
 {
     "id": 73,
-    "name": "Cold Planet",
     "author": "WrongBlock",
     "creators": ["WrongBlock"],
     "verifier": "WrongBlock",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "abdgdps",
@@ -159,6 +157,12 @@
         {
             "user": "TheBobGD",
             "link": "https://youtu.be/Sg_1Wby8q7c?si=rRsdtixISS1Wsbqs",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
             "percent": 100,
             "mobile": false
         }
