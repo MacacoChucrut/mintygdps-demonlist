@@ -1,7 +1,6 @@
 {
     "id": 2625,
     "name": "Macacos 180th Demon",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "#",
@@ -21,6 +20,12 @@
         },
         {
             "user": "Gonci30",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
             "link": "#",
             "percent": 100,
             "mobile": false
