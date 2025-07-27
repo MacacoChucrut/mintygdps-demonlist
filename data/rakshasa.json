@@ -1,12 +1,10 @@
 {
     "id": 844,
     "name": "Rakshasa",
-    "author": "NotSoDevy",
     "creators": ["NotSoDevy"],
     "verifier": "NotSoDevy",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -36,6 +34,12 @@
         },
         {
             "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
             "link": "#",
             "percent": 100,
             "mobile": false
