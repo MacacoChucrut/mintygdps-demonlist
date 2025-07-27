@@ -1,0 +1,23 @@
+{
+    "id": 3624,
+    "name": "sandstorm dancer",
+    "creators": ["nightsIris"],
+    "verifier": "nightsIris",
+    "verification": "https://youtu.be/BfT3i_b01uE",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/aGZ0ge3IQ4I",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["2P", "Learny", "Clicksync", "Medium"]
+}
