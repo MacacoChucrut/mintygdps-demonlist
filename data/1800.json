@@ -1,12 +1,10 @@
 {
     "id": 1800,
     "name": "1800",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "yusda223",
@@ -59,6 +57,12 @@
             "user": "velocity",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Long"]
