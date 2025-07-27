@@ -1,12 +1,10 @@
 {
     "id": 923,
     "name": "Brick hellscape",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "https://youtu.be/LYWzIeNmLpI",
     "percentToQualify": "100",
-    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "justabook",
@@ -50,6 +48,12 @@
         },
         {
             "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
             "link": "#",
             "percent": 100,
             "mobile": false
