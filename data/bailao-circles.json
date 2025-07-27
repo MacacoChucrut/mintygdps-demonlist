@@ -1,0 +1,23 @@
+{
+    "id": 3629,
+    "name": "Bailao Circles",
+    "creators": ["Zceliojunior"],
+    "verifier": "Zceliojunior",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Wave", "Fast-Paced", "Nine Circles", "Medium"]
+}
