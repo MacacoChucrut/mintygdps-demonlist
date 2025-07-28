@@ -4,8 +4,15 @@
     "creators": ["goofyman"],
     "verifier": "Herobrain",
     "verification": "#",
+    "showcase": "https://youtu.be/iQZDSRChUHc?feature=shared",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Timings", "Learny", "Long"]
 }
