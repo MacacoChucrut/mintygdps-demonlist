@@ -18,6 +18,12 @@
             "user": "Herobrain",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Duals", "Clicksync", "Learny", "Slow-Paced", "Medium"]
