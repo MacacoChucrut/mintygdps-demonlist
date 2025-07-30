@@ -27,6 +27,12 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Cube", "Timings", "Chokepoints", "Nerve Control", "XL"]
