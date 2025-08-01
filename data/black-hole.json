@@ -108,6 +108,12 @@
             "link": "https://youtu.be/45Vsh8P2RhM?t=450",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Medium"]
