@@ -33,6 +33,12 @@
             "user": "Herobrain",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Fast-Paced", "Medium", "Former Top 1"]
