@@ -1,0 +1,17 @@
+{
+    "id": 3661,
+    "name": "Goof Circles",
+    "creators": ["Quantium", "LiamzinhoGMD", "Zenthic"],
+    "verifier": "goofyman",
+    "verification": "https://youtu.be/aRona7sfqIs",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [""]
+}
