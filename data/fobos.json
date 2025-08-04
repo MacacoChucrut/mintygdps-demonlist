@@ -1,12 +1,11 @@
 {
     "id": 3031,
     "name": "Fobos",
-    "author": "rankmon",
     "creators": ["rankmon"],
     "verifier": "rankmon",
     "verification": "#",
+    "showcase": "https://youtu.be/zF-kDx5fJ34",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "Virek",
