@@ -1,14 +1,13 @@
 {
     "id": 3423,
     "name": "CICADA3302 (XemonDestroyer)",
-    "author": "XemonDestroyer",
     "creators": ["XemonDestroyer"],
     "verifier": "XemonDestroyer",
     "verification": "https://youtu.be/ewgnfmiPDHQ",
     "percentToQualify": "100",
     "records": [
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
