@@ -1,14 +1,13 @@
 {
     "id": 3147,
     "name": "VenomstachA",
-    "author": "Blitzerwave09",
     "creators": ["Blitzerwave09"],
     "verifier": "Blitzerwave09",
     "verification": "#",
     "percentToQualify": "100",
     "records": [
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
