@@ -1,7 +1,6 @@
 {
     "id": 325,
     "name": "The Desert",
-    "author": "sy3n",
     "creators": ["sy3n"],
     "verifier": "sy3n",
     "verification": "#",
@@ -254,7 +253,7 @@
             "mobile": false
         },
         {
-            "user": "pancake0o",
+            "user": "pancakepuzzle",
             "link": "#",
             "percent": 100,
             "mobile": false
@@ -278,7 +277,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
