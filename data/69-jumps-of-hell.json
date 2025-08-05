@@ -1,7 +1,6 @@
 {
     "id": 72,
     "name": "69 JUMPS OF HELL",
-    "author": "TotallyTheEgg",
     "creators": ["TotallyTheEgg"],
     "verifier": "TotallyTheEgg",
     "verification": "#",
@@ -92,7 +91,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
