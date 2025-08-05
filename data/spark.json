@@ -1,12 +1,10 @@
 {
     "id": 1121,
     "name": "Spark",
-    "author": "Huggytecomera1",
     "creators": ["Huggytecomera1"],
     "verifier": "Huggytecomera1",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "TheDunkinGD",
@@ -45,7 +43,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100
         }
