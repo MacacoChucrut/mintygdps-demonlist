@@ -1,7 +1,6 @@
 {
     "id": 1805,
     "name": "Love",
-    "author": "lilac",
     "creators": ["nightsIris"],
     "verifier": "nightsIris",
     "verification": "#",
@@ -80,7 +79,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
