@@ -30,6 +30,12 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "https://youtu.be/ul2pH34IaAU?feature=shared",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Cube", "Learny", "Slow-Paced", "Nerve Control", "XL"]
