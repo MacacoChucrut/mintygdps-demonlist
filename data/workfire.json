@@ -1,12 +1,10 @@
 {
     "id": 2565,
     "name": "WORKFIRE",
-    "author": "TheDunkinGD",
     "creators": ["TheDunkinGD"],
     "verifier": "TheDunkinGD",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -29,7 +27,7 @@
             "percent": 100
 	},
 	{
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100
 	}
