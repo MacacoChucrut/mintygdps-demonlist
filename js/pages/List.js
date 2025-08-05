@@ -101,7 +101,7 @@ export default {
                     </template>
                     <h3>Submission Rules</h3>
                     <p>
-                        Video proof is required for Top 30 Demons. Click/Tap sounds will also be required if the level is Top 20.
+                        Video proof is required for Top 35 Demons. Click/Tap sounds will also be required for Top 25 Demons.
                     </p>
                     <p>
                         Verifications must be uploaded in the format of a youtube video. 
