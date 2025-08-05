@@ -1,12 +1,10 @@
 {
     "id": 689,
     "name": "IN Psychosis",
-    "author": "lilac",
     "creators": ["nightsIris"],
     "verifier": "nightsIris",
     "verification": "https://youtu.be/nhjVkOfhDYc",
     "percentToQualify": "100",
-    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "ZacanaiiUwU",
@@ -27,7 +25,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100
         }
