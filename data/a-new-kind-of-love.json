@@ -1,14 +1,13 @@
 {
     "id": 2974,
     "name": "A new kind of love",
-    "author": "majin",
     "creators": ["majin"],
     "verifier": "majin",
     "verification": "#",
     "percentToQualify": "100",
     "records": [
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
