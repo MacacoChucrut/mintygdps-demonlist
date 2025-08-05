@@ -101,7 +101,7 @@ export default {
         const [leaderboard, err] = await fetchLeaderboard();
         
         // banned mfs go here
-        const excludedUsers = ["None", "ribbonera", "Artimae", "Cash", "KanyeWestOfficial", "Dino", "ZacanaiiUwU"];
+        const excludedUsers = ["ribbonera", "Artimae", "Cash", "KanyeWestOfficial", "Dino"];
 
         this.leaderboard = leaderboard.filter(player => !excludedUsers.includes(player.user));
         
