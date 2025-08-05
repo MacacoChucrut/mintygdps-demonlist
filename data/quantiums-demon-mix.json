@@ -1,12 +1,10 @@
 {
     "id": 3165,
     "name": "Quantiums Demon Mix",
-    "author": "Quantium9",
-    "creators": ["Quantium9, WrongBlock, yeeee, Herobrain, DunkinGD, Tiger8, Gonci30, NotSoDevy, Denz8ty"],
-    "verifier": "Quantium9",
+    "creators": ["Quantium, WrongBlock, yeeee, Herobrain, DunkinGD, Tiger8, Gonci30, NotSoDevy, Denz8ty"],
+    "verifier": "Quantium",
     "verification": "https://youtu.be/UVgQCFU5D4E",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "Herobrain",
