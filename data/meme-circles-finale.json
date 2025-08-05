@@ -1,7 +1,6 @@
 {
     "id": 177,
     "name": "meme circles finale",
-    "author": "Zceliojunior",
     "creators": ["Zceliojunior"],
     "verifier": "Zceliojunior",
     "verification": "#",
@@ -236,7 +235,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
