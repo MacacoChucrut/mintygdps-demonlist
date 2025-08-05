@@ -1,7 +1,6 @@
 {
     "id": 1972,
     "name": "Akuma II",
-    "author": "sSnuk",
     "creators": ["sSnuk"],
     "verifier": "sSnuk",
     "verification": "#",
@@ -63,7 +62,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
