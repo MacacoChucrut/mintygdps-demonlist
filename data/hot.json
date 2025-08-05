@@ -1,12 +1,10 @@
 {
     "id": 1535,
     "name": "hot",
-    "author": "Deadpoolgd",
     "creators": ["Deadpoolgd"],
     "verifier": "Deadpoolgd",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -27,7 +25,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
