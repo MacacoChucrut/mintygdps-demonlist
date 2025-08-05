@@ -1,12 +1,10 @@
 {
     "id": 1968,
     "name": "Circles",
-    "author": "VoidGD",
     "creators": ["VoidGD"],
     "verifier": "VoidGD",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -30,7 +28,7 @@
 	    "mobile": true
 	},
 	{
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
 	    "mobile": true
