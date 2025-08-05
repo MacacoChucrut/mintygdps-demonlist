@@ -21,6 +21,12 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "https://youtu.be/McLddLBSG68?feature=shared",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Chokepoints", "Memory", "Medium"]
