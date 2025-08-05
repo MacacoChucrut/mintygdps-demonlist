@@ -30,6 +30,12 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "https://youtu.be/aiyZYBgEUTQ?feature=shared",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Nine Circles", "Medium"]
