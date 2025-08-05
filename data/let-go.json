@@ -1,12 +1,10 @@
 {
     "id": 615,
     "name": "let go",
-    "author": "funkyclearer",
     "creators": ["funkyclearer"],
     "verifier": "funkyclearer",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "abdgdps",
@@ -48,6 +46,12 @@
             "user": "Dracorex",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100e10,
+            "mobile": true
         }
     ],
     "tags": ["Chokepoints", "Fast-Paced", "Long"]
