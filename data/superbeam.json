@@ -1,7 +1,6 @@
 {
     "id": 2370,
     "name": "SUPERBEAM",
-    "author": "MintyGuy",
     "creators": ["MintyGuy"],
     "verifier": "MintyGuy",
     "verification": "#",
@@ -56,7 +55,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": false
