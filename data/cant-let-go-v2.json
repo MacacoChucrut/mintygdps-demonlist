@@ -1,7 +1,6 @@
 {
     "id": 1611,
     "name": "Cant Let Go v2",
-    "author": "ElLucas7Oficial",
     "creators": ["ElLucas7Oficial"],
     "verifier": "ElLucas7Oficial",
     "verification": "#",
@@ -44,7 +43,7 @@
             "mobile": false
         },
         {
-            "user": "Quantium9",
+            "user": "Quantium",
             "link": "#",
             "percent": 100,
             "mobile": true
