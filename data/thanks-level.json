@@ -2,13 +2,13 @@
     "id": 1103,
     "name": "Thanks Level",
     "creators": ["Denz8ty"],
-    "verifier": "MacacoChucrut",
-    "verification": "https://youtu.be/Hz8msPf9hm0",
+    "verifier": "nightsIris",
+    "verification": "#",
     "percentToQualify": "100",
     "records": [
         {
-            "user": "nightsIris",
-            "link": "#",
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/Hz8msPf9hm0",
             "percent": 100,
             "mobile": false
         },
