@@ -16,6 +16,12 @@
             "user": "MacacoChucrut",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/SweetPiercingWebKappa-RP1_PtWikM9hnOEw?filter=clips&range=all&sort=time",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Ship", "Chokepoints", "Fast-Paced", "Medium", "Former Top 1"]
