@@ -33,6 +33,12 @@
             "link": "https://www.twitch.tv/videos/2489378453?t=00h35m46s",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "https://youtu.be/hFan-jwYA10?t=6766",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Slow-Paced", "High CPS", "Medium"]
