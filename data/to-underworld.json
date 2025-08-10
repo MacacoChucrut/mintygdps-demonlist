@@ -6,6 +6,12 @@
     "verification": "https://youtu.be/_DPpZmTx1vU",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/EntertainingClearEndiveSwiftRage-Ztg17LcJGjdvfdi8",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Ship", "Timings", "Learny", "Slow-Paced", "Medium"]
 }
