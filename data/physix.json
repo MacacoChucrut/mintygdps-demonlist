@@ -6,6 +6,12 @@
     "verification": "https://youtu.be/TeSOO1DKR4Y",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/AntsyUninterestedElephantKevinTurtle-DwBxt91S42ePctE2",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Chokepoints", "Fast-Paced", "High CPS", "Sequel", "Medium"]
 }
