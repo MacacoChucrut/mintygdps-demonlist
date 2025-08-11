@@ -110,6 +110,9 @@ export default {
                         Cheat indicator is required if a modmenu with the feature is being used.
                     </p>
                     <p>
+                        Records achieved using Secret Ways to skip most of the level won't be accepted.
+                    </p>
+                    <p>
                         The level complete endscreen must be shown.
                     </p>
                     <p>
