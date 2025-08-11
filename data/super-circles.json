@@ -48,16 +48,16 @@
             "percent": 100,
             "mobile": false
         },
-	{
+		{
             "user": "Blitzerwave09",
             "link": "#",
             "percent": 100
-	},
-	{
+		},
+		{
             "user": "Quantium",
             "link": "#",
             "percent": 100
-	},
+		},
         {
             "user": "velocity",
             "link": "#",
@@ -74,7 +74,13 @@
             "link": "https://youtu.be/OaSiEfFUcxM?si=wfPa-NqkhlcwKnHj",
             "percent": 100,
             "mobile": false
-	}
+		},
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+		}
     ],
     "tags": ["Wave", "Learny", "Nine Circles", "Medium"]
 }
