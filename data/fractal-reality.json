@@ -9,40 +9,9 @@
     "difficulty": "Extreme Demon",
     "records": [
         {
-            "user": "FPR",
-            "link": "#",
-            "percent": 100
-        },
-        {
             "user": "MacacoChucrut",
-            "link": "#",
+            "link": "https://youtu.be/udSWx236Ezw",
             "percent": 100
-        },
-        {
-            "user": "justabook",
-            "link": "#",
-            "percent": 100
-        },
-        {
-            "user": "th3uz1n",
-            "link": "#",
-            "percent": 100
-        },
-        {
-            "user": "Herobrain",
-            "link": "#",
-            "percent": 100
-        },
-        {
-            "user": "yeeee",
-            "link": "#",
-            "percent": 100
-        },
-        {
-            "user": "Virek",
-            "link": "#",
-            "percent": 100,
-            "mobile": true
         }
     ],
     "tags": ["Overall", "Duals", "Fast-Paced", "Long"]
