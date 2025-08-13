@@ -1,0 +1,17 @@
+{
+    "id": 3690,
+    "name": "Freefall II",
+    "creators": ["ElLucas7Oficial"],
+    "verifier": "ElLucas7Oficial",
+    "verification": "https://youtu.be/GOQv6LRpGKk?feature=shared",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Cube", "Ball", "Memory", "Long"]
+}
