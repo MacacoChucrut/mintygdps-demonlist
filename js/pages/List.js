@@ -62,7 +62,7 @@ export default {
                         </li>
                     </ul>
                     <h2>Victors</h2>
-                    <p v-if="selected + 1 > 150">This level fell off the Top #150. You can still submit records, but they won’t give any points.</p>
+                    <p v-if="selected + 1 > 150">This level fell off the Top #150. Records will no longer be accepted.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
