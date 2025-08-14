@@ -42,6 +42,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Slow-Paced", "Medium"]
