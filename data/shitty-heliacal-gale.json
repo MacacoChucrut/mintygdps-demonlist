@@ -6,6 +6,12 @@
     "verification": "https://youtu.be/_MbmYUgtWD8",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/LivelySilkySalsifyDatSheffy-iRd5O98ofaZjcE_h",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Floating Ball", "Learny", "Remake", "Long"]
 }
