@@ -11,26 +11,32 @@
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Herobrain",
             "link": "#",
             "percent": 100
-	},
-	{
+		},
+		{
             "user": "Hydra",
             "link": "#",
             "percent": 100
-	},
-	{
+		},
+		{
             "user": "Dracorex",
             "link": "#",
             "percent": 100
-	},
-	{
+		},
+		{
             "user": "Quantium",
             "link": "#",
             "percent": 100
-	}
+		},
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Ship", "Timings", "Medium"]
 }
