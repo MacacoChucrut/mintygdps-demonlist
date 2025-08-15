@@ -11,6 +11,12 @@
             "user": "MacacoChucrut",
             "link": "",
             "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "https://youtu.be/ZdUnDt6Vekw",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Duals", "Timings", "Slow-Paced", "Long"]
