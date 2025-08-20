@@ -118,6 +118,12 @@
             "link": "https://youtu.be/GAQ2W1VgCpQ?feature=shared",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Ship", "Medium"]
