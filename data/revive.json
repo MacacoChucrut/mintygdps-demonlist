@@ -3,9 +3,15 @@
     "name": "Revive",
     "creators": ["Quantium9"],
     "verifier": "Quantium9",
-    "verification": "",
+    "verification": "#",
     "percentToQualify": "100",
     "records": [
+         {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
     ],
     "tags": ["Overall", "Timings", "High CPS", "Long"]
 }
