@@ -8,7 +8,18 @@
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
-        
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Emerald",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
     ],
     "tags": ["Overall", "Timings", "High CPS", "Long"]
 }
