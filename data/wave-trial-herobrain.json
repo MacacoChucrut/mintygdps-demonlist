@@ -57,6 +57,18 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "https://youtu.be/t7QR7ZzEGaE?si=mDp9U9tIX2N5hzoe",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "TheeNegativee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Learny", "Medium"]
