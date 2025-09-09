@@ -1,0 +1,23 @@
+{
+    "id": 3652,
+    "name": "pancake level mix",
+    "creators": ["pancakepuzzle"],
+    "verifier": "pancakepuzzle",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Robot", "Chokepoints", "Long"]
+}
