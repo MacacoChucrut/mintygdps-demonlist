@@ -7,6 +7,24 @@
     "showcase": "https://youtu.be/HiZ0U1RGEHM",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Wave", "Fast-Paced", "Medium"]
 }
