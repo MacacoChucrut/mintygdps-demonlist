@@ -1,0 +1,29 @@
+{
+    "id": 3790,
+    "name": "potl",
+    "creators": ["goofyman"],
+    "verifier": "goofyman",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Ship", "Wave", "Learny", "Slow-Paced", "Medium"]
+}
