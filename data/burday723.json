@@ -18,6 +18,12 @@
             "link": "https://youtu.be/GqaW1yske08",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "ari",
+            "link": "https://www.youtube.com/watch?v=Ye5aW7-KFUg",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Learny", "Fast-Paced", "Medium"]
