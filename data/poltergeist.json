@@ -6,6 +6,12 @@
     "verification": "https://youtu.be/0SaxgnVExWw",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://youtu.be/_UlbtnrSr98",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Wave", "Chokepoints", "Nine Circles", "Learny", "Long", "Former Top 1"]
 }
