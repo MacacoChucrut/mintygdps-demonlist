@@ -2,7 +2,7 @@
     "id": 3755,
     "name": "Quanticake",
     "creators": ["pancakepuzzle", "Quantium"],
-    "verifier": "pancakepuzzle",
+    "verifier": "Quantium",
     "verification": "#",
     "percentToQualify": "100",
     "records": [
@@ -14,6 +14,12 @@
         },
         {
             "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
             "link": "#",
             "percent": 100,
             "mobile": false
