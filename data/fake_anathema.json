@@ -1,0 +1,29 @@
+{
+    "id": 3847,
+    "name": "fake anathema",
+    "creators": ["majin"],
+    "verifier": "majin",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": ["Cube", "Fast-Paced", "Medium"]
+}
