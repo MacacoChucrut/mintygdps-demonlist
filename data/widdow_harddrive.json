@@ -1,0 +1,23 @@
+{
+    "id": 3853,
+    "name": "Widdow Harddrive",
+    "creators": ["Quantium"],
+    "verifier": "Quantium",
+    "verification": "https://youtu.be/15FwAfXjtdg",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Spider", "Learny", "Medium"]
+}
