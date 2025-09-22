@@ -1,0 +1,23 @@
+{
+    "id": 3849,
+    "name": "spooky spider",
+    "creators": ["pingel"],
+    "verifier": "pingel",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Spider", "Learny", "Fast-Paced", "Duals", "Medium"]
+}
