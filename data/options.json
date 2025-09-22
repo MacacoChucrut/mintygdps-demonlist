@@ -1,0 +1,17 @@
+{
+    "id": 3855,
+    "name": "options",
+    "creators": ["Tusol"],
+    "verifier": "Tusol",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Cube", "Learny", "Fast-Paced", "Long"]
+}
