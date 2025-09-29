@@ -1,12 +1,10 @@
 {
     "id": 895,
     "name": "GDPS Demon Mix",
-    "author": "TheDunkinGD",
-    "creators": ["TheDunkin Dash, Tiger8, ElLucas7Oficial, NbbT, WrongBlock, NotSoDevy"],
+    "creators": ["Dunkin Dash, Tiger8, ElLucas7Oficial, A01, WrongBlock, NotSoDevy"],
     "verifier": "TheDunkinGD",
     "verification": "https://youtu.be/WZFj1-b7uMs",
     "percentToQualify": "100",
-    "difficulty": "Insane Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -39,6 +37,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "goofymam",
+            "link": "https://youtu.be/sfFE898ahSE",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Learny", "Long"]
