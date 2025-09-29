@@ -1,12 +1,10 @@
 {
     "id": 1339,
     "name": "Kauan",
-    "author": "KauanValads123",
     "creators": ["KauanValads123"],
     "verifier": "KauanValads123",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Extreme Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -29,6 +27,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "https://youtu.be/eqXaax8HLMY",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Duals", "Chokepoints", "Fast-Paced", "Medium"]
