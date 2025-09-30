@@ -1,7 +1,6 @@
 {
     "id": 2312,
     "name": "Robot Trial",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "#",
@@ -75,6 +74,12 @@
         },
         {
             "user": "Hydra",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
             "link": "#",
             "percent": 100,
             "mobile": false
