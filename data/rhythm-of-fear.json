@@ -1,12 +1,10 @@
 {
     "id": 652,
     "name": "Rhythm Of Fear",
-    "author": "SirioBlueX14",
     "creators": ["SirioBlueX14"],
     "verifier": "SirioBlueX14",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Medium Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -47,6 +45,12 @@
             "user": "Gonci30",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Ship", "Timings", "Medium"]
