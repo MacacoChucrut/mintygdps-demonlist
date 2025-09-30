@@ -1,7 +1,6 @@
 {
     "id": 3042,
     "name": "Ory Dut",
-    "author": "MaxLainoto",
     "creators": ["MaxLainoto"],
     "verifier": "MaxLainoto",
     "verification": "#",
@@ -27,6 +26,12 @@
         },
         {
             "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
             "link": "#",
             "percent": 100,
             "mobile": false
