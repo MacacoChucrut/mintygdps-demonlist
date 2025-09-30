@@ -1,7 +1,6 @@
 {
     "id": 159,
     "name": "meme circles III",
-    "author": "Zceliojunior",
     "creators": ["Zceliojunior"],
     "verifier": "Zceliojunior",
     "verification": "#",
@@ -99,6 +98,12 @@
         },
         {
             "user": "Z3pH4x",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
             "link": "#",
             "percent": 100,
             "mobile": false
