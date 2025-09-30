@@ -1,0 +1,29 @@
+{
+    "id": 3889,
+    "name": "Sealed Vessel",
+    "creators": ["Z3pH4x"],
+    "verifier": "Z3pH4x",
+    "verification": "https://youtu.be/ByGyX26Wpiw",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Robot", "Timings", "Slow-Paced", "Medium"]
+}
