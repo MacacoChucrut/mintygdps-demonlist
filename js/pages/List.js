@@ -101,7 +101,7 @@ export default {
                     </template>
                     <h3>Submission Rules</h3>
                     <p>
-                        Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons.
+                        Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. Click/Tap sounds do NOT inclue the use of any form of 'Click Sounds' mod.
                     </p>
                     <p>
                         Verifications must be uploaded in the format of a youtube video. 
