@@ -8,6 +8,12 @@
     "percentToQualify": "100",
     "difficulty": "Extreme Demon",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Overall", "Chokepoints", "Nerve Control", "XXL"]
 }
