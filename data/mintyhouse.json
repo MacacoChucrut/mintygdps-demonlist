@@ -59,6 +59,12 @@
             "link": "https://youtu.be/Wqq1I7ejV6w?si=e0WR3NZznGSqhb0M",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Timings", "Medium"]
