@@ -1,0 +1,17 @@
+{
+    "id": 3968,
+    "name": "rngwheregisgamble",
+    "creators": ["velocity"],
+    "verifier": "velocity",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Fast-Paced", "Learny", "Gimmicky", "Long"]
+}
