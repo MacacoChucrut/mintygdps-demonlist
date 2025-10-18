@@ -6,6 +6,12 @@
     "verification": "https://www.youtube.com/watch?v=Ni5p376dcbw",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Overall", "Learny", "Chokepoints", "Duals", "Nerve Control", "XL"]
 }
