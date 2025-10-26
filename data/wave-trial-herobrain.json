@@ -75,6 +75,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Denz8ty",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Learny", "Medium"]
