@@ -43,6 +43,12 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "SebbeNV",
+            "link": "https://youtu.be/GroNzQFWXDQ",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Slow-Paced", "High CPS", "Medium"]
