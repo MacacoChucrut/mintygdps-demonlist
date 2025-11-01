@@ -15,7 +15,7 @@
             "user": "TheDunkinGD",
             "link": "#",
             "percent": 100
-	},
+		},
         {
             "user": "Dracorex",
             "link": "#",
@@ -93,7 +93,13 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-	}
+		},
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Memory", "Fast-Paced", "Medium"]
 }
