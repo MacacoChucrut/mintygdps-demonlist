@@ -7,6 +7,12 @@
     "showcase": "https://youtu.be/z8h0bxeN2UE",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/i9HLbDhj0ag?t=22",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Overall", "Timings", "Chokepoints", "Long"]
 }
