@@ -1,0 +1,29 @@
+{
+    "id": 4039,
+    "name": "Herobrains 8k stars",
+    "creators": ["nightsIris"],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Emerald",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Overall", "Learny", "Medium"]
+}
