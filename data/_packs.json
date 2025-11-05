@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Consistency Beginner Pack",
+        "levels": ["bowl of water challenge", "bam", "lum1"],
+        "reward": 0,
+        "color": "#0bd"
+    },
+    {
+        "name": "Consistency Extreme Pack",
+        "levels": ["the sigma variant", "Shiro Blade I", "botox"],
+        "reward": 600,
+        "color": "#f14"
+    },
+    {
+        "name": "Gemstone Pack",
+        "levels": ["Razlboy Challenge (Gemstone)", "Macaco Basement (Solo)", "Rizzler Challenge"],
+        "reward": 200,
+        "color": "#4b5"
+    },
+    {
+        "name": "Hell Jumps Pack",
+        "levels": ["8 Jumps of Blue", "when", "The Fourth Variant"],
+        "reward": 450,
+        "color": "#999"
+    },
+    {
+        "name": "Herobrain Pack",
+        "levels": ["NOT A Wave Challenge (Herobrain)", "CallCoolCellSilly", "Macacos Worst Nightmare"],
+        "reward": 300,
+        "color": "#f40"
+    },
+    {
+        "name": "Joke Pack",
+        "levels": ["femboy challenge", "Walter Toe Simulator", "The Piss Caverns (Solo)"],
+        "reward": 360,
+        "color": "#f90"
+    },
+    {
+        "name": "Jonkler Trilogy",
+        "levels": ["the sigma variant", "John Kler", "freaky jonkler"],
+        "reward": 640,
+        "color": "#090"
+    },
+    {
+        "name": "Mop Pack",
+        "levels": ["Fridge Challenge", "Help me", "I see"],
+        "reward": 120,
+        "color": "#c09"
+    },
+    {
+        "name": "Virek Pack",
+        "levels": ["I dont have money", "Syphon", "Back on track"],
+        "reward": 120,
+        "color": "#67f"
+    }
+]
