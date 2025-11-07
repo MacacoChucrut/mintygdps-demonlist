@@ -46,7 +46,7 @@
     },
     {
         "name": "Single Gamemode Pack II",
-        "levels": ["Yes", "amend", "Hardest Ship"],
+        "levels": ["Yes", "options", "amend"],
         "color": "#c2a"
     },
     {
