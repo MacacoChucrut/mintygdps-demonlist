@@ -167,6 +167,7 @@ export async function fetchLeaderboard() {
  * Fetches packs (custom groupings of levels)
  * 🔹 Calcula el reward total sumando los puntos reales de los niveles según el rank
  * 🔹 Aplica un multiplicador según la dificultad promedio del pack
+ * 🔹 Si al menos un nivel está por debajo del top 200 → el pack da 0 puntos
  */
 export async function fetchPacks() {
     try {
@@ -180,6 +181,7 @@ export async function fetchPacks() {
         packs.forEach(pack => {
             let totalReward = 0;
             const ranks = [];
+            let invalid = false; // 🚫 si hay un nivel debajo del top 200, el pack no da puntos
 
             // Recorrer niveles del pack
             pack.levels.forEach(levelName => {
@@ -192,7 +194,10 @@ export async function fetchPacks() {
                     const rank = list.indexOf(entry) + 1;
                     ranks.push(rank);
 
-                    // Calcular puntaje base igual que en leaderboard
+                    // 🚫 Si un nivel está fuera del top 200 → todo el pack sin puntos
+                    if (rank > 200) invalid = true;
+
+                    // Calcular puntaje base
                     const levelScore = score(rank, 100, lvl.percentToQualify);
                     totalReward += levelScore;
                 } else {
@@ -207,14 +212,19 @@ export async function fetchPacks() {
 
             // multiplicador según dificultad promedio
             let multiplier = 1.0;
-            if (avgRank <= 10) multiplier = 1.2;       // packs muy difíciles
-            else if (avgRank <= 25) multiplier = 1.15; // packs difíciles
-            else if (avgRank <= 45) multiplier = 1.1;  // packs medios
-            else if (avgRank <= 60) multiplier = 1.05; // packs normales
-            else multiplier = 0.9;                    // packs fáciles
+            if (avgRank <= 20) multiplier = 1.15;       // packs muy difíciles
+            else if (avgRank <= 50) multiplier = 1.1; // packs difíciles
+            else if (avgRank <= 100) multiplier = 1.05;  // packs medios
+            else if (avgRank <= 150) multiplier = 1.0; // packs normales
+            else multiplier = 0.9;                     // packs fáciles
 
-            // Calcular reward final
-            pack.reward = round(totalReward * multiplier);
+            // ⚠️ Si el pack tiene niveles fuera del top 200, anular puntos
+            if (invalid) {
+                pack.reward = 0;
+                pack.warning = "⚠️ This pack does not grant points because it contains levels below Top 200.";
+            } else {
+                pack.reward = round(totalReward * multiplier);
+            }
         });
 
         return packs;
