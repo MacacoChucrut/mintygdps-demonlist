@@ -30,6 +30,16 @@
         "color": "#f00"
     },
     {
+        "name": "Meme Pack I",
+        "levels": ["meme circles", "meme circles finale", "meme circles x"],
+        "color": "#0d0"
+    },
+    {
+        "name": "Meme Pack II",
+        "levels": ["meme wave", "MEME CIRCLES VIP", "memeclysm"],
+        "color": "#0d0"
+    },
+    {
         "name": "Single Gamemode Pack I",
         "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
         "color": "#ac5"
