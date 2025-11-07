@@ -1,26 +1,37 @@
 [
     {
+        "name": "Trial Pack",
+        "levels": ["Robot Trial", "Ball Trial", "Ship Trial"],
+        "color": "#95b"
+    },
+    {
+        "name": "Trial Pack II",
+        "levels": ["Wave Trial", "Cube Trial", "UFO Trial"],
+        "color": "#c59"
+    },
+    {
         "name": "Extreme Sequel Pack",
         "levels": ["Brick Hellscape II", "Power Trip II", "Physix"],
-        "reward": 630,
         "color": "#f45"
     },
     {
-        "name": "Extreme Single Gamemode Pack",
+        "name": "Single Gamemode Pack III",
         "levels": ["Heliacal Gale", "A Building", "Spider Trials"],
-        "reward": 760,
         "color": "#75f"
     },
     {
-        "name": "Single Gamemode Master Pack",
+        "name": "Single Gamemode Pack II",
         "levels": ["Yes", "amend", "Hardest Ship"],
-        "reward": 450,
         "color": "#c2a"
+    },
+    {
+        "name": "Single Gamemode Pack",
+        "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
+        "color": "#ac5"
     },
     {
         "name": "Timing Master Pack",
         "levels": ["The Superficial Introspection of a Dying Consciousness", "Eternal Cube", "Cube Trial"],
-        "reward": 460,
         "color": "#57f"
     }
 ]
