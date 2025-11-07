@@ -10,7 +10,22 @@
         "color": "#f45"
     },
     {
-        "name": "Single Gamemode Pack",
+        "name": "Hall of Fame I",
+        "levels": ["CICADA3302 (XemonDestroyer)", "Enchanted", "Akuma III"],
+        "color": "#e1f"
+    },
+    {
+        "name": "Hall of Fame II",
+        "levels": ["Grind District", "SECRET WEAPON", "void of reason"],
+        "color": "#f1a"
+    },
+    {
+        "name": "Hall of Fame III",
+        "levels": ["Yes", "linoleum", "Bouncy BitHotel"],
+        "color": "#f08"
+    },
+    {
+        "name": "Single Gamemode Pack I",
         "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
         "color": "#ac5"
     },
