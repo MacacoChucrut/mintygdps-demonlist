@@ -1,5 +1,30 @@
 [
     {
+        "name": "Akuma Pack",
+        "levels": ["Akuma III", "Secret Weapon", "Akuma II"],
+        "color": "#f44"
+    },
+    {
+        "name": "Extreme Sequel Pack",
+        "levels": ["Brick Hellscape II", "Power Trip II", "Physix"],
+        "color": "#f45"
+    },
+    {
+        "name": "Single Gamemode Pack",
+        "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
+        "color": "#ac5"
+    },
+    {
+        "name": "Single Gamemode Pack II",
+        "levels": ["Yes", "amend", "Hardest Ship"],
+        "color": "#c2a"
+    },
+    {
+        "name": "Single Gamemode Pack III",
+        "levels": ["Heliacal Gale", "A Building", "Spider Trials"],
+        "color": "#75f"
+    },
+    {
         "name": "Trial Pack",
         "levels": ["Robot Trial", "Ball Trial", "Ship Trial"],
         "color": "#95b"
@@ -8,26 +33,6 @@
         "name": "Trial Pack II",
         "levels": ["Wave Trial (Herobrain)", "Cube Trial", "UFO Trial"],
         "color": "#c59"
-    },
-    {
-        "name": "Extreme Sequel Pack",
-        "levels": ["Brick Hellscape II", "Power Trip II", "Physix"],
-        "color": "#f45"
-    },
-    {
-        "name": "Single Gamemode Pack III",
-        "levels": ["Heliacal Gale", "A Building", "Spider Trials"],
-        "color": "#75f"
-    },
-    {
-        "name": "Single Gamemode Pack II",
-        "levels": ["Yes", "amend", "Hardest Ship"],
-        "color": "#c2a"
-    },
-    {
-        "name": "Single Gamemode Pack",
-        "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
-        "color": "#ac5"
     },
     {
         "name": "Timing Master Pack",
