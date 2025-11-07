@@ -254,3 +254,11 @@ body {
 .packs-suggest .submit-btn:hover {
     transform: translateY(-2px);
 }
+
+/* warning message for packs without points */
+.pack-reward.warning {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    color: var(--color-on-background);
+    font-size: 0.95rem;
+}
