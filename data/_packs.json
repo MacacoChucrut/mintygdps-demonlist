@@ -25,6 +25,11 @@
         "color": "#f08"
     },
     {
+        "name": "Hall of Fame IV",
+        "levels": ["Cametek Atomosphere","Quack Overdrive", "CODENAME ZERO"],
+        "color": "#f00"
+    },
+    {
         "name": "Single Gamemode Pack I",
         "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
         "color": "#ac5"
