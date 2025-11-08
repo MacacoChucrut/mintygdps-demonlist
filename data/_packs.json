@@ -71,7 +71,7 @@
     },
     {
         "name": "Single Gamemode Pack I",
-        "levels": ["Step Overdrive", "spooky spider", "fake anathema"],
+        "levels": ["Step Overdrive", "fake anathema", "spooky spider"],
         "color": "#ac5"
     },
     {
