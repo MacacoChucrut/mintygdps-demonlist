@@ -251,3 +251,18 @@ body {
     color: var(--color-on-background);
     font-size: 0.95rem;
 }
+
+.level-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.level-content .link {
+    display: flex;
+    align-items: center;
+}
+
+.level-content .level-name {
+    cursor: default;
+}
