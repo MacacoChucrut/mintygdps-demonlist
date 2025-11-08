@@ -1,7 +1,7 @@
 [
     {
         "name": "Akuma Pack",
-        "levels": ["Akuma III", "Secret Weapon", "Akuma II"],
+        "levels": ["Akuma III", "SECRET WEAPON", "Akuma II"],
         "color": "#f44"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
         "name": "Memory Novice Pack",
-        "levels": ["void or reason", "Good Memories", "Freefall", "The Return", "Shock Breaker by Spectex and more"],
+        "levels": ["void of reason", "Good Memories", "Freefall", "The Return", "Shock Breaker by Spectex and more"],
         "color": "#3FE0DE"
     },
     {
