@@ -40,6 +40,31 @@
         "color": "#0d0"
     },
     {
+        "name": "Memory Beginner Pack",
+        "levels": ["Operation Of Memory", "I N F I N I T Y", "RXMXMBXR", "ClutterFun", "MemorYard"],
+        "color": "#ADD8E6"
+    },
+    {
+        "name": "Memory Novice Pack",
+        "levels": ["void or reason", "Good Memories", "Freefall", "The Return", "Shock Breaker by Spectex and more"],
+        "color": "#3FE0DE"
+    },
+    {
+        "name": "Memory Seasoned Pack",
+        "levels": ["Memory Skies", "bfdi", "Fracture Prismania", "Green world", "IN Psychosis"],
+        "color": "#5DC9C7"
+    },
+    {
+        "name": "Memory Expert Pack",
+        "levels": ["Linoleum", "Freefall II", "The memory mastermind", "MemorEIGHTo", "memoryfactory"],
+        "color": "#67ABA9"
+    },
+    {
+        "name": "Memory Master Pack",
+        "levels": ["Meowmory", "Every Silly", "sloth", "Poltergeist"],
+        "color": "#5D7573"
+    },
+    {
         "name": "Nine Circles Pack I",
         "levels": ["Circles", "meme wave", "horse circles"],
         "color": "#ac0"
