@@ -65,6 +65,7 @@
     display: flex;
     flex-direction: column;
     margin: 1rem 0 6rem;
+    cursor: grab;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeUp 0.5s ease forwards;
@@ -259,8 +260,4 @@ body {
 .level-content .link {
     display: flex;
     align-items: center;
-}
-
-.level-content .level-name {
-    cursor: default;
 }
