@@ -49,6 +49,7 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 2rem;
+    padding: 0 2rem;
     width: 100%;
     justify-content: flex-start;
     scroll-behavior: smooth;
@@ -66,7 +67,7 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    margin: 1rem 0 1rem
+    margin: 1rem 0 2rem;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeUp 0.5s ease forwards;
