@@ -1,8 +1,7 @@
 .page-packs {
     background-color: var(--color-background);
     width: 100%;
-    min-height: 100vh;
-    padding: 2rem 2rem 61rem;
+    padding: 1.5rem 0;
     display: block;
     overflow: visible;
 }
@@ -51,7 +50,6 @@
     scroll-snap-type: x mandatory;
     gap: 2rem;
     width: 100%;
-    padding: 2rem 0 2rem;
     justify-content: flex-start;
     scroll-behavior: smooth;
 }
@@ -68,10 +66,7 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
-    transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    margin: 1rem 0 10rem;
-
+    margin: 1rem 0 1rem
     opacity: 0;
     transform: translateY(30px);
     animation: fadeUp 0.5s ease forwards;
@@ -101,7 +96,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: var(--color-on-background);
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -249,7 +244,7 @@ body {
     border-radius: 0.5rem;
     text-decoration: none;
     transition: transform 100ms ease;
-    box-shadow: 0 1px 1rem 50px rgb(0, 0, 0);
+    margin-bottom: -1rem
 }
 
 .packs-suggest .submit-btn:hover {
