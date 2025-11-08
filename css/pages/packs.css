@@ -177,7 +177,7 @@
 
 .pack-reward {
     margin-top: 1rem;
-    cursor: default;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
