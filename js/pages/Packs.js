@@ -47,14 +47,16 @@ export default {
                                 <ul>
                                     <li v-for="level in pack.levelObjects" class="level-item">
                                         <div class="level-content">
-                                            <a class="link" :href="level.video" target="_blank">
-                                                <img 
-                                                    :src="level.thumbnail" 
-                                                    :alt="level.name" 
-                                                    class="level-thumb" 
-                                                    loading="lazy" 
-                                                />
-                                            </a>
+                                        
+                                            <div class="level-thumb-wrapper">
+                                            <img 
+                                                :src="level.thumbnail" 
+                                                :alt="level.name" 
+                                                class="level-thumb" 
+                                                loading="lazy" 
+                                            />
+                                        </div>
+
                                             <span class="level-name">{{ level.name }}</span>
                                         </div>
                                         <span class="level-rank">(#{{ level.rank }})</span>
@@ -63,13 +65,13 @@ export default {
                                 </ul>
                             </div>
 
-                            <!-- Mensaje si el pack no da puntos -->
                             <div class="pack-reward" v-if="pack.reward > 0">
                                 <p><strong>Points when completed:</strong> {{ pack.reward }}</p>
                             </div>
                             <div class="pack-reward warning" v-else>
-                                <p><strong>This pack does not grant points</strong><br>because it contains Legacy levels</p>
+                                <p>This pack does not grant points<br>because it contains Legacy levels</p>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
