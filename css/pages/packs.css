@@ -249,6 +249,7 @@ body {
     border-radius: 0.5rem;
     text-decoration: none;
     transition: transform 100ms ease;
+    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
 }
 
 .packs-suggest .submit-btn:hover {
