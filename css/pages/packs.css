@@ -1,8 +1,8 @@
 .page-packs {
     background-color: var(--color-background);
     width: 100%;
-    min-height: auto;
-    padding: 2rem 4rem;
+    min-height: 100vh;
+    padding: 2rem 8rem;
     display: block;
     overflow: visible;
 }
