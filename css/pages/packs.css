@@ -2,7 +2,7 @@
     background-color: var(--color-background);
     width: 100%;
     min-height: 100vh;
-    padding: 2rem 8rem;
+    padding: 2rem 2rem 61rem;
     display: block;
     overflow: visible;
 }
@@ -51,7 +51,7 @@
     scroll-snap-type: x mandatory;
     gap: 2rem;
     width: 100%;
-    padding: 2rem 0 2rem
+    padding: 2rem 0 2rem;
     justify-content: flex-start;
     scroll-behavior: smooth;
 }
@@ -249,7 +249,7 @@ body {
     border-radius: 0.5rem;
     text-decoration: none;
     transition: transform 100ms ease;
-    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
+    box-shadow: 0 1px 1rem 50px rgb(0, 0, 0);
 }
 
 .packs-suggest .submit-btn:hover {
