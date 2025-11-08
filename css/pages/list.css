@@ -41,7 +41,7 @@
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
     transform: translateY(-2px);
-    transition: transform 50ms ease;
+    transition: transform 100ms ease;
 }
 .page-list .list .level.active button {
     background-color: var(--color-primary);
