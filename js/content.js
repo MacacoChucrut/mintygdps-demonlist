@@ -1,13 +1,6 @@
 import { round, score } from './score.js';
-
-/**
- * Path to directory containing `_list.json`, all levels, and `_packs.json`
- */
 const dir = '/data';
 
-/**
- * Fetches the main list of levels
- */
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
@@ -39,9 +32,6 @@ export async function fetchList() {
     }
 }
 
-/**
- * Fetches editors data
- */
 export async function fetchEditors() {
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
@@ -52,16 +42,9 @@ export async function fetchEditors() {
     }
 }
 
-/**
- * Fetches leaderboard data based on list and records
- * + Adds pack rewards automatically
- * + Verified levels now count as completed for packs
- * + Each pack now carries a color property
- */
 export async function fetchLeaderboard() {
     const list = await fetchList();
 
-    // Load packs using the same logic as fetchPacks() (rewards auto-calculated)
     let packs = [];
     try {
         packs = await fetchPacks();
@@ -127,19 +110,16 @@ export async function fetchLeaderboard() {
         });
     });
 
-    // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { verified, completed, progressed } = scores;
         let total = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
 
-        // Include both completed and verified levels for packs
         const completedLevels = completed.map((l) => l.level);
         const verifiedLevels = verified.map((l) => l.level);
         const allCompletedLevels = [...new Set([...completedLevels, ...verifiedLevels])];
 
-        // PACKS REWARD SYSTEM (with color)
         const packsCompleted = [];
         for (const pack of packs) {
             if (pack.levels.every((lvl) => allCompletedLevels.includes(lvl))) {
@@ -163,27 +143,19 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }
 
-/**
- * Fetches packs (custom groupings of levels)
- * Calcula el reward total sumando los puntos reales de los niveles según el rank
- * Aplica un multiplicador según la dificultad promedio del pack
- * Si al menos un nivel está por debajo del top 200 → el pack da 0 puntos
- */
 export async function fetchPacks() {
     try {
         const res = await fetch(`${dir}/_packs.json`);
         if (!res.ok) throw new Error('Failed to load _packs.json');
         const packs = await res.json();
 
-        // Cargar lista completa de niveles (para acceder a rank y dificultad)
         const list = await fetchList();
 
         packs.forEach(pack => {
             let totalReward = 0;
             const ranks = [];
-            let invalid = false; // si hay un nivel debajo del top 200, el pack no da puntos
+            let invalid = false;
 
-            // Recorrer niveles del pack
             pack.levels.forEach(levelName => {
                 const entry = list.find(([lvl]) =>
                     lvl.name.toLowerCase() === levelName.toLowerCase()
@@ -194,10 +166,8 @@ export async function fetchPacks() {
                     const rank = list.indexOf(entry) + 1;
                     ranks.push(rank);
 
-                    // Si un nivel está fuera del top 200 → todo el pack sin puntos
                     if (rank > 200) invalid = true;
 
-                    // Calcular puntaje base
                     const levelScore = score(rank, 100, lvl.percentToQualify);
                     totalReward += levelScore;
                 } else {
@@ -205,20 +175,17 @@ export async function fetchPacks() {
                 }
             });
 
-            // Calcular promedio de ranks (menor = más difícil)
             const avgRank = ranks.length > 0
                 ? ranks.reduce((a, b) => a + b, 0) / ranks.length
                 : 999;
 
-            // multiplicador según dificultad promedio
             let multiplier = 1.0;
-            if (avgRank <= 25) multiplier = 0.7;       // packs muy difíciles
-            else if (avgRank <= 50) multiplier = 0.65; // packs difíciles
-            else if (avgRank <= 100) multiplier = 0.6;  // packs medios
-            else if (avgRank <= 150) multiplier = 0.55; // packs normales
-            else multiplier = 0.5;                     // packs fáciles
+            if (avgRank <= 25) multiplier = 0.7;
+            else if (avgRank <= 50) multiplier = 0.65;
+            else if (avgRank <= 100) multiplier = 0.6;
+            else if (avgRank <= 150) multiplier = 0.55;
+            else multiplier = 0.5;
 
-            // Si el pack tiene niveles fuera del top 200, anular puntos
             if (invalid) {
                 pack.reward = 0;
                 pack.warning = "This pack does not grant points because it contains levels below Top 200.";
