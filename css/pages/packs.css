@@ -7,9 +7,6 @@
 }
 
 .packs-header {
-    position: sticky;
-    top: 0;
-    z-index: 5;
     max-width: 60rem;
     margin: 0 auto;
     text-align: left;
@@ -64,10 +61,10 @@
     background: var(--color-background);
     border: 3px solid var(--pack-color, var(--color-primary));
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 6rem;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeUp 0.5s ease forwards;
@@ -129,7 +126,6 @@
     gap: 0.75rem;
 }
 
-/* each level from a pack */
 .level-item {
     display: flex;
     align-items: center;
@@ -155,7 +151,6 @@
     transition: color 0.15s ease;
 }
 
-/* level thumbnails */
 .level-thumb {
     width: 5rem;
     height: 3rem;
@@ -177,7 +172,6 @@
     white-space: nowrap;
 }
 
-/* --- pack reward --- */
 .pack-reward {
     margin-top: 1.5rem;
     font-weight: 500;
@@ -218,7 +212,6 @@ header {
     z-index: 1000;
 }
 
-/* Compensar el espacio que ocupa el header */
 body {
     padding-top: 4rem;
 }
@@ -252,7 +245,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* warning message for packs without points */
 .pack-reward.warning {
     margin-top: 1.5rem;
     font-weight: 500;
