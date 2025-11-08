@@ -66,33 +66,23 @@
     },
     {
         "name": "Nine Circles Pack I",
-        "levels": ["Circles", "meme wave", "horse circles"],
+        "levels": ["Circles", "meme wave", "horse circles", "Gem Circles I", "Bailao Circles"],
         "color": "#ac0"
     },
     {
         "name": "Nine Circles Pack II",
-        "levels": ["Gem Circles I", "Bailao Circles", "Goof Circles"],
+        "levels": ["Goof Circles", "not NC", "VenomstachA", "super circles", "Vel0c17y Circles"],
         "color": "#5ab"
     },
     {
         "name": "Nine Circles Pack III",
-        "levels": ["not NC", "VenomstachA", "super circles"],
+        "levels": ["Thanks Map", "causa circles", "Blitzo Prismatic II", "MEME CIRCLES VIP", "Mountian Dew Circles"],
         "color": "#59b"
     },
     {
         "name": "Nine Circles Pack IV",
-        "levels": ["Vel0c17y Circles", "Thanks Map", "causa circles"],
+        "levels": ["Blitzo Prismatic", "Fracture Prismania", "Amethyst Circles", "Crimson Demise"],
         "color": "#5ba"
-    },
-    {
-        "name": "Nine Circles Pack V",
-        "levels": ["Blitzo Prismatic II", "MEME CIRCLES VIP", "Mountian Dew Circles"],
-        "color": "#0a0"
-    },
-    {
-        "name": "Nine Circles Pack VI",
-        "levels": ["Blitzo Prismatic", "Fracture Prismania", "Amethyst Circles"],
-        "color": "#55c"
     },
     {
         "name": "Single Gamemode Pack I",
