@@ -10,22 +10,22 @@
         "color": "#f45"
     },
     {
-        "name": "Hall of Fame I",
+        "name": "Hall of Fame Pack I",
         "levels": ["CICADA3302 (XemonDestroyer)", "Enchanted", "Akuma III"],
         "color": "#e1f"
     },
     {
-        "name": "Hall of Fame II",
+        "name": "Hall of Fame Pack II",
         "levels": ["Grind District", "SECRET WEAPON", "void of reason"],
         "color": "#f1a"
     },
     {
-        "name": "Hall of Fame III",
+        "name": "Hall of Fame Pack III",
         "levels": ["Yes", "Linoleum", "Bouncy BitHotel"],
         "color": "#f08"
     },
     {
-        "name": "Hall of Fame IV",
+        "name": "Hall of Fame Pack IV",
         "levels": ["Cametek Atomosphere","Quack Overdrive", "CODENAME ZERO"],
         "color": "#f00"
     },
