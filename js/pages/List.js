@@ -172,7 +172,7 @@ export default {
                     <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
                     <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
                     <p>The level complete endscreen must be shown.</p>
-                    <p>Click Between Frames and FPS Bypass are allowed, however, Physics Bypass/TPS bypass are NOT allowed.</p>
+                    <p>Click Between Frames and FPS/TPS Bypass are allowed, however, Physics Bypass is NOT allowed.</p>
                     
                 </div>
             </div>
