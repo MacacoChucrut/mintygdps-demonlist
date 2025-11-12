@@ -166,21 +166,14 @@ export default {
                         </ol>
                     </template>
 
-                    <h3>Level Rules</h3>
-                    <p>The level has to be under 30 seconds.</p>
-                    <p>For a level to place, it must be harder than #75.</p>
-                    <p>Random Trigger cannot affect gameplay or difficulty.</p>
-                    <p>Copying from outside the GDPS is NOT allowed.</p>
-                    <p>15 CPS max.</p>
-
-                    <h3>Submission Requirements</h3>
-                    <p>Video proof required for Top 30.</p>
-                    <p>Upload as YouTube video.</p>
-                    <p>Cheat indicator required if mods used.</p>
-                    <p>Show previous attempt unless first try.</p>
-                    <p>No major shortcuts.</p>
-                    <p>Show completion screen.</p>
-                    <p>CBF & FPS/TPS bypass allowed; physics bypass NOT allowed.</p>
+                    <h3>Submission Rules</h3>
+                    <p>Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. Click/Tap sounds do NOT inclue the use of any form of 'Click Sounds' mod.</p>
+                    <p>Verifications must be uploaded in the format of a youtube video. </p>
+                    <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
+                    <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
+                    <p>The level complete endscreen must be shown.</p>
+                    <p>Click Between Frames and FPS Bypass are allowed, however, Physics Bypass/TPS bypass are NOT allowed.</p>
+                    
                 </div>
             </div>
 
