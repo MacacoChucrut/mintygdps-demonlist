@@ -7,6 +7,7 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --accent: #ff00ff;
 }
 
 main.dark,
