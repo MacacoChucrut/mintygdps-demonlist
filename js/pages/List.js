@@ -54,7 +54,7 @@ export default {
                             </td>
                         </tr>
 
-                        <tr v-if="item.originalIndex + 1 === 202" class="separator-row">
+                        <tr v-if="item.originalIndex + 1 === 201" class="separator-row">
                             <td colspan="2">
                                 <div class="separator-text">LEGACY</div>
                             </td>
