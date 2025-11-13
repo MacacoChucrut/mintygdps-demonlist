@@ -8,6 +8,11 @@
     --color-error: #de0000;
     --color-on-error: white;
     --accent: #ff00ff;
+
+    --color-extended: #aaa;
+    --color-on-extended: #555;
+    --color-legacy: #555;
+    --color-on-legacy: #aaa;
 }
 
 main.dark,
@@ -22,6 +27,7 @@ header.dark {
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    
     --color-extended: #555;
     --color-on-extended: #aaa;
     --color-legacy: #aaa;
