@@ -46,7 +46,49 @@ export default {
                 </div>
 
                 <table class="list" v-if="filteredList.length > 0">
-                    <tr v-for="(item, i) in filteredList" :key="i">
+
+<template v-if="item.originalIndex + 1 === 100">
+    <tr class="separator-row">
+        <td colspan="2">
+            <div class="separator-text">EXTENDED</div>
+        </td>
+    </tr>
+</template>
+
+<template v-if="item.originalIndex + 1 === 200">
+    <tr class="separator-row">
+        <td colspan="2">
+            <div class="separator-text">LEGACY</div>
+        </td>
+    </tr>
+</template>
+
+<tr v-for="(item, i) in filteredList" :key="i">
+    <!-- rank -->
+    <td class="rank">
+        <p class="type-label-lg"
+            :style="{
+                color: item.originalIndex + 1 > 200
+                    ? '#555'
+                    : item.originalIndex + 1 > 100
+                        ? '#aaa'
+                        : 'inherit'
+            }">
+            #{{ item.originalIndex + 1 }}
+        </p>
+    </td>
+
+    <!-- level -->
+    <td class="level"
+        :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
+        <button @click="selected = item.originalIndex">
+            <span class="type-label-lg">
+                {{ item.data?.name || `Error (${item.error}.json)` }}
+            </span>
+        </button>
+    </td>
+</tr>
+
                     
                         <td class="rank">
                         
