@@ -109,7 +109,7 @@ export default {
                     </ul>
 
                     <h2>Victors</h2>
-                    <p v-if="selected + 1 > 75">
+                    <p v-if="selected + 1 > 200">
                         This level has fallen into the Legacy List and no longer accepts new records.
                     </p>
 
