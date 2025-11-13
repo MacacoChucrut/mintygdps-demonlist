@@ -48,6 +48,26 @@ export default {
                 <table class="list" v-if="filteredList.length > 0">
                     <tr v-for="(item, i) in filteredList" :key="i">
 
+                        <td class="rank">
+                            <p class="type-label-lg"
+                                :style="{ color: item.originalIndex + 1 > 75 ? 'darkgrey' : 'inherit' }">
+                                #{{ item.originalIndex + 1 }}
+                            </p>
+                        </td>
+
+                        <td class="level"
+                            :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
+                            <button @click="selected = item.originalIndex">
+                                <span class="type-label-lg">
+                                    {{ item.data?.name || `Error (${item.error}.json)` }}
+                                </span>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr v-if="item.originalIndex + 1 === 100" class="separator-row"><td colspan="2"></td></tr>
+                    <tr v-if="item.originalIndex + 1 === 200" class="separator-row"><td colspan="2"></td></tr>
+
                         <!-- rank -->
                         <td class="rank">
                         
