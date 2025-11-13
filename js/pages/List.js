@@ -217,7 +217,8 @@ export default {
         searchQuery: "",
         errors: [],
         roleIconMap,
-        store
+        store,
+        toggledShowcase: false,
     }),
 
     computed: {
@@ -235,7 +236,9 @@ export default {
                 return embed(this.level.verification);
 
             return embed(
-                this.toggledShowcase ? this.level.showcase : this.level.verification
+                this.toggledShowcase 
+                    ? this.level.showcase 
+                    : this.level.verification
             );
         },
     },
