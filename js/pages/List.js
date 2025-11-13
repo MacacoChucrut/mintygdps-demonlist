@@ -66,9 +66,9 @@ export default {
                                 <p class="type-label-lg"
                                     :style="{
                                         color: item.originalIndex + 1 > 200
-                                            ? '#555'
+                                            ? 'var(--color-extended)'
                                             : item.originalIndex + 1 > 100
-                                                ? '#aaa'
+                                                ? 'var(--color-legacy)'
                                                 : 'inherit'
                                     }">
                                     #{{ item.originalIndex + 1 }}
