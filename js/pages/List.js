@@ -26,7 +26,6 @@ export default {
 
             <div class="list-container">
 
-                <!-- SEARCH BAR -->
                 <div class="search-container" style="padding: 0 0 1rem;">
                     <input 
                         v-model="searchQuery"
@@ -46,28 +45,23 @@ export default {
                     />
                 </div>
 
-                <!-- LISTA DE NIVELES -->
                 <table class="list" v-if="filteredList.length > 0">
                     <template v-for="(item, i) in filteredList" :key="i">
 
-                        <!-- SEPARADOR EXTENDED -->
-                        <tr v-if="item.originalIndex + 1 === 100" class="separator-row">
+                        <tr v-if="item.originalIndex + 1 === 101" class="separator-row">
                             <td colspan="2">
                                 <div class="separator-text">EXTENDED</div>
                             </td>
                         </tr>
 
-                        <!-- SEPARADOR LEGACY -->
-                        <tr v-if="item.originalIndex + 1 === 200" class="separator-row">
+                        <tr v-if="item.originalIndex + 1 === 202" class="separator-row">
                             <td colspan="2">
                                 <div class="separator-text">LEGACY</div>
                             </td>
                         </tr>
 
-                        <!-- FILA DEL NIVEL -->
                         <tr>
 
-                            <!-- RANK -->
                             <td class="rank">
                                 <p class="type-label-lg"
                                     :style="{
@@ -81,7 +75,6 @@ export default {
                                 </p>
                             </td>
 
-                            <!-- LEVEL -->
                             <td class="level"
                                 :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
@@ -102,7 +95,6 @@ export default {
                 </p>
             </div>
 
-            <!-- PANEL DERECHA -->
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
@@ -164,7 +156,6 @@ export default {
                 </div>
             </div>
 
-            <!-- META -->
             <div class="meta-container">
                 <div class="meta">
 
