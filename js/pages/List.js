@@ -51,7 +51,7 @@ export default {
                         <!-- rank -->
                         <td class="rank">
                             <p class="type-label-lg"
-                                :style="{ color: item.originalIndex + 1 > 75 ? 'darkgrey' : 'inherit' }">
+                                :style="{ color: item.originalIndex + 1 > 200 ? 'darkgrey' : 'inherit' }">
                                 #{{ item.originalIndex + 1 }}
                             </p>
                         </td>
