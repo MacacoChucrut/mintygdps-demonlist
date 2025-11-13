@@ -26,6 +26,7 @@ export default {
 
             <div class="list-container">
 
+                <!-- SEARCH BAR -->
                 <div class="search-container" style="padding: 0 0 1rem;">
                     <input 
                         v-model="searchQuery"
@@ -45,26 +46,28 @@ export default {
                     />
                 </div>
 
+                <!-- LISTA DE NIVELES -->
                 <table class="list" v-if="filteredList.length > 0">
-                        <tr v-for="(item, i) in filteredList" :key="i">
+                    <template v-for="(item, i) in filteredList" :key="i">
 
-                            <template v-if="item.originalIndex + 1 === 100">
-                                <tr class="separator-row">
-                                    <td colspan="2">
-                                        <div class="separator-text">EXTENDED</div>
-                                    </td>
-                                </tr>
-                            </template>
+                        <!-- SEPARADOR EXTENDED -->
+                        <tr v-if="item.originalIndex + 1 === 100" class="separator-row">
+                            <td colspan="2">
+                                <div class="separator-text">EXTENDED</div>
+                            </td>
+                        </tr>
 
-                            <template v-if="item.originalIndex + 1 === 200">
-                                <tr class="separator-row">
-                                    <td colspan="2">
-                                        <div class="separator-text">LEGACY</div>
-                                    </td>
-                                </tr>
-                            </template>
+                        <!-- SEPARADOR LEGACY -->
+                        <tr v-if="item.originalIndex + 1 === 200" class="separator-row">
+                            <td colspan="2">
+                                <div class="separator-text">LEGACY</div>
+                            </td>
+                        </tr>
 
-                            <!-- rank -->
+                        <!-- FILA DEL NIVEL -->
+                        <tr>
+
+                            <!-- RANK -->
                             <td class="rank">
                                 <p class="type-label-lg"
                                     :style="{
@@ -78,45 +81,20 @@ export default {
                                 </p>
                             </td>
 
-                            <!-- level -->
+                            <!-- LEVEL -->
                             <td class="level"
                                 :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
                                 <button @click="selected = item.originalIndex">
                                     <span class="type-label-lg">
-                                        {{ item.data?.name || `Error (${item.error}.json)` }}
+                                        {{ item.data?.name || \`Error (\${item.error}.json)\` }}
                                     </span>
                                 </button>
                             </td>
 
                         </tr>
-                    </table>
 
-                        <td class="rank">
-                        
-                            <p class="type-label-lg"
-    :style="{
-        color: item.originalIndex + 1 > 200
-            ? '#555'
-            : item.originalIndex + 1 > 100
-                ? '#aaa'
-                : 'inherit'
-    }">
-    #{{ item.originalIndex + 1 }}
-</p>
-                            
-                        </td>
-                        <td class="level"
-                            :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
-
-                            <button @click="selected = item.originalIndex">
-                                <span class="type-label-lg">
-                                    {{ item.data?.name || \`Error (\${item.error}.json)\` }}
-                                </span>
-                            </button>
-                        </td>
-
-                    </tr>
+                    </template>
                 </table>
 
                 <p v-else style="text-align:center; padding:1rem; opacity:0.7;">
@@ -124,6 +102,7 @@ export default {
                 </p>
             </div>
 
+            <!-- PANEL DERECHA -->
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
@@ -185,6 +164,7 @@ export default {
                 </div>
             </div>
 
+            <!-- META -->
             <div class="meta-container">
                 <div class="meta">
 
@@ -217,12 +197,12 @@ export default {
 
                     <h3>Submission Rules</h3>
                     <p>Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. Click/Tap sounds do NOT inclue the use of any form of 'Click Sounds' mod.</p>
-                    <p>Verifications must be uploaded in the format of a youtube video. </p>
+                    <p>Verifications must be uploaded in the format of a youtube video.</p>
                     <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
                     <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
                     <p>The level complete endscreen must be shown.</p>
                     <p>Click Between Frames and FPS/TPS Bypass are allowed, however, Physics Bypass is NOT allowed.</p>
-                    
+
                 </div>
             </div>
 
