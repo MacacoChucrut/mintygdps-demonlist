@@ -164,7 +164,7 @@
     content: "";
     flex: 1;
     height: 2px;
-    background: var(--accent);
+    background: var(--color-primary);
     opacity: 0.8;
     border-radius: 2px;
 }
