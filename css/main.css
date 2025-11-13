@@ -22,8 +22,10 @@ header.dark {
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
-    --color-listtext: #555;
-    --color-on-listtext: #aaa;
+    --color-extended: #555;
+    --color-on-extended: #aaa;
+    --color-legacy: #aaa;
+    --color-on-legacy: #555;
 }
 
 html,
