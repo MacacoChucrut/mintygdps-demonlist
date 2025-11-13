@@ -97,3 +97,21 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+
+#color-picker {
+    width: 32px;
+    height: 32px;
+}
+
+#color-picker .pcr-button {
+    border: 2px solid var(--color-primary); /* color del outline */
+    border-radius: 8px;                      /* bordecito cute */
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);     /* sombrita suave */
+    cursor: pointer;
+}
+
+#color-picker .pcr-button:hover {
+    border-color: var(--accent, var(--color-primary)); 
+    transform: scale(1.05);
+    transition: 100ms;
+}
