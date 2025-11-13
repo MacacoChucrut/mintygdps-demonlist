@@ -50,13 +50,13 @@ export default {
 
                         <!-- rank -->
                         <td class="rank">
+                        
                             <p class="type-label-lg"
-                                :style="{ color: item.originalIndex + 1 > 200 ? 'darkgrey' : 'inherit' }">
-                                #{{ item.originalIndex + 1 }}
+                            :style="{ color: item.originalIndex + 1 > 200 ? '#aaa' : 'inherit' }">
+                            #{{ item.originalIndex + 1 }}
                             </p>
+                            
                         </td>
-
-                        <!-- level button -->
                         <td class="level"
                             :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
