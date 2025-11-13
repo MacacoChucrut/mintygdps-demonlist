@@ -52,9 +52,15 @@ export default {
                         <td class="rank">
                         
                             <p class="type-label-lg"
-                            :style="{ color: item.originalIndex + 1 > 200 ? '#aaa' : 'inherit' }">
-                            #{{ item.originalIndex + 1 }}
-                            </p>
+    :style="{
+        color: item.originalIndex + 1 > 200
+            ? '#555'
+            : item.originalIndex + 1 > 100
+                ? '#aaa'
+                : 'inherit'
+    }">
+    #{{ item.originalIndex + 1 }}
+</p>
                             
                         </td>
                         <td class="level"
