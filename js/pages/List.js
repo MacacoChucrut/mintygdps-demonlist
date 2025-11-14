@@ -47,6 +47,12 @@ export default {
 
                 <table class="list" v-if="filteredList.length > 0">
                     <template v-for="(item, i) in filteredList" :key="i">
+                    
+                    <tr v-if="item.originalIndex + 1 === 1" class="separator-row">
+                            <td colspan="2">
+                                <div class="separator-text">MAIN</div>
+                            </td>
+                        </tr>
 
                         <tr v-if="item.originalIndex + 1 === 101" class="separator-row">
                             <td colspan="2">
