@@ -263,8 +263,50 @@ export default {
         score,
 
         applyFilter() {
-            const q = this.searchQuery.trim().toLowerCase();
+    const q = this.searchQuery.trim().toLowerCase();
 
+    if (!q) {
+        this.filteredList = this.list.map((entry, index) => ({
+            data: entry[0],
+            error: entry[1],
+            originalIndex: index
+        }));
+        return;
+    }
+
+    const isNumberSearch = /^\d+$/.test(q);
+    const isHashSearch   = /^#\d+$/.test(q);
+
+    let desiredExactIndex = null;
+
+    if (isHashSearch) {
+        desiredExactIndex = parseInt(q.slice(1), 10) - 1;
+    }
+
+    this.filteredList = this.list
+        .map((entry, index) => ({
+            data: entry[0],
+            error: entry[1],
+            originalIndex: index
+        }))
+        .filter(item => {
+
+            if (desiredExactIndex !== null) {
+                return item.originalIndex === desiredExactIndex;
+            }
+
+            if (isNumberSearch) {
+                const pos = (item.originalIndex + 1).toString();
+                if (pos.includes(q)) return true;
+            }
+
+            return (
+                item.data &&
+                item.data.name.toLowerCase().includes(q)
+            );
+        });
+}
+        
             if (!q) {
                 this.filteredList = this.list.map((entry, index) => ({
                     data: entry[0],
