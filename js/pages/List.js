@@ -26,7 +26,7 @@ export default {
 
             <div class="list-container">
 
-                <!-- SEARCH BAR (Sticky) -->
+                <!-- SEARCH BAR (Sticky & kawaii) -->
                 <div class="search-container">
                     <input 
                         v-model="searchQuery"
@@ -61,7 +61,6 @@ export default {
                             </tr>
 
                             <tr>
-
                                 <td class="rank">
                                     <p class="type-label-lg"
                                         :style="{
@@ -84,8 +83,8 @@ export default {
                                         </span>
                                     </button>
                                 </td>
-
                             </tr>
+
                         </template>
                     </table>
 
@@ -95,6 +94,7 @@ export default {
                 </div>
             </div>
 
+            <!-- LEVEL DETAIL PANEL -->
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
@@ -164,6 +164,7 @@ export default {
                 </div>
             </div>
 
+            <!-- META AREA -->
             <div class="meta-container">
                 <div class="meta">
 
@@ -193,6 +194,20 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    
+                    <h3>Submission Requirements</h3>
+                    <p>Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. This does NOT inclue the use of any form of 'Click Sounds' mod.</p>
+                    <p>Verifications must be uploaded in the format of a youtube video.</p>
+                    <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
+                    <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
+                    <p>The level complete endscreen must be shown.</p>
+                    <p>Click Between Frames and FPS/TPS Bypass are allowed, however, Physics Bypass is NOT allowed.</p>
+
+                </div>
+            </div>
+
+        </main>
+    `,
 
                     <h3>Submission Rules</h3>
                     <p>Video proof is required for Top 40 Demons...</p>
@@ -263,50 +278,8 @@ export default {
         score,
 
         applyFilter() {
-    const q = this.searchQuery.trim().toLowerCase();
+            const q = this.searchQuery.trim().toLowerCase();
 
-    if (!q) {
-        this.filteredList = this.list.map((entry, index) => ({
-            data: entry[0],
-            error: entry[1],
-            originalIndex: index
-        }));
-        return;
-    }
-
-    const isNumberSearch = /^\d+$/.test(q);
-    const isHashSearch   = /^#\d+$/.test(q);
-
-    let desiredExactIndex = null;
-
-    if (isHashSearch) {
-        desiredExactIndex = parseInt(q.slice(1), 10) - 1;
-    }
-
-    this.filteredList = this.list
-        .map((entry, index) => ({
-            data: entry[0],
-            error: entry[1],
-            originalIndex: index
-        }))
-        .filter(item => {
-
-            if (desiredExactIndex !== null) {
-                return item.originalIndex === desiredExactIndex;
-            }
-
-            if (isNumberSearch) {
-                const pos = (item.originalIndex + 1).toString();
-                if (pos.includes(q)) return true;
-            }
-
-            return (
-                item.data &&
-                item.data.name.toLowerCase().includes(q)
-            );
-        });
-}
-        
             if (!q) {
                 this.filteredList = this.list.map((entry, index) => ({
                     data: entry[0],
@@ -316,16 +289,37 @@ export default {
                 return;
             }
 
+            const isNumberSearch = /^\d+$/.test(q);
+            const isHashSearch   = /^#\d+$/.test(q);
+
+            let desiredExactIndex = null;
+
+            if (isHashSearch) {
+                desiredExactIndex = parseInt(q.slice(1), 10) - 1;
+            }
+
             this.filteredList = this.list
                 .map((entry, index) => ({
                     data: entry[0],
                     error: entry[1],
                     originalIndex: index
                 }))
-                .filter(item =>
-                    item.data &&
-                    item.data.name.toLowerCase().includes(q)
-                );
+                .filter(item => {
+
+                    if (desiredExactIndex !== null) {
+                        return item.originalIndex === desiredExactIndex;
+                    }
+
+                    if (isNumberSearch) {
+                        const pos = (item.originalIndex + 1).toString();
+                        if (pos.includes(q)) return true;
+                    }
+
+                    return (
+                        item.data &&
+                        item.data.name.toLowerCase().includes(q)
+                    );
+                });
         }
     }
 };
