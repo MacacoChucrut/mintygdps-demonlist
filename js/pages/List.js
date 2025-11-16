@@ -31,6 +31,7 @@ export default {
                         v-model="searchQuery"
                         type="text"
                         placeholder="Search levels..."
+                        class="search-input"
                     />
                 </div>
 
