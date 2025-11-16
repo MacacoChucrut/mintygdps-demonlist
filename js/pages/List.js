@@ -33,6 +33,8 @@ export default {
                         placeholder="Search levels..."
                         class="search-input"
                         style="
+                            position: sticky;
+                            top: 0;
                             width: 100%;
                             padding: 10px 15px;
                             border-radius: 8px;
