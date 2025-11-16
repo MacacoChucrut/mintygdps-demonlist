@@ -209,14 +209,6 @@ export default {
         </main>
     `,
 
-                    <h3>Submission Rules</h3>
-                    <p>Video proof is required for Top 40 Demons...</p>
-                </div>
-            </div>
-
-        </main>
-    `,
-
     data: () => ({
         list: [],
         filteredList: [],
