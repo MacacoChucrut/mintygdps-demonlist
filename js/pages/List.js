@@ -26,24 +26,11 @@ export default {
 
             <div class="list-container">
 
-                <div class="search-container" style="padding: 0 0 1rem;">
+                <div class="search-container">
                     <input 
                         v-model="searchQuery"
                         type="text"
                         placeholder="Search levels..."
-                        class="search-input"
-                        style="
-                            position: sticky;
-                            top: 0;
-                            width: 100%;
-                            padding: 10px 15px;
-                            border-radius: 8px;
-                            border: none;
-                            background: var(--color-background-hover);
-                            color: var(--color-on-background);
-                            font-size: 1rem;
-                            outline: none;
-                        "
                     />
                 </div>
 
