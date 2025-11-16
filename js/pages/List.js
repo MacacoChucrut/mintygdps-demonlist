@@ -26,6 +26,7 @@ export default {
 
             <div class="list-container">
 
+                <!-- SEARCH BAR (Sticky) -->
                 <div class="search-container">
                     <input 
                         v-model="searchQuery"
@@ -35,68 +36,71 @@ export default {
                     />
                 </div>
 
-                <table class="list" v-if="filteredList.length > 0">
-                    <template v-for="(item, i) in filteredList" :key="i">
-                    
-                    <tr v-if="item.originalIndex + 1 === 1" class="separator-row">
-                            <td colspan="2">
-                                <div class="separator-text">MAIN</div>
-                            </td>
-                        </tr>
+                <!-- SCROLL AREA -->
+                <div class="list-scroll">
 
-                        <tr v-if="item.originalIndex + 1 === 101" class="separator-row">
-                            <td colspan="2">
-                                <div class="separator-text">EXTENDED</div>
-                            </td>
-                        </tr>
+                    <table class="list" v-if="filteredList.length > 0">
+                        <template v-for="(item, i) in filteredList" :key="i">
 
-                        <tr v-if="item.originalIndex + 1 === 201" class="separator-row">
-                            <td colspan="2">
-                                <div class="separator-text">LEGACY</div>
-                            </td>
-                        </tr>
+                            <tr v-if="item.originalIndex + 1 === 1" class="separator-row">
+                                <td colspan="2">
+                                    <div class="separator-text">MAIN</div>
+                                </td>
+                            </tr>
 
-                        <tr>
+                            <tr v-if="item.originalIndex + 1 === 101" class="separator-row">
+                                <td colspan="2">
+                                    <div class="separator-text">EXTENDED</div>
+                                </td>
+                            </tr>
 
-                            <td class="rank">
-                                <p class="type-label-lg"
-                                    :style="{
-                                        color: item.originalIndex + 1 > 200
-                                            ? 'var(--color-extended)'
-                                            : item.originalIndex + 1 > 100
-                                                ? 'var(--color-legacy)'
-                                                : 'inherit'
-                                    }">
-                                    #{{ item.originalIndex + 1 }}
-                                </p>
-                            </td>
+                            <tr v-if="item.originalIndex + 1 === 201" class="separator-row">
+                                <td colspan="2">
+                                    <div class="separator-text">LEGACY</div>
+                                </td>
+                            </tr>
 
-                            <td class="level"
-                                :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
+                            <tr>
 
-                                <button @click="selected = item.originalIndex">
-                                    <span class="type-label-lg">
-                                        {{ item.data?.name || \`Error (\${item.error}.json)\` }}
-                                    </span>
-                                </button>
-                            </td>
+                                <td class="rank">
+                                    <p class="type-label-lg"
+                                        :style="{
+                                            color: item.originalIndex + 1 > 200
+                                                ? 'var(--color-extended)'
+                                                : item.originalIndex + 1 > 100
+                                                    ? 'var(--color-legacy)'
+                                                    : 'inherit'
+                                        }">
+                                        #{{ item.originalIndex + 1 }}
+                                    </p>
+                                </td>
 
-                        </tr>
+                                <td class="level"
+                                    :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
-                    </template>
-                </table>
+                                    <button @click="selected = item.originalIndex">
+                                        <span class="type-label-lg">
+                                            {{ item.data?.name || \`Error (\${item.error}.json)\` }}
+                                        </span>
+                                    </button>
+                                </td>
 
-                <p v-else style="text-align:center; padding:1rem; opacity:0.7;">
-                    No levels found.
-                </p>
+                            </tr>
+                        </template>
+                    </table>
+
+                    <p v-else style="text-align:center; padding:1rem; opacity:0.7;">
+                        No levels found.
+                    </p>
+                </div>
             </div>
 
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+
                     <div style="display:flex;">
-                    
                         <div v-for="tag in level.tags" class="tag">{{ tag }}</div>
                     </div>
 
@@ -154,7 +158,7 @@ export default {
                     </table>
                 </div>
 
-                <div v-else class="level" 
+                <div v-else class="level"
                      style="height:100%; display:flex; justify-content:center; align-items:center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
@@ -191,13 +195,7 @@ export default {
                     </template>
 
                     <h3>Submission Rules</h3>
-                    <p>Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. Click/Tap sounds do NOT inclue the use of any form of 'Click Sounds' mod.</p>
-                    <p>Verifications must be uploaded in the format of a youtube video.</p>
-                    <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
-                    <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
-                    <p>The level complete endscreen must be shown.</p>
-                    <p>Click Between Frames and FPS/TPS Bypass are allowed, however, Physics Bypass is NOT allowed.</p>
-
+                    <p>Video proof is required for Top 40 Demons...</p>
                 </div>
             </div>
 
@@ -231,11 +229,7 @@ export default {
             if (!this.level.showcase)
                 return embed(this.level.verification);
 
-            return embed(
-                this.toggledShowcase 
-                    ? this.level.showcase 
-                    : this.level.verification
-            );
+            return embed(this.toggledShowcase ? this.level.showcase : this.level.verification);
         },
     },
 
