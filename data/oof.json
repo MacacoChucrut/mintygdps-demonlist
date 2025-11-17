@@ -51,6 +51,12 @@
             "link": "https://youtu.be/t1QMovxt8UE?feature=shared",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Fast-Paced", "Medium", "Former Top 1"]
