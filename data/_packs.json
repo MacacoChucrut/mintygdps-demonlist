@@ -21,7 +21,7 @@
     },
     {
         "name": "Hall of Fame Pack III",
-        "levels": ["Yes", "Linoleum", "Bouncy BitHotel"],
+        "levels": ["Yes", "Linoleum (Solo)", "Bouncy BitHotel"],
         "color": "#f08"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "name": "Memory Expert Pack",
-        "levels": ["Linoleum", "Freefall II", "The Memory Mastermind", "MemorEIGHTo", "memoryfactory"],
+        "levels": ["Linoleum (Solo)", "Freefall II", "The Memory Mastermind", "MemorEIGHTo", "memoryfactory"],
         "color": "#67ABA9"
     },
     {
