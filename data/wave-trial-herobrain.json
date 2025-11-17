@@ -1,12 +1,10 @@
 {
     "id": 2258,
     "name": "Wave Trial (Herobrain)",
-    "author": "Herobrain",
     "creators": ["Herobrain"],
     "verifier": "Herobrain",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Insane Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -84,6 +82,12 @@
         },
         {
             "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Pingel",
             "link": "#",
             "percent": 100,
             "mobile": false
