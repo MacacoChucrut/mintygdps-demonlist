@@ -120,9 +120,9 @@ export default {
                         frameborder="0">
                     </iframe>
 
-                    <div class="no-video">
-                    <p v-else style="opacity:0.6; margin-top:1rem;">
-                        No verification video available for this level.
+                    <div class="no-video" v-if="!video && !toggledShowcase">
+                    <p style="opacity:0.6; margin-top:1rem;">
+                    No verification video available for this level.
                     </p>
                     </div>
 
