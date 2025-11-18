@@ -141,6 +141,10 @@
     cursor: default;
 }
 
+.no-video {
+    text-align: center;
+}
+
 .separator-row td {
     padding: 0.75rem 0;
 }
