@@ -26,7 +26,7 @@ export default {
 
             <div class="list-container">
 
-                <!-- SEARCH BAR (Sticky & kawaii) -->
+                <!-- SEARCH BAR (very sigm i
                 <div class="search-container">
                     <input 
                         v-model="searchQuery"
