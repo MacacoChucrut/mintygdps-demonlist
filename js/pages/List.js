@@ -25,8 +25,7 @@ export default {
         <main v-else class="page-list">
 
             <div class="list-container">
-
-                <!-- SEARCH BAR (very sigm i
+            
                 <div class="search-container">
                     <input 
                         v-model="searchQuery"
@@ -36,7 +35,7 @@ export default {
                     />
                 </div>
 
-                <!-- SCROLL AREA -->
+                <!-- scroll thing uwu owo :3 (kill me) -->
                 <div class="list-scroll">
 
                     <table class="list" v-if="filteredList.length > 0">
@@ -94,7 +93,7 @@ export default {
                 </div>
             </div>
 
-            <!-- LEVEL DETAIL PANEL -->
+            <!-- LEVEL DETAIL PANELLLLLLLLLLLLLLL -->
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
@@ -121,9 +120,11 @@ export default {
                         frameborder="0">
                     </iframe>
 
+                    <div class="no-video">
                     <p v-else style="opacity:0.6; margin-top:1rem;">
                         No verification video available for this level.
                     </p>
+                    </div>
 
                     <ul class="stats">
                         <li>
@@ -164,7 +165,7 @@ export default {
                 </div>
             </div>
 
-            <!-- META AREA -->
+            <!-- META AREA RATE DACTCLEAR -->
             <div class="meta-container">
                 <div class="meta">
 
