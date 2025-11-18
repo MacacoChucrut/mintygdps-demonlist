@@ -1,12 +1,10 @@
 {
     "id": 450,
     "name": "Power Trip II",
-    "author": "ribbonera",
     "creators": ["ribbonera"],
     "verifier": "Dact",
     "verification": "https://youtu.be/YxCSRuzPcAQ?t=5840",
     "percentToQualify": "100",
-    "difficulty": "Extreme Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -21,6 +19,12 @@
         {
             "user": "Herobrain",
             "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Pingel",
+            "link": "https://medal.tv/games/geometry-dash/clips/lwRedOGpS-j3bOFE1?invite=cr-MSxoVHYsNDIxMzM5NjU4&v=153",
             "percent": 100,
             "mobile": false
         }
