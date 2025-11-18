@@ -230,17 +230,28 @@ export default {
 
         video() {
     if (!this.level) return null;
-
+            
     if (this.toggledShowcase) {
-        if (this.level.showcase && this.level.showcase.trim() !== "")
+        if (
+            this.level.showcase &&
+            this.level.showcase.trim() !== "" &&
+            this.level.showcase.trim() !== "#"
+        ) {
             return embed(this.level.showcase);
+        }
         return null;
     }
-    if (this.level.verification && this.level.verification.trim() !== "")
+
+    if (
+        this.level.verification &&
+        this.level.verification.trim() !== "" &&
+        this.level.verification.trim() !== "#"
+    ) {
         return embed(this.level.verification);
-            
-            return null;
-        },
+    }
+
+    return null;
+},
     },
 
     watch: {
