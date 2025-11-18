@@ -121,7 +121,7 @@ export default {
                     </iframe>
 
                     <div class="no-video" v-if="!video && !toggledShowcase">
-                    <p style="opacity:0.6; margin-top:1rem;">
+                    <p style="opacity:0.6; margin:1rem 0 1rem;">
                     No verification video available for this level.
                     </p>
                     </div>
@@ -229,15 +229,17 @@ export default {
         },
 
         video() {
-            if (!this.level) return null;
+    if (!this.level) return null;
 
-            if (!this.level.verification || this.level.verification.trim() === "")
-                return null;
-
-            if (!this.level.showcase)
-                return embed(this.level.verification);
-
-            return embed(this.toggledShowcase ? this.level.showcase : this.level.verification);
+    if (this.toggledShowcase) {
+        if (this.level.showcase && this.level.showcase.trim() !== "")
+            return embed(this.level.showcase);
+        return null;
+    }
+    if (this.level.verification && this.level.verification.trim() !== "")
+        return embed(this.level.verification);
+            
+            return null;
         },
     },
 
