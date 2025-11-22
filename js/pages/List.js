@@ -85,12 +85,15 @@ export default {
                                 <td class="level"
                                     :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
-                                    <button @click="selected = item.originalIndex">
-                                        <span class="type-label-lg">
-                                            {{ item.data?.name || \`Error (\${item.error}.json)\` }}
-                                        </span>
-                                    </button>
-                                </td>
+                                    <button @click="selected = item.originalIndex"
+                                    :style="{ color: getRankColor(item.originalIndex + 1) }">
+
+                                <span class="type-label-lg">
+                                    {{ item.data?.name || `Error (${item.error}.json)` }}
+                                </span>
+                            </button>
+                        </td>
+
                             </tr>
 
                         </template>
