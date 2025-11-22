@@ -63,14 +63,19 @@ export default {
                                 <td class="rank">
                                     <p class="type-label-lg"
                                         :style="{
-                                            color: item.originalIndex + 1 > 200
-                                                ? 'var(--color-extended)'
-                                                : item.originalIndex + 1 > 100
-                                                    ? 'var(--color-legacy)'
-                                                    : 'inherit'
-                                        }">
-                                        #{{ item.originalIndex + 1 }}
+                                        color:
+                                          item.originalIndex + 1 === 1 ? '#FFD700' :
+                                          item.originalIndex + 1 === 2 ? '#C0C0C0' :
+                                          item.originalIndex + 1 === 3 ? '#CD7F32' :
+                                          item.originalIndex + 1 === 4 ? '#4FD1C5' :
+                                          item.originalIndex + 1 === 5 ? '#9F7AEA' :
+                                          item.originalIndex + 1 > 200 ? 'var(--color-extended)' :
+                                          item.originalIndex + 1 > 100 ? 'var(--color-legacy)' :
+                                          'inherit'
+                                      }">
+                                      #{{ item.originalIndex + 1 }}
                                     </p>
+
                                 </td>
 
                                 <td class="level"
