@@ -14,6 +14,14 @@ const roleIconMap = {
     trial: "user-lock",
 };
 
+function getRankColor(rank) {
+    if (rank === 1) return 'gold';
+    if (rank === 2) return 'silver';
+    if (rank === 3) return '#cd7f32'; // bronze
+    if (rank > 150) return 'darkgrey';
+    return undefined;
+}
+
 export default {
     components: { Spinner, LevelAuthors },
 
