@@ -20,7 +20,9 @@ function getRankColor(rank) {
     if (rank === 3) return '#CD7F32';
     if (rank === 4) return '#4FD1C5';
     if (rank === 5) return '#9F7AEA';
-    return undefined;
+    if (rank > 200) return 'var(--color-extended)';
+    if (rank > 100) return 'var(--color-legacy)';
+    return null;
 }
 
 export default {
@@ -44,7 +46,6 @@ export default {
                     />
                 </div>
 
-                <!-- scroll thing uwu owo :3 (kill me) -->
                 <div class="list-scroll">
 
                     <table class="list" v-if="filteredList.length > 0">
@@ -71,29 +72,23 @@ export default {
                             <tr>
                                 <td class="rank">
                                     <p class="type-label-lg"
-                                        :style="{
-                                        color:
-                                            item.originalIndex + 1 > 200 ? 'var(--color-extended)' :
-                                            item.originalIndex + 1 > 100 ? 'var(--color-legacy)' :
-                                            'inherit'
-                                      }">
-                                      #{{ item.originalIndex + 1 }}
+                                       :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }">
+                                        #{{ item.originalIndex + 1 }}
                                     </p>
-
                                 </td>
 
                                 <td class="level"
                                     :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
-                                    <button @click="selected = item.originalIndex"
-                                    :style="{ color: getRankColor(item.originalIndex + 1) }">
-
-                                <span class="type-label-lg">
-                                    {{ item.data?.name || `Error (${item.error}.json)` }}
-                                </span>
-                            </button>
-                        </td>
-
+                                    <button 
+                                        @click="selected = item.originalIndex"
+                                        :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }"
+                                    >
+                                        <span class="type-label-lg">
+                                            {{ item.data?.name || \`Error (\${item.error}.json)\` }}
+                                        </span>
+                                    </button>
+                                </td>
                             </tr>
 
                         </template>
@@ -105,22 +100,30 @@ export default {
                 </div>
             </div>
 
-            <!-- LEVEL DETAIL PANELLLLLLLLLLLLLLL -->
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+
+                    <LevelAuthors 
+                        :creators="level.creators" 
+                        :verifier="level.verifier">
+                    </LevelAuthors>
 
                     <div style="display:flex;">
                         <div v-for="tag in level.tags" class="tag">{{ tag }}</div>
                     </div>
 
                     <div v-if="level.showcase" class="tabs">
-                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Verification</span>
+                        <button class="tab type-label-lg"
+                                :class="{selected: !toggledShowcase}"
+                                @click="toggledShowcase = false">
+                            Verification
                         </button>
-                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
-                            <span class="type-label-lg">Showcase</span>
+
+                        <button class="tab type-label-lg"
+                                :class="{selected: toggledShowcase}"
+                                @click="toggledShowcase = true">
+                            Showcase
                         </button>
                     </div>
 
@@ -133,9 +136,9 @@ export default {
                     </iframe>
 
                     <div class="no-video" v-if="!video && !toggledShowcase">
-                    <p style="opacity:0.6; margin:1rem 0 1rem;">
-                    No verification video available for this level.
-                    </p>
+                        <p style="opacity:0.6; margin:1rem 0 1rem;">
+                            No verification video available for this level.
+                        </p>
                     </div>
 
                     <ul class="stats">
@@ -149,23 +152,28 @@ export default {
                         </li>
                     </ul>
 
-                    <h2>Victors</h2>
+                    <h2>Victors ({{ level.records?.length || 0 }})</h2>
+
                     <p v-if="selected + 1 > 200">
                         This level has fallen into the Legacy List and no longer accepts new records.
                     </p>
 
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
-                            <td class="percent"><p>{{ record.percent }}%</p></td>
+                            <td class="percent">
+                                <p>{{ record.percent }}%</p>
+                            </td>
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">
+                                <a :href="record.link"
+                                   target="_blank"
+                                   class="type-label-lg">
                                     {{ record.user }}
                                 </a>
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile"
-                                    :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`"
-                                    alt="Mobile">
+                                     :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`"
+                                     alt="Mobile">
                             </td>
                         </tr>
                     </table>
@@ -177,18 +185,21 @@ export default {
                 </div>
             </div>
 
-            <!-- META AREA RATE DACTCLEAR -->
             <div class="meta-container">
                 <div class="meta">
 
                     <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors">{{ error }}</p>
+                        <p class="error" v-for="error of errors">
+                            {{ error }}
+                        </p>
                     </div>
 
                     <div class="og">
                         <p class="type-label-md">
                             Website layout made by
-                            <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>
+                            <a href="https://tsl.pages.dev/" target="_blank">
+                                TheShittyList
+                            </a>
                         </p>
                     </div>
 
@@ -198,23 +209,26 @@ export default {
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" 
                                      :alt="editor.role">
-                                <a v-if="editor.link" target="_blank" 
+                                <a v-if="editor.link"
+                                   target="_blank"
                                    class="type-label-lg link"
                                    :href="editor.link">
                                    {{ editor.name }}
                                 </a>
-                                <p v-else>{{ editor.name }}</p>
+                                <p v-else>
+                                    {{ editor.name }}
+                                </p>
                             </li>
                         </ol>
                     </template>
-                    
+
                     <h3>Submission Requirements</h3>
-                    <p>Video proof is required for Top 40 Demons. Click/Tap sounds will also be required for Top 20 Demons. This does NOT inclue the use of any form of 'Click Sounds' mod.</p>
-                    <p>Verifications must be uploaded in the format of a youtube video.</p>
-                    <p>Cheat indicator is required if a modmenu with the feature is being used.</p>
-                    <p>Records achieved using Secret Ways to skip most of the level won't be accepted.</p>
-                    <p>The level complete endscreen must be shown.</p>
-                    <p>Click Between Frames and FPS/TPS Bypass are allowed, however, Physics Bypass is NOT allowed.</p>
+                    <p>Video proof is required for Top 40 Demons.</p>
+                    <p>Verifications must be uploaded as a YouTube video.</p>
+                    <p>Cheat indicator is required if a modmenu with that feature is used.</p>
+                    <p>Secret routes or bug routes are not allowed.</p>
+                    <p>The completion screen must be visible.</p>
+                    <p>CBF and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
 
                 </div>
             </div>
@@ -241,29 +255,29 @@ export default {
         },
 
         video() {
-    if (!this.level) return null;
-            
-    if (this.toggledShowcase) {
-        if (
-            this.level.showcase &&
-            this.level.showcase.trim() !== "" &&
-            this.level.showcase.trim() !== "#"
-        ) {
-            return embed(this.level.showcase);
+            if (!this.level) return null;
+
+            if (this.toggledShowcase) {
+                if (
+                    this.level.showcase &&
+                    this.level.showcase.trim() !== "" &&
+                    this.level.showcase.trim() !== "#"
+                ) {
+                    return embed(this.level.showcase);
+                }
+                return null;
+            }
+
+            if (
+                this.level.verification &&
+                this.level.verification.trim() !== "" &&
+                this.level.verification.trim() !== "#"
+            ) {
+                return embed(this.level.verification);
+            }
+
+            return null;
         }
-        return null;
-    }
-
-    if (
-        this.level.verification &&
-        this.level.verification.trim() !== "" &&
-        this.level.verification.trim() !== "#"
-    ) {
-        return embed(this.level.verification);
-    }
-
-    return null;
-},
     },
 
     watch: {
@@ -294,6 +308,7 @@ export default {
     methods: {
         embed,
         score,
+        getRankColor,
 
         applyFilter() {
             const q = this.searchQuery.trim().toLowerCase();
@@ -308,7 +323,7 @@ export default {
             }
 
             const isNumberSearch = /^\d+$/.test(q);
-            const isHashSearch   = /^#\d+$/.test(q);
+            const isHashSearch = /^#\d+$/.test(q);
 
             let desiredExactIndex = null;
 
