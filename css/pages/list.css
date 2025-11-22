@@ -192,6 +192,11 @@
     outline: none;
 }
 
+.tab {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+}
+
 .tab.type-label-lg {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
