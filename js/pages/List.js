@@ -15,10 +15,11 @@ const roleIconMap = {
 };
 
 function getRankColor(rank) {
-    if (rank === 1) return 'gold';
-    if (rank === 2) return 'silver';
-    if (rank === 3) return '#cd7f32'; // bronze
-    if (rank > 150) return 'darkgrey';
+    if (rank === 1) return '#FFD700';
+    if (rank === 2) return '#C0C0C0';
+    if (rank === 3) return '#CD7F32';
+    if (rank === 4) return '#4FD1C5';
+    if (rank === 5) return '#9F7AEA';
     return undefined;
 }
 
@@ -72,14 +73,9 @@ export default {
                                     <p class="type-label-lg"
                                         :style="{
                                         color:
-                                          item.originalIndex + 1 === 1 ? '#FFD700' :
-                                          item.originalIndex + 1 === 2 ? '#C0C0C0' :
-                                          item.originalIndex + 1 === 3 ? '#CD7F32' :
-                                          item.originalIndex + 1 === 4 ? '#4FD1C5' :
-                                          item.originalIndex + 1 === 5 ? '#9F7AEA' :
-                                          item.originalIndex + 1 > 200 ? 'var(--color-extended)' :
-                                          item.originalIndex + 1 > 100 ? 'var(--color-legacy)' :
-                                          'inherit'
+                                            item.originalIndex + 1 > 200 ? 'var(--color-extended)' :
+                                            item.originalIndex + 1 > 100 ? 'var(--color-legacy)' :
+                                            'inherit'
                                       }">
                                       #{{ item.originalIndex + 1 }}
                                     </p>
