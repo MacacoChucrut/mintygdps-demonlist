@@ -85,6 +85,11 @@
         "color": "#5ba"
     },
     {
+        "name": "Robbed Top 1 Pack",
+        "levels": ["Heliacal Gale", "A Building", "Horse Paracosm"],
+        "color": "#e17"
+    },
+    {
         "name": "The Shit Pack",
         "levels": ["Herobrains Demise", "Dumbass", "Thanks Level"],
         "color": "#473129"
