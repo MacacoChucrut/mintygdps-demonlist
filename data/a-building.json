@@ -7,6 +7,12 @@
     "showcase": "https://youtu.be/JY63kScgeOY",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Pingel",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Ship", "Slow-Paced", "Medium", "Robbed Top 1"]
 }
