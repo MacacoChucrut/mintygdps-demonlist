@@ -1,12 +1,10 @@
 {
     "id": 1989,
     "name": "gd but its a ry game",
-    "author": "MajinBOB",
     "creators": ["majin"],
     "verifier": "majin",
     "verification": "#",
     "percentToQualify": "100",
-    "difficulty": "Hard Demon",
     "records": [
         {
             "user": "MacacoChucrut",
@@ -38,6 +36,12 @@
         },
         {
             "user": "TheeNegativee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dact",
             "link": "#",
             "percent": 100,
             "mobile": false
