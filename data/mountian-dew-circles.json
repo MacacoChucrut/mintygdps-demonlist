@@ -30,6 +30,12 @@
             "user": "Dracorex",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Wave", "Fast-Paced", "Nine Circles", "Medium"]
