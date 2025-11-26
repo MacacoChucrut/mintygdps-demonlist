@@ -24,6 +24,12 @@
             "link": "https://youtu.be/gY57BzrWTFU?t=167",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Overall", "Chokepoints", "Long"]
