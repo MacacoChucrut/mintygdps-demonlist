@@ -17,6 +17,12 @@
             "user": "MacacoChucrut",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Cube", "Ball", "Timings", "Learny", "Slow-Paced", "Medium"]
