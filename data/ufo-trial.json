@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=AGb2reXw-6U",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["UFO", "Timings", "Learny", "Medium"]
