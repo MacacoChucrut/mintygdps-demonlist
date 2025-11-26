@@ -51,6 +51,12 @@
             "link": "https://youtu.be/NWHHg62eTKw",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Timings", "Fast-Paced", "Chokepoints", "Medium"]
