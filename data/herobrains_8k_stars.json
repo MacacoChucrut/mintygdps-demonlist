@@ -24,6 +24,12 @@
             "link": "https://youtu.be/HYRKmYNNHY0?t=91",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Overall", "Learny", "Medium"]
