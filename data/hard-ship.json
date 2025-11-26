@@ -68,6 +68,12 @@
             "user": "Gonci30",
             "link": "#",
             "percent": 100
+        },
+		{
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Ship", "Slow-Paced", "Remake", "Medium"]
