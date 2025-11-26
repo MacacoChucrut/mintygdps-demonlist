@@ -45,6 +45,12 @@
             "link": "#",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Cube", "Timings", "Clicksync", "Learny", "Medium"]
