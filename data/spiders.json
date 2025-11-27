@@ -1,7 +1,6 @@
 {
     "id": 2681,
     "name": "Spiders",
-    "author": "ribbonera",
     "creators": ["ribbonera"],
     "verifier": "ribbonera",
     "verification": "#",
@@ -36,6 +35,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Spider", "Fast-Paced", "Learny", "Medium"]
