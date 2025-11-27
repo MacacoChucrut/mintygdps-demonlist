@@ -46,6 +46,12 @@
             "user": "Quantium",
             "link": "#",
             "percent": 100
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Timings", "Learny", "Medium"]
