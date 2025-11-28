@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Super Secret File Helper</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      background-color: var(--color-background);
+      color: white;
+    }
+
+    .login-box, .panel {
+      max-width: 700px;
+      margin: 3rem auto;
+      background:#1a1a1a;
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+
+    .panel { display: none; }
+
+    input, textarea, button {
+      width:100%;
+      margin: .4rem 0;
+      padding: .6rem;
+      border-radius: .4rem;
+      border: none;
+    }
+
+    button {
+      cursor:pointer;
+      background:#3a3;
+      color:black;
+      font-weight:bold;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    h2,h3 {
+      margin-top:2rem;
+    }
+
+    hr {
+      margin:2rem 0;
+      border:1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ Welcome, Editor</h1>
+
+  <!-- ADD TO LIST -->
+  <h2>Add level to _list.json</h2>
+  <input id="levelKey" placeholder="level key (ex: burday723)">
+  <button onclick="addToList()">Generate</button>
+  <textarea id="listOutput" readonly></textarea>
+  <button onclick="copyText('listOutput')">Copy</button>
+
+  <hr>
+
+  <!-- CREATE LEVEL -->
+  <h2>Create Level JSON</h2>
+
+  <input id="levelId" placeholder="ID (number)">
+  <input id="levelName" placeholder="Level name">
+  <input id="levelCreators" placeholder="Creators (comma separated)">
+  <input id="levelVerifier" placeholder="Verifier">
+  <input id="levelVerifLink" placeholder="Verification link">
+  <input id="levelShowcase" placeholder="Showcase link">
+  <input id="levelPercent" placeholder="Percent to qualify (ex: 100)">
+  <input id="levelTags" placeholder="Tags (comma separated)">
+
+  <button onclick="generateLevelJSON()">Generate JSON</button>
+
+  <textarea id="levelOutput" readonly></textarea>
+  <button onclick="copyText('levelOutput')">Copy</button>
+
+  <hr>
+
+  <!-- ADD RECORD -->
+  <h2>Add Record JSON</h2>
+
+  <input id="recUser" placeholder="Username">
+  <input id="recLink" placeholder="Video link">
+  <input id="recPercent" placeholder="Percent (number)">
+  <select id="recMobile">
+    <option value="false">PC</option>
+    <option value="true">Mobile</option>
+  </select>
+
+  <button onclick="generateRecord()">Generate Record</button>
+
+  <textarea id="recordOutput" readonly></textarea>
+  <button onclick="copyText('recordOutput')">Copy</button>
+
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
