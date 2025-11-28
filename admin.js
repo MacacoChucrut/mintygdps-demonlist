@@ -1,24 +1,53 @@
-const PASSWORD = "xwltsko92refqjy0tlxzys";
+const PASSWORD_HASH = "23f1ccc8a2f22f03806786256b05ed8fa7373c671c96b07f37fa187b198326b9";
 
-function checkPassword() {
+
+// =====================
+// HASH FUNCTION (SHA-256)
+// =====================
+async function hash(text) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(text);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+    return hashHex;
+}
+
+
+// =====================
+// LOGIN
+// =====================
+async function checkPassword() {
     const input = document.getElementById("admin-pass");
+    const entered = input.value;
 
-    if (input.value === PASSWORD) {
+    const hashed = await hash(entered);
+
+    if (hashed === PASSWORD_HASH) {
         document.getElementById("login-box").style.display = "none";
         document.getElementById("admin-panel").style.display = "block";
-        loadLevelList();
     }
     else {
         alert("Access denied");
     }
 }
 
+
+
+// =====================
+// COPY FUNCTION
+// =====================
 function copyText(id) {
     const textarea = document.getElementById(id);
     textarea.select();
     document.execCommand("copy");
 }
 
+
+
+// =====================
+// AUTO KEY GENERATOR
+// =====================
 function autoKey() {
     const name = document.getElementById("levelName").value;
     if (!name) return;
@@ -31,6 +60,11 @@ function autoKey() {
     document.getElementById("levelKey").value = key;
 }
 
+
+
+// =====================
+// ADD TO _LIST.JSON
+// =====================
 function addToList() {
     const key = document.getElementById("levelKey").value.trim();
 
@@ -43,6 +77,11 @@ function addToList() {
         `"${key}",`;
 }
 
+
+
+// =====================
+// CREATE LEVEL JSON
+// =====================
 function generateLevelJSON() {
 
     const id = Number(document.getElementById("levelId").value) || 0;
@@ -84,6 +123,11 @@ function generateLevelJSON() {
         JSON.stringify(levelJson, null, 4);
 }
 
+
+
+// =====================
+// DOWNLOAD LEVEL FILE
+// =====================
 function downloadLevel() {
 
     const data = document.getElementById("levelOutput").value;
@@ -109,41 +153,21 @@ function downloadLevel() {
     URL.revokeObjectURL(url);
 }
 
-async function loadLevelList() {
 
-    const select = document.getElementById("levelSelect");
-    select.innerHTML = "<option>Loading...</option>";
 
-    try {
-        const res = await fetch("./_list.json");
-        const list = await res.json();
-
-        select.innerHTML = "";
-
-        for (const level of list) {
-            const option = document.createElement("option");
-            option.value = level;
-            option.textContent = level;
-            select.appendChild(option);
-        }
-
-    } catch (error) {
-        console.error(error);
-        select.innerHTML = "<option>Error loading list</option>";
-    }
-
-}
-
+// =====================
+// CREATE RECORD JSON
+// =====================
 function generateRecord() {
 
-    const level = document.getElementById("levelSelect").value;
+    const level = document.getElementById("recordLevel")?.value?.trim() || "UNKNOWN LEVEL";
     const user = document.getElementById("recUser").value;
     const link = document.getElementById("recLink").value;
     const percent = Number(document.getElementById("recPercent").value);
     const mobile = document.getElementById("recMobile").value === "true";
 
-    if (!user || !link || !percent) {
-        alert("Fill all fields");
+    if (!level || !user || !link || !percent) {
+        alert("Fill all fields (including level name)");
         return;
     }
 
