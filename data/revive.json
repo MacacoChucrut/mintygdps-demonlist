@@ -1,9 +1,9 @@
 {
     "id": 3724,
     "name": "Revive",
-    "author": "Quantium9",
-    "creators": ["Quantium9"],
-    "verifier": "Quantium9",
+    "author": "Quantium",
+    "creators": ["Quantium"],
+    "verifier": "Quantium",
     "verification": "#",
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
@@ -25,12 +25,6 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-        },
-        {
-            "user": "Quantium",
-            "link": "#",
-            "percent": 100,
-            "mobile": true
         }
     ],
     "tags": ["Overall", "Timings", "High CPS", "Long"]
