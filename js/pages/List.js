@@ -85,7 +85,7 @@ export default {
                                         :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }"
                                     >
                                         <span class="type-label-lg">
-                                            {{ item.data?.name || \`Error\` }}
+                                            {{ item.data?.name || "Error" }}
                                         </span>
                                     </button>
                                 </td>
@@ -148,7 +148,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percent_to_qualify) }}</p>
+                            <p>{{ score(selected + 1, 100, 100) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -207,7 +207,7 @@ export default {
                         </p>
                     </div>
 
-                    <template v-if="editors">
+                    <template v-if="editors.length">
                         <h3>List Editors</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
@@ -217,7 +217,7 @@ export default {
                                    target="_blank"
                                    class="type-label-lg link"
                                    :href="editor.link">
-                                   {{ editor.name }}
+                                    {{ editor.name }}
                                 </a>
                                 <p v-else>
                                     {{ editor.name }}
