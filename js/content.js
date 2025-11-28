@@ -1,3 +1,4 @@
+import { supabase } from "./supabase.js";
 import { round, score } from './score.js';
 const dir = '/data';
 
