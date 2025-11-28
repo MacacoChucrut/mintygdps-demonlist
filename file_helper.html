@@ -110,7 +110,7 @@ function generateLevelJSON(){
   const verifier = document.getElementById("levelVerifier").value.trim();
   const verif = document.getElementById("levelVerifLink").value.trim();
   const show = document.getElementById("levelShowcase").value.trim();
-  const percent = document.getElementById("levelPercent").value.trim();
+  const percent = 100;
   const tags = document.getElementById("levelTags").value.trim();
 
   const json = {
@@ -131,7 +131,7 @@ function generateLevelJSON(){
 function generateRecord(){
   const user = document.getElementById("recUser").value.trim();
   const link = document.getElementById("recLink").value.trim();
-  const percent = Number(document.getElementById("recPercent").value.trim());
+  const percent = 100;
   const mobile = document.getElementById("recMobile").value === "true";
 
   const json = {
