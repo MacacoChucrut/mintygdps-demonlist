@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Super Secret File Helper</title>
+  <title>MintyGDPS Code Generator</title>
   <link rel="stylesheet" href="main.css">
   <style>
     body {
-      background-color: var(--color-background);
-      color: white;
+      background:#111;
+      color:white;
+      font-family:Trebuchet MS;
     }
 
-    .login-box, .panel {
+    .panel {
       max-width: 700px;
       margin: 3rem auto;
       background:#1a1a1a;
@@ -17,14 +18,14 @@
       border-radius: 1rem;
     }
 
-    .panel { display: none; }
-
-    input, textarea, button {
+    input, textarea, button, select {
       width:100%;
       margin: .4rem 0;
       padding: .6rem;
       border-radius: .4rem;
       border: none;
+      background:#222;
+      color:white;
     }
 
     button {
@@ -37,10 +38,13 @@
     textarea {
       resize: vertical;
       min-height: 100px;
+      background:#000;
+      color:#0f0;
+      font-family: monospace;
     }
 
-    h2,h3 {
-      margin-top:2rem;
+    h1,h2,h3 {
+      margin-top:1.5rem;
     }
 
     hr {
@@ -49,20 +53,13 @@
     }
   </style>
 </head>
+
 <body>
 
-  <h1>✅ Welcome, Editor</h1>
+<div class="panel" id="admin-panel">
 
-  <!-- ADD TO LIST -->
-  <h2>Add level to _list.json</h2>
-  <input id="levelKey" placeholder="level key (ex: burday723)">
-  <button onclick="addToList()">Generate</button>
-  <textarea id="listOutput" readonly></textarea>
-  <button onclick="copyText('listOutput')">Copy</button>
+  <h1>JSON Helper</h1>
 
-  <hr>
-
-  <!-- CREATE LEVEL -->
   <h2>Create Level JSON</h2>
 
   <input id="levelId" placeholder="ID (number)">
@@ -81,7 +78,6 @@
 
   <hr>
 
-  <!-- ADD RECORD -->
   <h2>Add Record JSON</h2>
 
   <input id="recUser" placeholder="Username">
@@ -99,6 +95,61 @@
 
 </div>
 
-<script src="admin.js"></script>
+<script>
+function addToList(){
+  const key = document.getElementById("levelKey").value.trim();
+  if(!key){ alert("Missing key!"); return; }
+
+  document.getElementById("listOutput").value = `"${key}",`;
+}
+
+function generateLevelJSON(){
+  const id = document.getElementById("levelId").value.trim();
+  const name = document.getElementById("levelName").value.trim();
+  const creators = document.getElementById("levelCreators").value.trim();
+  const verifier = document.getElementById("levelVerifier").value.trim();
+  const verif = document.getElementById("levelVerifLink").value.trim();
+  const show = document.getElementById("levelShowcase").value.trim();
+  const percent = document.getElementById("levelPercent").value.trim();
+  const tags = document.getElementById("levelTags").value.trim();
+
+  const json = {
+    id: Number(id),
+    name,
+    creators: creators.split(",").map(s => s.trim()),
+    verifier,
+    verification: verif,
+    showcase: show || "EMPTY",
+    percentToQualify: Number(percent),
+    records: [],
+    tags: tags ? tags.split(",").map(s => s.trim()) : []
+  };
+
+  document.getElementById("levelOutput").value = JSON.stringify(json, null, 2);
+}
+
+function generateRecord(){
+  const user = document.getElementById("recUser").value.trim();
+  const link = document.getElementById("recLink").value.trim();
+  const percent = Number(document.getElementById("recPercent").value.trim());
+  const mobile = document.getElementById("recMobile").value === "true";
+
+  const json = {
+    user,
+    link,
+    percent,
+    mobile
+  };
+
+  document.getElementById("recordOutput").value = JSON.stringify(json, null, 2);
+}
+
+function copyText(id){
+  const area = document.getElementById(id);
+  area.select();
+  document.execCommand("copy");
+}
+</script>
+
 </body>
 </html>
