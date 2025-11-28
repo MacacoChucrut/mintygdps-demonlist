@@ -78,14 +78,14 @@ export default {
                                 </td>
 
                                 <td class="level"
-                                    :class="{ 'active': selected === item.originalIndex }">
+                                    :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
                                     <button 
                                         @click="selectLevel(item.originalIndex)"
                                         :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }"
                                     >
                                         <span class="type-label-lg">
-                                            {{ item.data?.name || 'Error' }}
+                                            {{ item.data?.name || \`Error\` }}
                                         </span>
                                     </button>
                                 </td>
@@ -151,7 +151,7 @@ export default {
                             <p>{{ score(selected + 1, 100, level.percent_to_qualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">ID</div>
+                            <div class="type-title-sm">GD Level ID</div>
                             <p>{{ level.level_id }}</p>
                         </li>
                     </ul>
@@ -168,7 +168,9 @@ export default {
                                 <p>{{ record.percent }}%</p>
                             </td>
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">
+                                <a :href="record.link"
+                                   target="_blank"
+                                   class="type-label-lg">
                                     {{ record.username }}
                                 </a>
                             </td>
@@ -231,6 +233,7 @@ export default {
                     <p>Secret routes or bug routes are not allowed.</p>
                     <p>The completion screen must be visible.</p>
                     <p>CBF and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
+                    
                 </div>
             </div>
 
@@ -260,21 +263,13 @@ export default {
             if (!this.level) return null;
 
             if (this.toggledShowcase) {
-                if (
-                    this.level.showcase && 
-                    this.level.showcase.trim() !== "" && 
-                    this.level.showcase !== "#"
-                ) {
+                if (this.level.showcase && this.level.showcase.trim() !== "" && this.level.showcase !== "#") {
                     return embed(this.level.showcase);
                 }
                 return null;
             }
 
-            if (
-                this.level.verification && 
-                this.level.verification.trim() !== "" && 
-                this.level.verification !== "#"
-            ) {
+            if (this.level.verification && this.level.verification.trim() !== "" && this.level.verification !== "#") {
                 return embed(this.level.verification);
             }
 
