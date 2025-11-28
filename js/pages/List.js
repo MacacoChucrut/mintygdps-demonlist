@@ -78,14 +78,14 @@ export default {
                                 </td>
 
                                 <td class="level"
-                                    :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
+                                    :class="{ 'active': selected === item.originalIndex }">
 
                                     <button 
                                         @click="selectLevel(item.originalIndex)"
                                         :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }"
                                     >
                                         <span class="type-label-lg">
-                                            {{ item.data?.name || "Error" }}
+                                            {{ item.data?.name || 'Error' }}
                                         </span>
                                     </button>
                                 </td>
@@ -148,7 +148,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, 100) }}</p>
+                            <p>{{ score(selected + 1, 100, level.percent_to_qualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -168,9 +168,7 @@ export default {
                                 <p>{{ record.percent }}%</p>
                             </td>
                             <td class="user">
-                                <a :href="record.link"
-                                   target="_blank"
-                                   class="type-label-lg">
+                                <a :href="record.link" target="_blank" class="type-label-lg">
                                     {{ record.username }}
                                 </a>
                             </td>
@@ -207,7 +205,7 @@ export default {
                         </p>
                     </div>
 
-                    <template v-if="editors.length">
+                    <template v-if="editors">
                         <h3>List Editors</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
@@ -217,7 +215,7 @@ export default {
                                    target="_blank"
                                    class="type-label-lg link"
                                    :href="editor.link">
-                                    {{ editor.name }}
+                                   {{ editor.name }}
                                 </a>
                                 <p v-else>
                                     {{ editor.name }}
@@ -233,7 +231,6 @@ export default {
                     <p>Secret routes or bug routes are not allowed.</p>
                     <p>The completion screen must be visible.</p>
                     <p>CBF and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
-                    
                 </div>
             </div>
 
@@ -263,13 +260,21 @@ export default {
             if (!this.level) return null;
 
             if (this.toggledShowcase) {
-                if (this.level.showcase && this.level.showcase.trim() !== "" && this.level.showcase !== "#") {
+                if (
+                    this.level.showcase && 
+                    this.level.showcase.trim() !== "" && 
+                    this.level.showcase !== "#"
+                ) {
                     return embed(this.level.showcase);
                 }
                 return null;
             }
 
-            if (this.level.verification && this.level.verification.trim() !== "" && this.level.verification !== "#") {
+            if (
+                this.level.verification && 
+                this.level.verification.trim() !== "" && 
+                this.level.verification !== "#"
+            ) {
                 return embed(this.level.verification);
             }
 
