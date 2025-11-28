@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchList, fetchRecords, fetchEditors } from "../content.js";
+import { fetchEditors, fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -81,11 +81,11 @@ export default {
                                     :class="{ 'active': selected === item.originalIndex, 'error': !item.data }">
 
                                     <button 
-                                        @click="selectLevel(item.originalIndex)"
+                                        @click="selected = item.originalIndex"
                                         :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }"
                                     >
                                         <span class="type-label-lg">
-                                            {{ item.data?.name || \`Error\` }}
+                                            {{ item.data?.name || \`Error (\${item.error}.json)\` }}
                                         </span>
                                     </button>
                                 </td>
@@ -131,6 +131,7 @@ export default {
                         </button>
                     </div>
 
+
                     <iframe
                         v-if="video"
                         class="video"
@@ -148,22 +149,22 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percent_to_qualify) }}</p>
+                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">GD Level ID</div>
-                            <p>{{ level.level_id }}</p>
+                            <div class="type-title-sm">ID</div>
+                            <p>{{ level.id }}</p>
                         </li>
                     </ul>
 
-                    <h2>Victors ({{ records.length }})</h2>
+                    <h2>Victors ({{ level.records?.length || 0 }})</h2>
 
                     <p v-if="selected + 1 > 200">
                         This level has fallen into the Legacy List and no longer accepts new records.
                     </p>
 
                     <table class="records">
-                        <tr v-for="record in records" class="record">
+                        <tr v-for="record in level.records" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
                             </td>
@@ -171,7 +172,7 @@ export default {
                                 <a :href="record.link"
                                    target="_blank"
                                    class="type-label-lg">
-                                    {{ record.username }}
+                                    {{ record.user }}
                                 </a>
                             </td>
                             <td class="mobile">
@@ -233,7 +234,7 @@ export default {
                     <p>Secret routes or bug routes are not allowed.</p>
                     <p>The completion screen must be visible.</p>
                     <p>CBF and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
-                    
+
                 </div>
             </div>
 
@@ -243,7 +244,6 @@ export default {
     data: () => ({
         list: [],
         filteredList: [],
-        records: [],
         editors: [],
         loading: true,
         selected: 0,
@@ -263,13 +263,21 @@ export default {
             if (!this.level) return null;
 
             if (this.toggledShowcase) {
-                if (this.level.showcase && this.level.showcase.trim() !== "" && this.level.showcase !== "#") {
+                if (
+                    this.level.showcase &&
+                    this.level.showcase.trim() !== "" &&
+                    this.level.showcase.trim() !== "#"
+                ) {
                     return embed(this.level.showcase);
                 }
                 return null;
             }
 
-            if (this.level.verification && this.level.verification.trim() !== "" && this.level.verification !== "#") {
+            if (
+                this.level.verification &&
+                this.level.verification.trim() !== "" &&
+                this.level.verification.trim() !== "#"
+            ) {
                 return embed(this.level.verification);
             }
 
@@ -299,7 +307,6 @@ export default {
             originalIndex: index
         }));
 
-        await this.loadRecords(this.selected);
         this.loading = false;
     },
 
@@ -307,19 +314,6 @@ export default {
         embed,
         score,
         getRankColor,
-
-        async selectLevel(index) {
-            this.selected = index;
-            this.records = [];
-            await this.loadRecords(index);
-        },
-
-        async loadRecords(index) {
-            const level = this.list[index]?.[0];
-            if (!level) return;
-
-            this.records = await fetchRecords(level.key);
-        },
 
         applyFilter() {
             const q = this.searchQuery.trim().toLowerCase();
@@ -335,9 +329,12 @@ export default {
 
             const isNumberSearch = /^\d+$/.test(q);
             const isHashSearch = /^#\d+$/.test(q);
+
             let desiredExactIndex = null;
 
-            if (isHashSearch) desiredExactIndex = parseInt(q.slice(1), 10) - 1;
+            if (isHashSearch) {
+                desiredExactIndex = parseInt(q.slice(1), 10) - 1;
+            }
 
             this.filteredList = this.list
                 .map((entry, index) => ({
@@ -346,6 +343,7 @@ export default {
                     originalIndex: index
                 }))
                 .filter(item => {
+
                     if (desiredExactIndex !== null) {
                         return item.originalIndex === desiredExactIndex;
                     }
