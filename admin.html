@@ -117,22 +117,22 @@
 
     <!-- ADD RECORD ----------------------------------------------->
     <h2>Add Record to Existing Level</h2>
-    <p class="small">Select level from list below</p>
+<p class="small">Write the level key (filename without .json)</p>
 
-    <select id="levelSelect"></select>
+<input id="recordLevel" placeholder="Level key (example: burday723)">
 
-    <input id="recUser" placeholder="Username">
-    <input id="recLink" placeholder="Video link">
-    <input id="recPercent" placeholder="Percent (number)">
-    <select id="recMobile">
-        <option value="false">PC</option>
-        <option value="true">Mobile</option>
-    </select>
+<input id="recUser" placeholder="Username">
+<input id="recLink" placeholder="Video link">
+<input id="recPercent" placeholder="Percent (number)">
+<select id="recMobile">
+    <option value="false">PC</option>
+    <option value="true">Mobile</option>
+</select>
 
-    <button onclick="generateRecord()">Generate record</button>
+<button onclick="generateRecord()">Generate record</button>
 
-    <textarea id="recordOutput" readonly></textarea>
-    <button onclick="copyText('recordOutput')">Copy</button>
+<textarea id="recordOutput" readonly></textarea>
+<button onclick="copyText('recordOutput')">Copy</button>
 
 </div>
 
