@@ -3,7 +3,7 @@
 }
 
 .page-leaderboard {
-    height: calc(100vh - 4rem);
+    height: calc(100% - 4rem);
     display: grid;
     grid-template-columns: minmax(24rem, 2fr) 3fr;
     column-gap: 2rem;
@@ -137,7 +137,6 @@
     list-style: none;
 }
 
-/* Cada pack como una etiqueta */
 .page-leaderboard .player .packs-list li {
     font-family: "Lexend Deca", sans-serif;
     display: inline-flex;
@@ -153,7 +152,10 @@
     transition: all 0.15s ease;
 }
 
-/* --- Personalized Pack Colors (Leaderboard) --- */
 .page-leaderboard .player .packs-list li[data-color] {
     border-color: var(--pack-color, var(--color-primary));
+}
+
+.uncompleted {
+    color: #aaa;
 }
