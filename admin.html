@@ -1,58 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Panel</title>
-    <link rel="stylesheet" href="main.css">
+    <title>MGDPS Admin Panel</title>
+
     <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: Trebuchet MS;
+            margin: 0;
+            padding: 0;
+        }
+
         .login-box, .panel {
-            max-width: 600px;
-            margin: 5rem auto;
+            max-width: 700px;
+            margin: 3rem auto;
             background: #1a1a1a;
             padding: 2rem;
             border-radius: 1rem;
-            color: white;
         }
 
-        input, button {
+        .panel {
+            display: none;
+        }
+
+        h1, h2, h3 {
+            margin-top: 1.5rem;
+        }
+
+        input, textarea, button, select {
             width: 100%;
-            margin: .5rem 0;
-            padding: .6rem;
+            margin: 0.5rem 0;
+            padding: 0.6rem;
+            border-radius: 0.5rem;
+            border: none;
+            box-sizing: border-box;
+            font-family: Trebuchet MS;
         }
 
-        .panel { display: none; }
+        button {
+            background: #3aff7a;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        hr {
+            margin: 2rem 0;
+            border: 1px solid #333;
+        }
+
+        .small {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
     </style>
 </head>
+
 <body>
 
+<!-- LOGIN -------------------------------------------------------->
 <div class="login-box" id="login-box">
-    <h2>Admin Login</h2>
+    <h1>🔒 MGDPS Admin Panel</h1>
+    <p class="small">Only for list editors</p>
     <input type="password" id="admin-pass" placeholder="Password">
     <button onclick="checkPassword()">Login</button>
 </div>
 
+
+<!-- PANEL -------------------------------------------------------->
 <div class="panel" id="admin-panel">
 
-    <h2>Future List Admin</h2>
+    <h1>✅ Welcome, editor</h1>
 
-    <h3>Add level to _list.json</h3>
-    <input id="levelKey" placeholder="level key (ex: 3_minutes_mayhem)">
-    <button onclick="addToList()">Generate addition</button>
-    <pre id="listOutput"></pre>
+
+    <!-- ADD TO _LIST.JSON ---------------------------------------->
+    <h2>Add Level to _list.json</h2>
+    <p class="small">This adds a key to _list.json</p>
+
+    <input id="levelKey" placeholder="Level key (ex: burday723)">
+    <button onclick="addToList()">Generate line</button>
+
+    <textarea id="listOutput" readonly></textarea>
+    <button onclick="copyText('listOutput')">Copy</button>
 
     <hr>
 
-    <h3>Create level JSON</h3>
 
-    <input id="levelName" placeholder="Level name">
-    <input id="levelCreator" placeholder="Creator">
-    <input id="levelImage" placeholder="Image URL">
-    <input id="levelRelease" placeholder="Estimated release">
+    <!-- CREATE NEW LEVEL JSON ------------------------------------>
+    <h2>Create New Level JSON</h2>
+    <p class="small">Creates a new level file</p>
 
-    <button onclick="generateLevelJSON()">Generate JSON</button>
-    <pre id="levelOutput"></pre>
+    <input id="levelId" placeholder="ID (number)">
+    <input id="levelName" placeholder="Level name" oninput="autoKey()">
+    <input id="levelCreators" placeholder="Creators (comma separated)">
+    <input id="levelVerifier" placeholder="Verifier">
+    <input id="levelVerifLink" placeholder="Verification link">
+    <input id="levelShowcase" placeholder="Showcase link">
+    <input id="levelPercent" placeholder="Percent to qualify (ex: 100)">
+    <input id="levelTags" placeholder="Tags (comma separated)">
+
+    <button onclick="generateLevelJSON()">Generate level JSON</button>
+
+    <textarea id="levelOutput" readonly></textarea>
+    <button onclick="copyText('levelOutput')">Copy</button>
+    <button onclick="downloadLevel()">Download JSON file</button>
+
+
+    <hr>
+
+
+    <!-- ADD RECORD ----------------------------------------------->
+    <h2>Add Record to Existing Level</h2>
+    <p class="small">Select level from list below</p>
+
+    <select id="levelSelect"></select>
+
+    <input id="recUser" placeholder="Username">
+    <input id="recLink" placeholder="Video link">
+    <input id="recPercent" placeholder="Percent (number)">
+    <select id="recMobile">
+        <option value="false">PC</option>
+        <option value="true">Mobile</option>
+    </select>
+
+    <button onclick="generateRecord()">Generate record</button>
+
+    <textarea id="recordOutput" readonly></textarea>
+    <button onclick="copyText('recordOutput')">Copy</button>
 
 </div>
 
 <script src="admin.js"></script>
+
 </body>
 </html>
