@@ -89,6 +89,7 @@
     <p class="small">This adds a key to _list.json</p>
 
     <input id="levelKey" placeholder="Level key (ex: burday723)">
+    <input placeholder="Level placement (ex: 1, 2 or #3, #4">
     <button onclick="addToList()">Generate line</button>
 
     <button>Add to _list.json</button>
@@ -117,6 +118,7 @@
     <button onclick="generateLevelJSON()">Generate level JSON</button>
 
     <textarea id="levelOutput" readonly></textarea>
+    <button>Add file to Github</button>
     <button onclick="copyText('levelOutput')">Copy</button>
     <button onclick="downloadLevel()">Download JSON file</button>
 
