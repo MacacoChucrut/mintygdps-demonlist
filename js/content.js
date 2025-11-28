@@ -1,200 +1,202 @@
-import { supabase } from "./supabase.js";
-import { round, score } from "./score.js";
-
-//
-// ===================================================
-// FETCH MAIN LIST (levels + records)
-// ===================================================
-//
+import { round, score } from './score.js';
+const dir = '/data';
 
 export async function fetchList() {
-    // 1. Cargar niveles
-    const { data: levels, error: err1 } = await supabase
-        .from("levels")
-        .select("*")
-        .order("id", { ascending: true });
-
-    if (err1) {
-        console.error("Error fetching levels:", err1);
+    const listResult = await fetch(`${dir}/_list.json`);
+    try {
+        const list = await listResult.json();
+        return await Promise.all(
+            list.map(async (path, rank) => {
+                const levelResult = await fetch(`${dir}/${path}.json`);
+                try {
+                    const level = await levelResult.json();
+                    return [
+                        {
+                            ...level,
+                            path,
+                            records: level.records.sort(
+                                (a, b) => b.percent - a.percent,
+                            ),
+                        },
+                        null,
+                    ];
+                } catch {
+                    console.error(`Failed to load level #${rank + 1} ${path}.`);
+                    return [null, path];
+                }
+            }),
+        );
+    } catch {
+        console.error(`Failed to load list.`);
         return null;
     }
-
-    // 2. Cargar TODOS los records de una vez (más rápido)
-    const { data: records, error: err2 } = await supabase
-        .from("records")
-        .select("*");
-
-    if (err2) {
-        console.error("Error fetching records:", err2);
-        return null;
-    }
-
-    // 3. Agrupar records por nivel
-    const recordMap = {};
-    for (const r of records) {
-        if (!recordMap[r.level_key]) recordMap[r.level_key] = [];
-        recordMap[r.level_key].push(r);
-    }
-
-    // 4. Mantener el formato original
-    const listFormatted = levels.map(level => [
-        {
-            ...level,
-            path: level.key,
-            records: (recordMap[level.key] || []).sort(
-                (a, b) => b.percent - a.percent
-            ),
-        },
-        null,
-    ]);
-
-    return listFormatted;
 }
-
-//
-// ===================================================
-// FETCH RECORDS FOR A SPECIFIC LEVEL
-// ===================================================
-//
-
-export async function fetchRecords(levelKey) {
-    const { data, error } = await supabase
-        .from("records")
-        .select("*")
-        .eq("level_key", levelKey)
-        .order("percent", { ascending: false });
-
-    if (error) {
-        console.error("Error fetching records:", error);
-        return [];
-    }
-
-    return data;
-}
-
-//
-// ===================================================
-// FETCH EDITORS (optional)
-// ===================================================
-//
 
 export async function fetchEditors() {
-    const { data, error } = await supabase
-        .from("editors")
-        .select("*")
-        .order("id", { ascending: true });
-
-    if (error) {
-        console.warn("Could not fetch editors:", error);
-        return [];
+    try {
+        const editorsResults = await fetch(`${dir}/_editors.json`);
+        const editors = await editorsResults.json();
+        return editors;
+    } catch {
+        return null;
     }
-
-    return data;
 }
-
-//
-// ===================================================
-// FETCH PACKS (optional)
-// ===================================================
-//
-
-export async function fetchPacks() {
-    const { data, error } = await supabase
-        .from("packs")
-        .select("*");
-
-    if (error) {
-        console.error("Error fetching packs:", error);
-        return [];
-    }
-
-    return data;
-}
-
-//
-// ===================================================
-// BUILD LEADERBOARD (Supabase version)
-// ===================================================
-//
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
-    if (!list) return null;
+
+    let packs = [];
+    try {
+        packs = await fetchPacks();
+    } catch {
+        console.warn('Error loading packs with rewards');
+    }
 
     const scoreMap = {};
-    const errors = [];
+    const errs = [];
 
-    // Procesar lista igual que antes
-    for (let rank = 0; rank < list.length; rank++) {
-
-        const [level, err] = list[rank];
-        if (err || !level) {
-            errors.push(err);
-            continue;
+    list.forEach(([level, err], rank) => {
+        if (err) {
+            errs.push(err);
+            return;
         }
 
-        const lvKey = level.key;
-        const lvName = level.name;
+        // Verification
+        const verifier =
+            Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === level.verifier.toLowerCase(),
+            ) || level.verifier;
+        scoreMap[verifier] ??= {
+            verified: [],
+            completed: [],
+            progressed: [],
+        };
+        const { verified } = scoreMap[verifier];
+        verified.push({
+            rank: rank + 1,
+            level: level.name,
+            score: score(rank + 1, 100, level.percentToQualify),
+            link: level.verification,
+        });
 
-        // ============ VERIFIER =============
-        if (level.verifier) {
-            const verifier =
-                Object.keys(scoreMap).find(
-                    u => u.toLowerCase() === level.verifier.toLowerCase()
-                ) || level.verifier;
-
-            scoreMap[verifier] ??= { verified: [], completed: [], progressed: [] };
-
-            scoreMap[verifier].verified.push({
-                rank: rank + 1,
-                level: lvName,
-                score: score(rank + 1, 100, level.percent_to_qualify),
-                link: level.verification,
-            });
-        }
-
-        // ============ RECORDS ==============
-        for (const record of level.records) {
+        // Records
+        level.records.forEach((record) => {
             const user =
                 Object.keys(scoreMap).find(
-                    u => u.toLowerCase() === record.username.toLowerCase()
-                ) || record.username;
-
-            scoreMap[user] ??= { verified: [], completed: [], progressed: [] };
-
+                    (u) => u.toLowerCase() === record.user.toLowerCase(),
+                ) || record.user;
+            scoreMap[user] ??= {
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+            const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
-                scoreMap[user].completed.push({
+                completed.push({
                     rank: rank + 1,
-                    level: lvName,
-                    score: score(rank + 1, 100, level.percent_to_qualify),
+                    level: level.name,
+                    score: score(rank + 1, 100, level.percentToQualify),
                     link: record.link,
                 });
             } else {
-                scoreMap[user].progressed.push({
+                progressed.push({
                     rank: rank + 1,
-                    level: lvName,
+                    level: level.name,
                     percent: record.percent,
-                    score: score(rank + 1, record.percent, level.percent_to_qualify),
+                    score: score(rank + 1, record.percent, level.percentToQualify),
                     link: record.link,
                 });
             }
-        }
-    }
+        });
+    });
 
-    // Convertir scoreMap → array ordenado
-    const leaderboard = Object.entries(scoreMap).map(([user, scores]) => {
+    const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { verified, completed, progressed } = scores;
+        let total = [verified, completed, progressed]
+            .flat()
+            .reduce((prev, cur) => prev + cur.score, 0);
 
-        let total = [...verified, ...completed, ...progressed]
-            .reduce((a, b) => a + b.score, 0);
+        const completedLevels = completed.map((l) => l.level);
+        const verifiedLevels = verified.map((l) => l.level);
+        const allCompletedLevels = [...new Set([...completedLevels, ...verifiedLevels])];
+
+        const packsCompleted = [];
+        for (const pack of packs) {
+            if (pack.levels.every((lvl) => allCompletedLevels.includes(lvl))) {
+                packsCompleted.push({
+                    name: pack.name,
+                    color: pack.color || 'var(--color-primary)',
+                });
+                if (pack.reward) total += pack.reward;
+            }
+        }
 
         return {
             user,
             total: round(total),
+            packsCompleted,
             ...scores,
         };
     });
 
-    // Ordenar por puntaje (descendente)
-    return [leaderboard.sort((a, b) => b.total - a.total), errors];
+    // Sort by total score
+    return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+export async function fetchPacks() {
+    try {
+        const res = await fetch(`${dir}/_packs.json`);
+        if (!res.ok) throw new Error('Failed to load _packs.json');
+        const packs = await res.json();
+
+        const list = await fetchList();
+
+        packs.forEach(pack => {
+            let totalReward = 0;
+            const ranks = [];
+            let invalid = false;
+
+            pack.levels.forEach(levelName => {
+                const entry = list.find(([lvl]) =>
+                    lvl.name.toLowerCase() === levelName.toLowerCase()
+                );
+
+                if (entry) {
+                    const [lvl] = entry;
+                    const rank = list.indexOf(entry) + 1;
+                    ranks.push(rank);
+
+                    if (rank > 200) invalid = true;
+
+                    const levelScore = score(rank, 100, lvl.percentToQualify);
+                    totalReward += levelScore;
+                } else {
+                    console.warn(`Nivel no encontrado en la lista: ${levelName}`);
+                }
+            });
+
+            const avgRank = ranks.length > 0
+                ? ranks.reduce((a, b) => a + b, 0) / ranks.length
+                : 999;
+
+            let multiplier = 1.0;
+            if (avgRank <= 25) multiplier = 0.7;
+            else if (avgRank <= 50) multiplier = 0.65;
+            else if (avgRank <= 100) multiplier = 0.6;
+            else if (avgRank <= 150) multiplier = 0.55;
+            else multiplier = 0.5;
+
+            if (invalid) {
+                pack.reward = 0;
+                pack.warning = "This pack does not grant points because it contains levels below Top 200.";
+            } else {
+                pack.reward = round(totalReward * multiplier);
+            }
+        });
+
+        return packs;
+    } catch (err) {
+        console.error('Error fetching packs:', err);
+        return [];
+    }
 }
