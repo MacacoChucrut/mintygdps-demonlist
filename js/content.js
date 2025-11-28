@@ -1,35 +1,61 @@
 import { supabase } from "./supabase.js";
 import { round, score } from "./score.js";
 
-// =========================
-// FETCH LEVELS (MAIN LIST)
-// =========================
+//
+// ===================================================
+// FETCH MAIN LIST (levels + records)
+// ===================================================
+//
 
 export async function fetchList() {
-    const { data, error } = await supabase
+    // 1. Cargar niveles
+    const { data: levels, error: err1 } = await supabase
         .from("levels")
         .select("*")
         .order("id", { ascending: true });
 
-    if (error) {
-        console.error("Error fetching levels:", error);
+    if (err1) {
+        console.error("Error fetching levels:", err1);
         return null;
     }
 
-    // La demonlist original usa: [level, errorString]
-    return data.map(level => [
+    // 2. Cargar TODOS los records de una vez (más rápido)
+    const { data: records, error: err2 } = await supabase
+        .from("records")
+        .select("*");
+
+    if (err2) {
+        console.error("Error fetching records:", err2);
+        return null;
+    }
+
+    // 3. Agrupar records por nivel
+    const recordMap = {};
+    for (const r of records) {
+        if (!recordMap[r.level_key]) recordMap[r.level_key] = [];
+        recordMap[r.level_key].push(r);
+    }
+
+    // 4. Mantener el formato original
+    const listFormatted = levels.map(level => [
         {
             ...level,
             path: level.key,
-            records: [], // se cargan después desde Supabase
+            records: (recordMap[level.key] || []).sort(
+                (a, b) => b.percent - a.percent
+            ),
         },
         null,
     ]);
+
+    return listFormatted;
 }
 
-// =========================
-// FETCH RECORDS OF A LEVEL
-// =========================
+//
+// ===================================================
+// FETCH RECORDS FOR A SPECIFIC LEVEL
+// ===================================================
+//
 
 export async function fetchRecords(levelKey) {
     const { data, error } = await supabase
@@ -46,14 +72,17 @@ export async function fetchRecords(levelKey) {
     return data;
 }
 
-// =========================
-// FETCH LIST EDITORS (optional)
-// =========================
+//
+// ===================================================
+// FETCH EDITORS (optional)
+// ===================================================
+//
 
 export async function fetchEditors() {
     const { data, error } = await supabase
         .from("editors")
-        .select("*");
+        .select("*")
+        .order("id", { ascending: true });
 
     if (error) {
         console.warn("Could not fetch editors:", error);
@@ -63,9 +92,11 @@ export async function fetchEditors() {
     return data;
 }
 
-// =========================
-// FETCH PACKS (NEW SYSTEM)
-// =========================
+//
+// ===================================================
+// FETCH PACKS (optional)
+// ===================================================
+//
 
 export async function fetchPacks() {
     const { data, error } = await supabase
@@ -80,66 +111,53 @@ export async function fetchPacks() {
     return data;
 }
 
-// =========================
-// LEADERBOARD REBUILD
-// =========================
+//
+// ===================================================
+// BUILD LEADERBOARD (Supabase version)
+// ===================================================
+//
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
+    if (!list) return null;
 
     const scoreMap = {};
-    const errs = [];
+    const errors = [];
 
-    // Cargar todos los records desde la BD
-    const { data: allRecords, error: recError } = await supabase
-        .from("records")
-        .select("*");
-
-    if (recError) {
-        console.error("Error fetching all records:", recError);
-        return null;
-    }
-
+    // Procesar lista igual que antes
     for (let rank = 0; rank < list.length; rank++) {
-        const [level, err] = list[rank];
 
+        const [level, err] = list[rank];
         if (err || !level) {
-            errs.push(err);
+            errors.push(err);
             continue;
         }
 
-        // FILTRAR records únicamente de este nivel
-        const levelRecords = allRecords.filter(r => r.level_key === level.key);
+        const lvKey = level.key;
+        const lvName = level.name;
 
-        // ORDENAR:
-        level.records = levelRecords.sort((a, b) => b.percent - a.percent);
+        // ============ VERIFIER =============
+        if (level.verifier) {
+            const verifier =
+                Object.keys(scoreMap).find(
+                    u => u.toLowerCase() === level.verifier.toLowerCase()
+                ) || level.verifier;
 
-        // ====================================
-        // Verifier → Verified points
-        // ====================================
-        const verifier =
-            Object.keys(scoreMap).find(
-                (u) => u.toLowerCase() === level.verifier?.toLowerCase(),
-            ) || level.verifier;
-
-        if (verifier) {
             scoreMap[verifier] ??= { verified: [], completed: [], progressed: [] };
 
             scoreMap[verifier].verified.push({
                 rank: rank + 1,
-                level: level.name,
+                level: lvName,
                 score: score(rank + 1, 100, level.percent_to_qualify),
                 link: level.verification,
             });
         }
 
-        // ====================================
-        // Records → Completed / Progressed
-        // ====================================
+        // ============ RECORDS ==============
         for (const record of level.records) {
             const user =
                 Object.keys(scoreMap).find(
-                    (u) => u.toLowerCase() === record.username.toLowerCase(),
+                    u => u.toLowerCase() === record.username.toLowerCase()
                 ) || record.username;
 
             scoreMap[user] ??= { verified: [], completed: [], progressed: [] };
@@ -147,14 +165,14 @@ export async function fetchLeaderboard() {
             if (record.percent === 100) {
                 scoreMap[user].completed.push({
                     rank: rank + 1,
-                    level: level.name,
+                    level: lvName,
                     score: score(rank + 1, 100, level.percent_to_qualify),
                     link: record.link,
                 });
             } else {
                 scoreMap[user].progressed.push({
                     rank: rank + 1,
-                    level: level.name,
+                    level: lvName,
                     percent: record.percent,
                     score: score(rank + 1, record.percent, level.percent_to_qualify),
                     link: record.link,
@@ -163,13 +181,12 @@ export async function fetchLeaderboard() {
         }
     }
 
-    // Convertir a leaderboard final
-    const res = Object.entries(scoreMap).map(([user, scores]) => {
+    // Convertir scoreMap → array ordenado
+    const leaderboard = Object.entries(scoreMap).map(([user, scores]) => {
         const { verified, completed, progressed } = scores;
 
-        let total = [verified, completed, progressed]
-            .flat()
-            .reduce((prev, cur) => prev + cur.score, 0);
+        let total = [...verified, ...completed, ...progressed]
+            .reduce((a, b) => a + b.score, 0);
 
         return {
             user,
@@ -178,6 +195,6 @@ export async function fetchLeaderboard() {
         };
     });
 
-    // Devolver ordenado
-    return [res.sort((a, b) => b.total - a.total), errs];
+    // Ordenar por puntaje (descendente)
+    return [leaderboard.sort((a, b) => b.total - a.total), errors];
 }
