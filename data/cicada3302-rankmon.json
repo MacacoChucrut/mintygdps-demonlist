@@ -23,6 +23,12 @@
             "link": "https://youtu.be/GJTzQTc3FSU?t=3794",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
         }
     ],
     "tags": ["Overall", "Fast-Paced", "XL"]
