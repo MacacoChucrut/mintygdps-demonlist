@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MGDPS Admin Panel</title>
+
+    <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: Trebuchet MS;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-box, .panel {
+            max-width: 700px;
+            margin: 3rem auto;
+            background: #1a1a1a;
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+
+        .panel {
+            display: none;
+        }
+
+        h1, h2, h3 {
+            margin-top: 1.5rem;
+        }
+
+        input, textarea, button, select {
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.6rem;
+            border-radius: 0.5rem;
+            border: none;
+            box-sizing: border-box;
+            font-family: Trebuchet MS;
+        }
+
+        button {
+            background: #3aff7a;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        hr {
+            margin: 2rem 0;
+            border: 1px solid #333;
+        }
+
+        .small {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<div class="login-box" id="login-box">
+    <h1>🔒 MGDPS Admin Panel</h1>
+    <p class="small">Only for list editors</p>
+    <input type="password" id="admin-pass" placeholder="Password">
+    <button onclick="checkPassword()">Login</button>
+</div>
+
+
+<!-- ADMIN PANEL -->
+<div class="panel" id="admin-panel">
+
+    <h1>Welcome, Editor</h1>
+
+
+    <!-- ADD LEVEL -->
+    <h2>Add Level</h2>
+    <p class="small">Add a new level to the database</p>
+
+    <input id="levelKey" placeholder="Level key (burday723)">
+    <input id="levelId" placeholder="Level ID (number)">
+    <input id="levelName" placeholder="Level name" oninput="autoKey()">
+    <input id="levelCreators" placeholder="Creators (comma separated)">
+    <input id="levelVerifier" placeholder="Verifier">
+    <input id="levelVerifLink" placeholder="Verification link">
+    <input id="levelShowcase" placeholder="Showcase link">
+    <input id="levelPercent" placeholder="Percent to qualify (100)">
+    <input id="levelTags" placeholder="Tags (comma separated)">
+
+    <button onclick="addLevel()">Add Level to Database</button>
+
+
+    <hr>
+
+
+    <!-- ADD RECORD -->
+    <h2>Add Record</h2>
+    <p class="small">Add a record to an existing level</p>
+
+    <input id="recordLevel" placeholder="Level key (burday723)">
+    <input id="recUser" placeholder="Username">
+    <input id="recLink" placeholder="Video link">
+    <input id="recPercent" placeholder="Percent (number)">
+    <select id="recMobile">
+        <option value="false">PC</option>
+        <option value="true">Mobile</option>
+    </select>
+
+    <button onclick="addRecord()">Add Record</button>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
