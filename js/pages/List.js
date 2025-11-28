@@ -209,7 +209,7 @@ export default {
                     </div>
 
                     <template v-if="editors">
-                        <h3>List Editors</h3>
+                        <a href="file_helper.html"><h3>List Editors</h3></a>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" 
