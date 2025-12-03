@@ -4,14 +4,15 @@
     "creators": ["MacacoChucrut"],
     "verifier": "MacacoChucrut",
     "verification": "https://youtu.be/L3xHOzP8nSk",
+    "showcase": "https://youtu.be/-3elFIhUCBg",
     "percentToQualify": "100",
     "records": [
-     {
-  "user": "Hcmaxi",
-  "link": "",
-  "percent": 100,
-  "mobile": false
-}
+        {
+            "user": "Hcmaxi",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
     ],
     "tags": ["Cube", "Timings", "Learny", "Gimmicky", "Slow-Paced", "Medium"]
 }
