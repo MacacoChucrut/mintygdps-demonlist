@@ -39,6 +39,7 @@
 .page-list .list .level button:hover {
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
+    outline: solid 2px var(--color-primary);
 }
 .page-list .list .level.active button {
     background-color: var(--color-primary);
