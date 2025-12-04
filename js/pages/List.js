@@ -72,7 +72,12 @@ export default {
                             <tr>
                                 <td class="rank">
                                     <p class="type-label-lg"
-                                       :style="{ color: getRankColor(item.originalIndex + 1) || 'inherit' }">
+                                       :style="{
+                                           color: getRankColor(item.originalIndex + 1) || 'inherit',
+                                           textShadow: getRankColor(item.originalIndex + 1)
+                                             ? '0 0 10px ' + getRankColor(item.originalIndex + 1)
+                                             : 'none'
+                                       }">
                                         #{{ item.originalIndex + 1 }}
                                     </p>
                                 </td>
