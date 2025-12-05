@@ -81,9 +81,6 @@ header .logo {
     align-items: flex-end;
     gap: 1rem;
 }
-header .nav {
-    flex: 1;
-}
 
 main {
     height: 0;
