@@ -62,7 +62,7 @@ header {
     padding-inline: calc(15vw - 5rem);
     height: 4rem;
     background-color: var(--color-background);
-    outline: solid var(--color-primary);
+    outline: solid 2px var(--color-primary);
 }
 
 @media screen and (min-width: 1366px) {
