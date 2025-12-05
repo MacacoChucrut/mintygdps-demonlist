@@ -111,7 +111,17 @@ export default {
 
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1>{{ level.name }}</h1>
+                    <h1
+                        :style="{
+                            color: rankColor || 'inherit',
+                            textShadow: glowColor
+                                ? `0 0 10px ${glowColor}, 0 0 20px ${glowColor}`
+                                : 'none'
+                        }"
+                    >
+                        {{ level.name }}
+                    </h1>
+
 
                     <LevelAuthors 
                         :creators="level.creators" 
