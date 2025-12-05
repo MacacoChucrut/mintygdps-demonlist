@@ -214,7 +214,7 @@ body {
     gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 .pack-tab {
@@ -233,7 +233,7 @@ body {
 
 .pack-tab.active {
     background: rgba(255,255,255,0.05);
-    font-weight: 600;
+    font-weight: 950;
 }
 
 .pack-view {
