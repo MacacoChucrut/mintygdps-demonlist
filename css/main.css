@@ -47,7 +47,7 @@ body {
 
 header,
 main {
-    background-color: var(--color-background);
+    background: var(--color-background);
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
@@ -61,9 +61,8 @@ header {
     display: flex;
     padding-inline: calc(15vw - 5rem);
     height: 4rem;
-    background-color: var(--color-primary);
-    color: var(--color-on-primary);
-    flex-shrink: 0;
+    background-color: var(--color-background);
+    outline: solid var(--color-primary);
 }
 
 @media screen and (min-width: 1366px) {
