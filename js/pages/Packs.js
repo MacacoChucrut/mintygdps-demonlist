@@ -15,14 +15,7 @@ export default {
     <div class="packs-header">
         <h3>About Packs</h3>
         <p>
-            These packs are picked by the list staff team. You can unlock them by completing all the levels in a pack, 
-            and once you do, they’ll show up on your profile.
-        </p>
-
-        <h3>How do I get these packs?</h3>
-        <p>
-            Just beat every level in a pack and submit your records. Once your completions have been accepted, 
-            the pack will automatically appear on your profile.
+            Beat every level in a pack and submit your records, once your completions have been accepted, they’ll automatically show up on your profile.
         </p>
 
         <div class="packs-suggest">
@@ -59,7 +52,7 @@ export default {
                 {{ packs[selectedPack].name }}
             </h2>
 
-            <p class="type-label-sm" style="color: #aaa;">{{ packs[selectedPack].description }}</p>
+            <p class="type-label-sm" style="color: #fff;">{{ packs[selectedPack].description }}</p>
 
             <div class="pack-levels">
                 <ul>
