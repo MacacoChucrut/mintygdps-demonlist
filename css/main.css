@@ -67,6 +67,9 @@ header {
     height: 4rem;
     background: var(--color-background);
     outline: solid 2px var(--color-primary);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 @media screen and (min-width: 1366px) {
