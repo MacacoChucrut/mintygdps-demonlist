@@ -278,6 +278,10 @@ export default {
         return this.list[this.selected]?.[0];
     },
 
+    rankColor() {
+        return getRankColor(this.selected + 1);
+    },
+
     glowColor() {
         return getGlow(this.selected + 1);
     },
