@@ -268,6 +268,10 @@ export default {
             return this.list[this.selected]?.[0];
         },
 
+        glowColor() {
+            return getGlow(this.selected + 1);
+        }
+
         video() {
             if (!this.level) return null;
 
@@ -323,6 +327,7 @@ export default {
         embed,
         score,
         getRankColor,
+        getGlow,
 
         applyFilter() {
             const q = this.searchQuery.trim().toLowerCase();
