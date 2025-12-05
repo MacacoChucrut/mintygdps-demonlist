@@ -261,3 +261,45 @@ body {
     display: flex;
     align-items: center;
 }
+
+/* ============================
+   PACKS TABS
+============================ */
+.packs-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.pack-tab {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid;
+    border-radius: 0.6rem;
+    background: transparent;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.pack-tab:hover {
+    transform: translateY(-2px);
+}
+
+.pack-tab.active {
+    background: rgba(255,255,255,0.05);
+    font-weight: 600;
+}
+
+.pack-view {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pack-card.big {
+    max-width: 32rem;
+    width: 100%;
+}
