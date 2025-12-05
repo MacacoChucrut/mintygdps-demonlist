@@ -40,12 +40,6 @@ body {
 }
 
 body {
-    body {
-    background: linear-gradient(
-        to bottom,
-        var(--color-primary),
-        var(--color-background)
-    );
     display: flex;
     flex-direction: column;
     margin: 0;
