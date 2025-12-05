@@ -35,7 +35,7 @@ export default {
             v-for="(pack, i) in packs"
             :key="i"
             :class="['pack-tab', { active: selectedPack === i }]"
-            :style="{ borderColor: pack.color, color: selectedPack === i ? pack.color : '#ccc' }"
+            :style="{ borderColor: pack.color, color: selectedPack === i ? pack.color : '#fff' }"
             @click="selectedPack = i"
         >
             {{ pack.name }}
