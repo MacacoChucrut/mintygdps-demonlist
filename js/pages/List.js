@@ -107,16 +107,8 @@ export default {
 
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1
-                        :style="{
-                            color: rankColor || 'inherit',
-                            textShadow: rankColor
-                                ? `0 0 10px ${rankColor}, 0 0 20px ${rankColor}`
-                                : 'none'
-                        }"
-                    >
-                        {{ level.name }}
-                    </h1>
+                    <h1>{{ level.name }}</h1>
+
                     <LevelAuthors 
                         :creators="level.creators" 
                         :verifier="level.verifier">
@@ -268,13 +260,9 @@ export default {
     }),
 
     computed: {
-    level() {
-        return this.list[this.selected]?.[0];
-    },
-
-    rankColor() {
-        return getRankColor(this.selected + 1);
-    },
+        level() {
+            return this.list[this.selected]?.[0];
+        },
 
         video() {
             if (!this.level) return null;
