@@ -175,11 +175,6 @@
 }
 
 .search-container {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    border-radius: 1rem;
-    box-shadow: 0 -2.5rem 0 var(--color-background);
     margin-bottom: 0.5rem
 }
 
