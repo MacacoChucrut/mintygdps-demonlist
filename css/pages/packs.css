@@ -262,9 +262,6 @@ body {
     align-items: center;
 }
 
-/* ============================
-   PACKS TABS
-============================ */
 .packs-tabs {
     width: 100%;
     display: flex;
@@ -272,6 +269,7 @@ body {
     gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    padding-top: 0.5rem;
 }
 
 .pack-tab {
