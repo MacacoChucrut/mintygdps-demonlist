@@ -278,7 +278,7 @@ export default {
         return this.list[this.selected]?.[0];
     },
 
-    rankColor() {
+    getRankColor() {
         return getRankColor(this.selected + 1);
     },
 
