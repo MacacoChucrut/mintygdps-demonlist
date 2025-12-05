@@ -274,39 +274,39 @@ export default {
     }),
 
     computed: {
-        level() {
-            return this.list[this.selected]?.[0];
-        },
+    level() {
+        return this.list[this.selected]?.[0];
+    },
 
-        glowColor() {
-            return getGlow(this.selected + 1);
-        },
+    glowColor() {
+        return getGlow(this.selected + 1);
+    },
 
-        video() {
-            if (!this.level) return null;
+    video() {
+        if (!this.level) return null;
 
-            if (this.toggledShowcase) {
-                if (
-                    this.level.showcase &&
-                    this.level.showcase.trim() !== "" &&
-                    this.level.showcase.trim() !== "#"
-                ) {
-                    return embed(this.level.showcase);
-                }
-                return null;
-            }
-
+        if (this.toggledShowcase) {
             if (
-                this.level.verification &&
-                this.level.verification.trim() !== "" &&
-                this.level.verification.trim() !== "#"
+                this.level.showcase &&
+                this.level.showcase.trim() !== "" &&
+                this.level.showcase.trim() !== "#"
             ) {
-                return embed(this.level.verification);
+                return embed(this.level.showcase);
             }
-
             return null;
         }
-    },
+
+        if (
+            this.level.verification &&
+            this.level.verification.trim() !== "" &&
+            this.level.verification.trim() !== "#"
+        ) {
+            return embed(this.level.verification);
+        }
+
+        return null;
+    }
+},
 
     watch: {
         searchQuery() {
