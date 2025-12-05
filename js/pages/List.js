@@ -20,6 +20,7 @@ function getRankColor(rank) {
     if (rank === 3) return '#CD7F32';
     if (rank === 4) return '#4FD1C5';
     if (rank === 5) return '#9F7AEA';
+    if (rank > 5) return 'var(--color-on-background)';
     if (rank > 200) return 'var(--color-extended)';
     if (rank > 100) return 'var(--color-legacy)';
     return null;
