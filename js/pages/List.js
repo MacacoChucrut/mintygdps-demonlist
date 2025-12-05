@@ -280,7 +280,7 @@ export default {
 
         glowColor() {
             return getGlow(this.selected + 1);
-        }
+        },
 
         video() {
             if (!this.level) return null;
