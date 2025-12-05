@@ -24,6 +24,10 @@ function getRankColor(rank) {
     if (rank > 100) return 'var(--color-legacy)';
     return null;
 }
+function getGlow(rank) {
+    if (rank <= 5) return getRankColor(rank);
+    return null;
+}
 
 export default {
     components: { Spinner, LevelAuthors },
