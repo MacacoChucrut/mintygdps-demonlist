@@ -102,7 +102,6 @@ export default {
     async mounted() {
         this.loading = true;
 
-        // Cargar lista y packs
         this.list = await fetchList();
         const packs = await fetchPacks();
 
@@ -112,7 +111,6 @@ export default {
             return;
         }
 
-        // Vincular niveles con su información visual
         this.packs = packs.map(pack => {
             const levelObjects = pack.levels
                 .map(ref => {
@@ -146,7 +144,6 @@ export default {
 
         this.loading = false;
 
-        // 🖱️ Permitir desplazamiento horizontal arrastrando
         this.$nextTick(() => {
             const slider = document.querySelector('.packs-grid');
             let isDown = false;
