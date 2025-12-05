@@ -76,7 +76,7 @@ export default {
                                        :style="{
                                            color: getRankColor(item.originalIndex + 1) || 'inherit',
                                            textShadow: getRankColor(item.originalIndex + 1)
-                                             ? '0 0 10px ' + getRankColor(item.originalIndex + 1)
+                                             ? '0 0 20px ' + getRankColor(item.originalIndex + 1)
                                              : 'none'
                                        }">
                                         #{{ item.originalIndex + 1 }}
