@@ -47,7 +47,11 @@ body {
 
 header,
 main {
-    background: var(--color-background);
+    background: linear-gradient(to bottom,
+    color-mix(in srgb, var(--color-primary) 10%, transparent),
+            transparent 50%
+    ),
+        var(--color-background);
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
