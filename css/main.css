@@ -65,7 +65,7 @@ header {
     display: flex;
     padding-inline: calc(15vw - 5rem);
     height: 4rem;
-    background-color: var(--color-background);
+    background: var(--color-background);
     outline: solid 2px var(--color-primary);
 }
 
