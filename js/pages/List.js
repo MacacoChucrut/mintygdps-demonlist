@@ -24,10 +24,6 @@ function getRankColor(rank) {
     if (rank > 100) return 'var(--color-legacy)';
     return null;
 }
-function getGlow(rank) {
-    if (rank <= 5) return getRankColor(rank);
-    return null;
-}
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -111,17 +107,7 @@ export default {
 
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1
-                        :style="{
-                            color: rankColor || 'inherit',
-                            textShadow: glowColor
-                                ? `0 0 10px ${glowColor}, 0 0 20px ${glowColor}`
-                                : 'none'
-                        }"
-                    >
-                        {{ level.name }}
-                    </h1>
-
+                    <h1>{{ level.name }}</h1>
 
                     <LevelAuthors 
                         :creators="level.creators" 
@@ -274,43 +260,35 @@ export default {
     }),
 
     computed: {
-    level() {
-        return this.list[this.selected]?.[0];
-    },
+        level() {
+            return this.list[this.selected]?.[0];
+        },
 
-    getRankColor() {
-        return getRankColor(this.selected + 1);
-    },
+        video() {
+            if (!this.level) return null;
 
-    glowColor() {
-        return getGlow(this.selected + 1);
-    },
-
-    video() {
-        if (!this.level) return null;
-
-        if (this.toggledShowcase) {
-            if (
-                this.level.showcase &&
-                this.level.showcase.trim() !== "" &&
-                this.level.showcase.trim() !== "#"
-            ) {
-                return embed(this.level.showcase);
+            if (this.toggledShowcase) {
+                if (
+                    this.level.showcase &&
+                    this.level.showcase.trim() !== "" &&
+                    this.level.showcase.trim() !== "#"
+                ) {
+                    return embed(this.level.showcase);
+                }
+                return null;
             }
+
+            if (
+                this.level.verification &&
+                this.level.verification.trim() !== "" &&
+                this.level.verification.trim() !== "#"
+            ) {
+                return embed(this.level.verification);
+            }
+
             return null;
         }
-
-        if (
-            this.level.verification &&
-            this.level.verification.trim() !== "" &&
-            this.level.verification.trim() !== "#"
-        ) {
-            return embed(this.level.verification);
-        }
-
-        return null;
-    }
-},
+    },
 
     watch: {
         searchQuery() {
@@ -341,7 +319,6 @@ export default {
         embed,
         score,
         getRankColor,
-        getGlow,
 
         applyFilter() {
             const q = this.searchQuery.trim().toLowerCase();
