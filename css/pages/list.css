@@ -186,6 +186,7 @@
     border: none;
     background: var(--color-background-hover);
     outline: none;
+    box-sizing: border-box;
 }
 
 .tab {
