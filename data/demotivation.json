@@ -1,0 +1,35 @@
+{
+    "id": 4151,
+    "name": "Demotivation",
+    "creators": ["Mop"],
+    "verifier": "Mop",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": ["Fast-Paced", "Medium"]
+}
