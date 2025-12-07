@@ -46,12 +46,6 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-		},
-        {
-            "user": "velocity",
-            "link": "#",
-            "percent": 100,
-            "mobile": false
 		}
     ],
     "tags": ["Ball", "Medium"]
