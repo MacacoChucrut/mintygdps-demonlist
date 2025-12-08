@@ -225,19 +225,15 @@
 .copy-message {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-
+    align-self: center;
     background: rgba(0,0,0,0.75);
     color: white;
-    padding: 10px 16px;
-    border-radius: 8px;
-
-    font-size: 14px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 20px;
     pointer-events: none;
-    z-index: 9999;
-
     opacity: 0;
-    animation: float-fade 1.2s ease forwards;
+    animation: float-fade 2s ease forwards;
 }
 
 @keyframes float-fade {
@@ -249,12 +245,8 @@
         opacity: 1;
         transform: translateY(0);
     }
-    85% {
-        opacity: 1;
-    }
     100% {
         opacity: 0;
-        transform: translateY(-10px);
     }
 }
 
