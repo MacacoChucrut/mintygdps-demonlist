@@ -167,6 +167,13 @@ export default {
                         </li>
                     </ul>
 
+                    <p
+                        v-if="copyMessage"
+                        class="copy-message"
+                    >
+                        {{ copyMessage }}
+                    </p>
+
                     <h2>Victors ({{ level.records?.length || 0 }})</h2>
 
                     <p v-if="selected + 1 > 200">
@@ -327,9 +334,10 @@ export default {
 
         copyId(id) {
             navigator.clipboard.writeText(id).then(() => {
-                const el = event.target;
-                el.classList.add("copied");
-                setTimeout(() => el.classList.remove("copied"), 1000);
+                this.copyMessage = "ID Copied!";
+                setTimeout(() => {
+                    this.copyMessage = "";
+                }, 1200);
             });
         },
 
