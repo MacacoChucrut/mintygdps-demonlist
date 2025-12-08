@@ -269,6 +269,7 @@ export default {
         roleIconMap,
         store,
         toggledShowcase: false,
+        copyMessage: "",
     }),
 
     computed: {
