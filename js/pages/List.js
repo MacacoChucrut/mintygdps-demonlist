@@ -158,7 +158,12 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p>{{ level.id }}</p>
+                            <p
+                                class="copy-id"
+                                @click="copyId(level.id)"
+                            >
+                                {{ level.id }}
+                            </p>
                         </li>
                     </ul>
 
