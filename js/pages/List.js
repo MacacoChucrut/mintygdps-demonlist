@@ -326,13 +326,11 @@ export default {
         getRankColor,
 
         copyId(id) {
-            navigator.clipboard.writeText(id)
-                .then(() => {
-                    console.log("ID copiado:", id);
-                })
-                .catch(err => {
-                    console.error("Error al copiar el ID:", err);
-                });
+            navigator.clipboard.writeText(id).then(() => {
+                const el = event.target;
+                el.classList.add("ID Copied!");
+                setTimeout(() => el.classList.remove("ID Copied!"), 1000);
+            });
         },
 
         applyFilter() {
