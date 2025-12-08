@@ -328,8 +328,8 @@ export default {
         copyId(id) {
             navigator.clipboard.writeText(id).then(() => {
                 const el = event.target;
-                el.classList.add("ID Copied!");
-                setTimeout(() => el.classList.remove("ID Copied!"), 1000);
+                el.classList.add("copied");
+                setTimeout(() => el.classList.remove("copied"), 1000);
             });
         },
 
