@@ -210,3 +210,14 @@
     font-weight: 700;
     letter-spacing: 0.02em;
 }
+
+.copy-id {
+    cursor: pointer;
+    transition: transform 0.25s, color 0.25s;
+    text-decoration: underline;
+}
+
+.copy-id.copied {
+    transform: scale(1.1);
+    color: var(--color-accent);
+}
