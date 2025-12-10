@@ -5,6 +5,11 @@
         "color": "#f44"
     },
     {
+        "name": "celiojunior Pack",
+        "levels": ["paper squad", "femur breaker", "gypsy demon"],
+        "color": "#af7"
+    },
+    {
         "name": "Extreme Sequel Pack",
         "levels": ["Brick Hellscape II", "Power Trip II", "Physix"],
         "color": "#f45"
@@ -28,6 +33,21 @@
         "name": "Hall of Fame Pack IV",
         "levels": ["Cametek Atomosphere","Quack Overdrive", "CODENAME ZERO"],
         "color": "#f00"
+    },
+    {
+        "name": "Kauan Pack",
+        "levels": ["The Abyss", "kkxrb brxkk", "My level decorated"],
+        "color": "#ffa"
+    },
+    {
+        "name": "Kauan Pack II",
+        "levels": ["Valads", "Brazil Time", "MinTy BosS"],
+        "color": "#ff5"
+    },
+    {
+        "name": "majin Pack",
+        "levels": ["Dark is the Night", "Antarctica", "fake anathema"],
+        "color": "#8ff"
     },
     {
         "name": "Meme Pack I",
