@@ -1,6 +1,4 @@
 .page-packs {
-    display: grid;
-    grid-template-columns: 25rem 1fr 18rem;
     padding: 2rem;
 }
 
@@ -8,34 +6,44 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding-right: 1.5rem;
+    padding-right: 2rem;
+    width: 80%
 }
 
-.packs-header h3 {
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 700;
-    font-size: 1.8rem;
-    color: var(--color-on-background);
-    text-align: center;
-    background-color: transparent;
-    margin-top: 0.5rem;
+.packs-header {
+    padding-left: 6rem;
 }
-
 .packs-header p {
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--color-on-background);
-    line-height: 1.6rem;
-    text-align: center;
-    background-color: transparent;
-    margin: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .packs-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.pack-tab {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid;
+    border-radius: 0.6rem;
+    background: transparent;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-size: 1rem;
+}
+
+.pack-tab:hover {
+    transform: translateY(-2px);
+    background-color: var(--color-background-hover);
+}
+
+.pack-tab.active {
+    background: rgba(255,255,255,0.05);
+    font-weight: 950;
 }
 
 .pack-card {
@@ -52,61 +60,35 @@
 }
 
 .pack-card.big {
-    max-width: 32rem;
     width: 100%;
 }
 
-.pack-meta h2 {
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--color-on-background);
-    margin-bottom: 1rem;
-    text-align: center;
+.pack-card.big h2 {
+    margin-bottom: 2rem;
 }
 
-.pack-meta .type-label-sm {
-    font-size: 0.9rem;
-    color: #aaa;
-}
-
-.pack-levels {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.pack-levels h3 {
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: var(--color-background);
-    margin-bottom: 0.5rem;
+.pack-view {
+    justify-self: center;
 }
 
 .pack-levels ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 2rem;
 }
 
 .level-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
     background-color: rgba(255, 255, 255, 0.03);
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     transition: background-color 0.15s ease;
-    margin-top: 1rem;
 }
 
 .level-item:hover {
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .level-item a {
@@ -124,10 +106,7 @@
     height: 3rem;
     object-fit: cover;
     border-radius: 0.5rem;
-    flex-shrink: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    pointer-events: none;
-    user-drag: none;
 }
 
 .level-name {
@@ -142,8 +121,19 @@
     white-space: nowrap;
 }
 
+.level-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.level-content .link {
+    display: flex;
+    align-items: center;
+}
+
 .pack-reward {
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -169,60 +159,20 @@ body {
 
 .packs-suggest {
     text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .packs-suggest .submit-btn {
-    display: inline-block;
     background-color: var(--color-on-background);
-    color: var(--color-background);
+    color: var(--color-primary);
     font-family: "Lexend Deca", sans-serif;
-    font-weight: 500;
-    padding: 0.6rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
     transition: transform 100ms ease;
-    margin-bottom: -1rem
+    justify-content: center;
 }
 
 .packs-suggest .submit-btn:hover {
     transform: translateY(-2px);
-}
-
-.pack-reward.warning {
-    margin-top: 1rem;
-    color: var(--color-on-background);
-}
-
-.level-content {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.level-content .link {
-    display: flex;
-    align-items: center;
-}
-
-.pack-tab {
-    padding: 0.6rem 1.2rem;
-    border: 2px solid;
-    border-radius: 0.6rem;
-    background: transparent;
-    font-family: "Lexend Deca", sans-serif;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    font-size: 1rem;
-}
-
-.pack-tab:hover {
-    transform: translateY(-2px);
-    background-color: var(--color-background-hover);
-}
-
-.pack-tab.active {
-    background: rgba(255,255,255,0.05);
-    font-weight: 950;
 }
