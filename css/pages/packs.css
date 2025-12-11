@@ -1,17 +1,14 @@
 .page-packs {
-    background-color: var(--color-background);
-    width: 100%;
-    padding: 1.5rem 0;
-    display: block;
-    overflow: visible;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: 25rem 1fr 18rem;
+    padding: 2rem;
 }
 
-.packs-header {
-    max-width: 50rem;
-    margin: 0 auto;
-    text-align: left;
-    display: block;
+.packs-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 1.5rem;
 }
 
 .packs-header h3 {
@@ -45,9 +42,18 @@
     background: var(--color-background);
     border: 3px solid var(--pack-color, var(--color-primary));
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
+}
+
+.pack-card h2 {
+    text-align: center;
+}
+
+.pack-card.big {
+    max-width: 32rem;
+    width: 100%;
 }
 
 .pack-meta h2 {
@@ -200,16 +206,6 @@ body {
     align-items: center;
 }
 
-.packs-tabs {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
-    padding-top: 1rem;
-}
-
 .pack-tab {
     padding: 0.6rem 1.2rem;
     border: 2px solid;
@@ -229,15 +225,4 @@ body {
 .pack-tab.active {
     background: rgba(255,255,255,0.05);
     font-weight: 950;
-}
-
-.pack-view {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.pack-card.big {
-    max-width: 32rem;
-    width: 100%;
 }
