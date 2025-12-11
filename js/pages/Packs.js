@@ -12,23 +12,6 @@ export default {
         </main>
         <main v-else class="page-packs">
 
-    <div class="packs-header">
-        <h3>About Packs</h3>
-        <p>
-            Beat every level in a pack and submit your records, once your completions have been accepted, they’ll automatically show up on your profile.
-        </p>
-
-        <div class="packs-suggest">
-            <a 
-                href="https://forms.gle/rTFFLUat1cmPyjZz5" 
-                target="_blank" 
-                class="submit-btn"
-            >
-                Suggest Pack
-            </a>
-        </div>
-    </div>
-
     <!-- PACK TABS -->
     <div class="packs-tabs">
         <button
@@ -89,6 +72,23 @@ export default {
             </div>
         </div>
     </section>
+
+    <div class="packs-header">
+        <h3>About Packs</h3>
+        <p>
+            Beat every level in a pack and submit your records, once your completions have been accepted, they’ll automatically show up on your profile.
+        </p>
+
+        <div class="packs-suggest">
+            <a 
+                href="https://forms.gle/rTFFLUat1cmPyjZz5" 
+                target="_blank" 
+                class="submit-btn"
+            >
+                Suggest Pack
+            </a>
+        </div>
+    </div>
 </main>
     `,
 
