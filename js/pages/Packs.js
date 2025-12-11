@@ -73,7 +73,7 @@ export default {
         </div>
     </section>
 
-    <div class="packs-header">
+    <div class="packs-meta">
         <h3>About Packs</h3>
         <p>
             Beat every level in a pack and submit your records, once your completions have been accepted, they’ll automatically show up on your profile.
