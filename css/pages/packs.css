@@ -4,6 +4,7 @@
     padding: 1.5rem 0;
     display: block;
     overflow: visible;
+    height: 100vh;
 }
 
 .packs-header {
@@ -217,10 +218,12 @@ body {
     font-family: "Lexend Deca", sans-serif;
     cursor: pointer;
     transition: all 0.15s ease;
+    font-size: 1rem;
 }
 
 .pack-tab:hover {
     transform: translateY(-2px);
+    background-color: var(--color-background-hover);
 }
 
 .pack-tab.active {
