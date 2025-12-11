@@ -10,10 +10,10 @@
     width: 80%
 }
 
-.packs-header {
+.packs-meta {
     padding-left: 6rem;
 }
-.packs-header p {
+.packs-meta p {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -135,22 +135,6 @@
 .pack-reward {
     margin-top: 2rem;
     text-align: center;
-}
-
-@media screen and (max-width: 1024px) {
-    .page-packs {
-        padding: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .pack-card {
-        padding: 1rem;
-    }
-
-    .pack-meta h2 {
-        font-size: 1.1rem;
-    }
 }
 
 body {
