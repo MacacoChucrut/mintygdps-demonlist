@@ -1,8 +1,10 @@
 .page-packs {
-    display: grid;
-    grid-template-columns: 20rem 1fr 18rem;
-    gap: 2rem;
-    padding: 2rem;
+    background-color: var(--color-background);
+    width: 100%;
+    padding: 1.5rem 0;
+    display: block;
+    overflow: visible;
+    height: 100vh;
 }
 
 .packs-header {
@@ -40,6 +42,7 @@
 }
 
 .pack-card {
+    background: var(--color-background);
     border: 3px solid var(--pack-color, var(--color-primary));
     border-radius: 1rem;
     padding: 1rem;
@@ -198,9 +201,13 @@ body {
 }
 
 .packs-tabs {
+    width: 100%;
     display: flex;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .pack-tab {
