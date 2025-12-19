@@ -1,5 +1,15 @@
 [
     {
+        "name": "A01 Pack",
+        "levels": ["Blue World Rebirth", "wave trial (A01)", "Heavenly"],
+        "color": "#50f"
+    },
+    {
+        "name": "A01 Pack II",
+        "levels": ["White World Rebirth", "oiia", "bfdi"],
+        "color": "#30a"
+    },
+    {
         "name": "Akuma Pack",
         "levels": ["Akuma III", "SECRET WEAPON", "Akuma II"],
         "color": "#f44"
