@@ -143,5 +143,10 @@
         "name": "Timing Master Pack",
         "levels": ["The Superficial Introspection of a Dying Consciousness", "Eternal Cube", "Cube Trial"],
         "color": "#57f"
+    },
+    {
+        "name": "Zacanaii Pack",
+        "levels": ["grugrj", "Grind District", "Mime Tachine"],
+        "color": "#f52"
     }
 ]
