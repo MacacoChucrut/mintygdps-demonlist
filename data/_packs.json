@@ -42,7 +42,12 @@
     {
         "name": "Hall of Fame Pack IV",
         "levels": ["Cametek Atomosphere","Quack Overdrive", "CODENAME ZERO"],
-        "color": "#f00"
+        "color": "#92e"
+    },
+    {
+        "name": "Hall of Fame Pack V",
+        "levels": ["sloth", "horse paracosm III", "burday723"],
+        "color": "#73e"
     },
     {
         "name": "Kauan Pack",
