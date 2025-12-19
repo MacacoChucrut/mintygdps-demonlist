@@ -105,6 +105,16 @@
         "color": "#5ba"
     },
     {
+        "name": "NotSoDevy Pack",
+        "levels": ["Hard Ship", "Galvanic", "ToE IV"],
+        "color": "#5f6"
+    },
+    {
+        "name": "NotSoDevy Pack II",
+        "levels": ["Rakshasa", "Power limit", "Alive And Phonkin"],
+        "color": "#293"
+    },
+    {
         "name": "Robbed Top 1 Pack",
         "levels": ["Heliacal Gale", "A Building", "Horse Paracosm"],
         "color": "#e17"
