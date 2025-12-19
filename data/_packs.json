@@ -140,6 +140,21 @@
         "color": "#473129"
     },
     {
+        "name": "Top 1 Pack III",
+        "levels": ["Poltergeist", "RiotFall", "burday723"],
+        "color": "#b00"
+    },
+    {
+        "name": "Top 1 Pack II",
+        "levels": ["Power Trip II", "Deez", "Zacheron"],
+        "color": "#e00"
+    },
+    {
+        "name": "Top 1 Pack",
+        "levels": ["oof", "Temptation", "Birthday Girl"],
+        "color": "#f55"
+    },
+    {
         "name": "Single Gamemode Pack I",
         "levels": ["Step Overdrive", "fake anathema", "spooky spider"],
         "color": "#ac5"
