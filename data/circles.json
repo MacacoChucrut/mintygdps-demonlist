@@ -11,60 +11,60 @@
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Herobrain",
             "link": "#",
             "percent": 100
-	},
-	{
+		},
+		{
             "user": "Hydra",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Mop",
             "link": "#",
             "percent": 100,
-	    "mobile": true
-	},
-	{
+	    	"mobile": true
+		},
+		{
             "user": "Quantium",
             "link": "#",
             "percent": 100,
-	    "mobile": true
+	    	"mobile": true
         },
-	{
+		{
             "user": "Dracorex",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "KauanValads123",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Gonci30",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Sorrow",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "sSnuk",
             "link": "#",
             "percent": 100
         },
-	{
+		{
             "user": "Virek",
             "link": "#",
             "percent": 100,
-	    "mobile": true
-	},
-	{
+	    	"mobile": true
+		},
+		{
             "user": "Blitzerwave09",
             "link": "#",
             "percent": 100
@@ -72,6 +72,12 @@
         {
             "user": "TheBobGD",
             "link": "https://youtu.be/45Vsh8P2RhM?t=173",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
             "percent": 100,
             "mobile": false
         }
