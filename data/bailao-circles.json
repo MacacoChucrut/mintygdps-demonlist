@@ -36,7 +36,13 @@
             "link": "https://youtu.be/aiyZYBgEUTQ?feature=shared",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "yeeee",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Fast-Paced", "Nine Circles", "Medium"]
 }
