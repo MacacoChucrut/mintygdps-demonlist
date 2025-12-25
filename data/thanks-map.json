@@ -47,7 +47,13 @@
             "link": "https://youtu.be/w39m6cpocEY?si=oNh1Zt3Oq1pAd60x",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "yeeee",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Timings", "Nine Circles", "Medium"]
 }
