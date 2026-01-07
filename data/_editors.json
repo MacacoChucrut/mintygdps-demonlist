@@ -1,6 +1,6 @@
 [
     {
-        "role": "owner",
+        "role": "admin",
         "name": "MacacoChucrut",
         "link": "https://www.youtube.com/@thesupersigma727"
     },
@@ -12,6 +12,26 @@
     {
         "role": "admin",
         "name": "Hcmaxi",
+        "link": "https://www.youtube.com/@HMaxiC"
+    },
+    {
+        "role": "admin",
+        "name": "majin",
+        "link": "https://www.youtube.com/@HMaxiC"
+    },
+    {
+        "role": "admin",
+        "name": "TheeNegativee",
+        "link": "https://www.youtube.com/@HMaxiC"
+    },
+    {
+        "role": "admin",
+        "name": "Pingel",
+        "link": "https://www.youtube.com/@HMaxiC"
+    }
+    {
+        "role": "admin",
+        "name": "Tusol",
         "link": "https://www.youtube.com/@HMaxiC"
     }
 ]
