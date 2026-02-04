@@ -55,6 +55,12 @@
             "link": "#",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "majin",
+            "link": "https://medal.tv/nl/games/geometry-dash/clips/m1KlF2TOhrUPpjmal?invite=cr-MSxkZ3IsNDA4MjgzNzk3&v=42",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Spider", "Timings", "Slow-Paced", "Medium"]
