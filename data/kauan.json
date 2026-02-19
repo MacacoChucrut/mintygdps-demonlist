@@ -45,6 +45,12 @@
             "link": "https://youtu.be/uD0KISWMKs4",
             "percent": 100,
             "mobile": false
+        },
+        {
+            "user": "john trustworthy",
+            "link": "https://youtu.be/vcWkvi1NiAM",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": ["Duals", "Chokepoints", "Fast-Paced", "Medium"]
