@@ -6,6 +6,13 @@
   "verification": "",
   "showcase": "EMPTY",
   "percentToQualify": 100,
-  "records": [],
+  "records": [
+    {
+  "user": "goofyman",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
+  ],
   "tags": ["Wave", "Long", "Nine Circles"]
 }
