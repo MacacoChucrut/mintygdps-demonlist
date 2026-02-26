@@ -1,6 +1,11 @@
 [
     {
         "role": "owner",
+        "name": "Hcmaxi",
+        "link": "https://www.youtube.com/@HMaxiC"
+    },
+    {
+        "role": "owner",
         "name": "MacacoChucrut",
         "link": "https://www.youtube.com/@thesupersigma727"
     },
@@ -8,11 +13,6 @@
         "role": "admin",
         "name": "Herobrain",
         "link": "https://www.youtube.com/@Herobrain1000"
-    },
-    {
-        "role": "owner",
-        "name": "Hcmaxi",
-        "link": "https://www.youtube.com/@HMaxiC"
     },
     {
         "role": "helper",
