@@ -61,7 +61,13 @@
             "link": "#",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "Itzor",
+  "link": "https://youtu.be/qE6Wj4xH5ew?si=9aPjvhFsAdP1xrjZ",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Robot", "Timings", "Slow-Paced", "Medium"]
 }
