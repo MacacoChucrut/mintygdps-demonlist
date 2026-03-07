@@ -52,7 +52,13 @@
             "user": "velocity",
             "link": "#",
             "percent": 100
-        }
+        },
+		{
+  "user": "dact",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Overall", "Long"]
 }
