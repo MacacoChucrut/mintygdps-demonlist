@@ -97,7 +97,13 @@
             "link": "https://youtu.be/ETc7Q6kpkzE",
             "percent": 100,
             "mobile": false
-        }
+        },
+        {
+  "user": "dact",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Fast-Paced", "Learny", "Medium"]
 }
