@@ -29,7 +29,13 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-        }
+        },
+        {
+  "user": "dact",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Timings", "Memory", "Nine Circles", "High CPS", "what the fuck is this", "Medium"]
 }
