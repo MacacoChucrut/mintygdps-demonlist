@@ -246,11 +246,11 @@ export default {
 
                     <h3>Submission Requirements</h3>
                     <p>Video proof is required for Top 50 Demons.</p>
-                    <p>Verifications must be uploaded as a YouTube video.</p>
+                    <p>Verifications must be uploaded onto a video sharing platform.</p>
                     <p>Cheat indicator is required if a modmenu with that feature is used.</p>
                     <p>Secret routes or bug routes are not allowed.</p>
                     <p>The completion screen must be visible.</p>
-                    <p>CBF and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
+                    <p>CBF/COS/CBS and FPS/TPS bypass allowed, physics bypass is NOT allowed.</p>
 
                 </div>
             </div>
