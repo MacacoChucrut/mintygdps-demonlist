@@ -2,13 +2,13 @@
   "id": 4342,
   "name": "Iris Circles",
   "creators": ["Quantium"],
-  "verifier": "Quantium",
+  "verifier": "goofyman",
   "verification": "",
   "showcase": "EMPTY",
   "percentToQualify": 100,
   "records": [
-    {
-  "user": "goofyman",
+{
+  "user": "dact",
   "link": "",
   "percent": 100,
   "mobile": false
