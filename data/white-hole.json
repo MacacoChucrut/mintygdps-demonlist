@@ -69,7 +69,13 @@
             "link": "https://youtu.be/9-PUPAC_OGM?si=x4CTrbbbc81WkVcb",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "dact",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Fast-Paced", "Medium"]
 }
