@@ -53,7 +53,13 @@
             "link": "#",
             "percent": 100,
             "mobile": false
-        }
+        },
+        {
+  "user": "Gonci",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Chokepoints", "Medium"]
 }
