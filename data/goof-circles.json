@@ -35,7 +35,13 @@
             "link": "#",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "dact",
+  "link": "",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["Wave", "Learny", "Fast-Paced", "Nine Circles", "Medium"]
 }
