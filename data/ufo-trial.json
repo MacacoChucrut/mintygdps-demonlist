@@ -37,7 +37,13 @@
             "link": "#",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "dact",
+  "link": "https://youtu.be/_2bAC-EcwXo",
+  "percent": 100,
+  "mobile": false
+}
     ],
     "tags": ["UFO", "Timings", "Learny", "Medium"]
 }
