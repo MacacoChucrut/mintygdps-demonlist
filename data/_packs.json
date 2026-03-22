@@ -1,5 +1,10 @@
 [
     {
+        "name": "Dact Pack",
+        "levels": ["detailed", "detailed", "detailed"],
+        "color": "#fff"
+    },
+    {
         "name": "A01 Pack",
         "levels": ["Blue World Rebirth", "wave trial (A01)", "Heavenly"],
         "color": "#50f"
