@@ -140,7 +140,7 @@ export default {
     async mounted() {
         this.loading = true;
 
-        <!-- LEADERBOARD FILTER FOR STINKY CHEATER -->
+        <!-- LEADERBOARD FILTER FOR STINKY CHEATER RIBBONERA FUCK YOU -->
         const [leaderboard, err] = await fetchLeaderboard();
         const excludedUsers = ["None", "ribbonera", "Artimae", "KanyeWestOfficial", "Dino"];
         this.leaderboard = leaderboard.filter(player => !excludedUsers.includes(player.user));
