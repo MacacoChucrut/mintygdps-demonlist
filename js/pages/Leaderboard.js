@@ -65,7 +65,7 @@ export default {
                             </li>
                         </ul>
 
-                        <!-- VERIFIED LEVELSd -->
+                        <!-- Verified -->
                         <h2 v-if="entry.verified.length > 0">
                             Verified ({{ entry.verified.length }})
                         </h2>
@@ -82,7 +82,7 @@ export default {
                             </tr>
                         </table>
 
-                        <!-- COMPLETEDF LEVELS -->
+                        <!-- Completed -->
                         <h2 v-if="entry.completed.length > 0">
                             Completed ({{ entry.completed.length }})
                         </h2>
@@ -99,7 +99,7 @@ export default {
                             </tr>
                         </table>
 
-                        <!-- UNCOMPLETED SECTION -->
+                        <!-- Uncompleted -->
                         <div class="uncompleted-title">
                         <h2 v-if="uncompletedLevels.length > 0">
                             Uncompleted ({{ uncompletedLevels.length }})
@@ -140,9 +140,8 @@ export default {
     async mounted() {
         this.loading = true;
 
-        <!-- LEADERBOARD FILTER FOR STINKY CHEATER FUCK YOU RIBBONERA -->
         const [leaderboard, err] = await fetchLeaderboard();
-        const excludedUsers = ["None", "ribbonera", "Artimae", "KanyeWestOfficial", "Dino", "Vertix", "Verim"];
+        const excludedUsers = ["None", "ribbonera", "Artimae", "KanyeWestOfficial", "Dino"];
         this.leaderboard = leaderboard.filter(player => !excludedUsers.includes(player.user));
         this.err = err;
 
