@@ -61,12 +61,12 @@
 
   <h2>Create Level JSON</h2>
 
-  <input id="levelId" placeholder="ID (number)">
-  <input id="levelName" placeholder="Level name">
-  <input id="levelCreators" placeholder="Creators (comma separated)">
+  <input id="levelId" placeholder="ID">
+  <input id="levelName" placeholder="Level Name">
+  <input id="levelCreators" placeholder="Creators (comma separated / example: Quantium, Herobrain, velocity)">
   <input id="levelVerifier" placeholder="Verifier">
-  <input id="levelVerifLink" placeholder="Verification link (Optional)">
-  <input id="levelShowcase" placeholder="Showcase link (Optional)">
+  <input id="levelVerifLink" placeholder="Verification Link (Optional)">
+  <input id="levelShowcase" placeholder="Showcase Link (Optional)">
   <input id="levelTags" placeholder="Tags (comma separated)">
 
   <button onclick="generateLevelJSON()">Generate JSON</button>
@@ -107,7 +107,6 @@ function generateLevelJSON(){
   const verifier = document.getElementById("levelVerifier").value.trim();
   const verif = document.getElementById("levelVerifLink").value.trim();
   const show = document.getElementById("levelShowcase").value.trim();
-  const percent = 100;
   const tags = document.getElementById("levelTags").value.trim();
 
   const json = {
@@ -117,7 +116,6 @@ function generateLevelJSON(){
     verifier,
     verification: verif,
     showcase: show || "EMPTY",
-    percentToQualify: Number(percent),
     records: [],
     tags: tags ? tags.split(",").map(s => s.trim()) : []
   };
