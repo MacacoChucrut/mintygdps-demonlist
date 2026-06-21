@@ -1,0 +1,30 @@
+{
+    "id": 3745,
+    "name": "void of reason",
+    "creators": [
+        "nightsIris"
+    ],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Wave",
+        "Timings",
+        "Medium",
+        "Memory"
+    ]
+}

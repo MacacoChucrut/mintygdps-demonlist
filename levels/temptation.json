@@ -1,0 +1,54 @@
+{
+    "id": 64,
+    "name": "Temptation",
+    "creators": [
+        "TotallyTheEgg"
+    ],
+    "verifier": "TotallyTheEgg",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Cash",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "CatsGD",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Timings",
+        "Chokepoints",
+        "Medium",
+        "Former Top 1"
+    ]
+}

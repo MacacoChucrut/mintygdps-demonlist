@@ -1,0 +1,35 @@
+{
+    "id": 4148,
+    "name": "vukalex007",
+    "creators": [
+        "Z3pH4x"
+    ],
+    "verifier": "Z3pH4x",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Timings",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

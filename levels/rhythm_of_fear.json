@@ -1,0 +1,74 @@
+{
+    "id": 652,
+    "name": "Rhythm Of Fear",
+    "creators": [
+        "SirioBlueX14"
+    ],
+    "verifier": "SirioBlueX14",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Actived",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Ship",
+        "Timings",
+        "Medium"
+    ]
+}

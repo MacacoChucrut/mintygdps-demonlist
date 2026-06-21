@@ -1,0 +1,69 @@
+{
+    "id": 2215,
+    "name": "Thanks Map",
+    "creators": [
+        "Herobrain, Denz8ty"
+    ],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Denz8ty",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Mop",
+            "link": "https://youtu.be/w39m6cpocEY?si=oNh1Zt3Oq1pAd60x",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Timings",
+        "Nine Circles",
+        "Medium"
+    ]
+}

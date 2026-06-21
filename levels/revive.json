@@ -1,0 +1,41 @@
+{
+    "id": 3724,
+    "name": "Revive",
+    "creators": [
+        "Quantium"
+    ],
+    "verifier": "Quantium",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Emerald",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Timings",
+        "High CPS",
+        "Long"
+    ]
+}

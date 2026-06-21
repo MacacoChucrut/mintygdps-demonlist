@@ -1,0 +1,27 @@
+{
+    "id": 81,
+    "name": "robbie toppie games",
+    "creators": [
+        "TotallyTheEgg"
+    ],
+    "verifier": "TotallyTheEgg",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Cash",
+            "link": "https://youtu.be/ZQwcfbYGS-8",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100
+        }
+    ],
+    "tags": [
+        "Timings",
+        "Chokepoints",
+        "Medium",
+        "Former Top 1"
+    ]
+}

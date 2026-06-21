@@ -1,0 +1,27 @@
+{
+    "id": 3233,
+    "name": "Tavo Akys",
+    "creators": [
+        "MintyGuy"
+    ],
+    "verifier": "MintyGuy",
+    "verification": "https://youtu.be/rIXEcDbeSBA",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        }
+    ],
+    "tags": [
+        "Ball",
+        "Timings",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

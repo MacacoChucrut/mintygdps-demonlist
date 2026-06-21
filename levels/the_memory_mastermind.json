@@ -1,0 +1,46 @@
+{
+    "id": 1146,
+    "name": "The Memory Mastermind",
+    "creators": [
+        "Herobrain"
+    ],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/0-NT8ZlAwCU",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Timings",
+        "Memory",
+        "Medium"
+    ]
+}

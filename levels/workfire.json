@@ -1,0 +1,59 @@
+{
+    "id": 2565,
+    "name": "WORKFIRE",
+    "creators": [
+        "TheDunkinGD"
+    ],
+    "verifier": "TheDunkinGD",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Ship",
+        "Timings",
+        "Medium"
+    ]
+}

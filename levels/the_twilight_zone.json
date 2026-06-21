@@ -1,0 +1,40 @@
+{
+    "id": 3531,
+    "name": "The Twilight Zone",
+    "creators": [
+        "goofyman"
+    ],
+    "verifier": "goofyman",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Timings",
+        "Duals",
+        "Medium"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "id": 3082,
+    "name": "Yes",
+    "creators": [
+        "MacacoChucrut"
+    ],
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/6V_aqae9vDg",
+    "records": [
+        {
+            "user": "dact",
+            "link": "https://youtu.be/TWVvvSFOhLE",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "pancakepuzzle",
+            "link": "https://youtu.be/99LAROOAasc",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "https://youtu.be/cUb9XYpodSE",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "https://youtu.be/foxQS586CII",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "majin",
+            "link": "https://medal.tv/nl/games/geometry-dash/clips/m1KlF2TOhrUPpjmal?invite=cr-MSxkZ3IsNDA4MjgzNzk3&v=42",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Spider",
+        "Timings",
+        "Slow-Paced",
+        "Medium"
+    ]
+}
