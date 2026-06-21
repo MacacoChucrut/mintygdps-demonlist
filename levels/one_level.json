@@ -1,0 +1,32 @@
+{
+    "id": 1094,
+    "name": "one level",
+    "creators": [
+        "KauanValads123"
+    ],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "records": [
+        {
+            "user": "N5LX",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        }
+    ],
+    "tags": [
+        "Duals",
+        "Learny",
+        "Fast-Paced",
+        "Medium"
+    ]
+}

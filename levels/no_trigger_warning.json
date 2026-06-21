@@ -1,0 +1,34 @@
+{
+    "id": 3794,
+    "name": "NO TRIGGER WARNING",
+    "creators": [
+        "justabook"
+    ],
+    "verifier": "justabook",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Robot",
+        "Timings",
+        "Medium"
+    ]
+}

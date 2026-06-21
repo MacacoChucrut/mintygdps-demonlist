@@ -1,0 +1,39 @@
+{
+    "id": 853,
+    "name": "memorize game black",
+    "creators": [
+        "jchani001"
+    ],
+    "verifier": "jchani001",
+    "verification": "#",
+    "records": [
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Memory",
+        "Long"
+    ]
+}

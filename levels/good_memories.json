@@ -1,0 +1,36 @@
+{
+    "id": 3391,
+    "name": "Good Memories",
+    "creators": [
+        "ElLucas7Oficial",
+        "Herobrain"
+    ],
+    "verifier": "ElLucas7Oficial",
+    "verification": "https://youtu.be/Rpa5MKlMi8Q",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Learny",
+        "Timings",
+        "Long"
+    ]
+}

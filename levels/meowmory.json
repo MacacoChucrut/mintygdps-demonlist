@@ -1,0 +1,29 @@
+{
+    "id": 3246,
+    "name": "Meowmory",
+    "creators": [
+        "velocity"
+    ],
+    "verifier": "velocity",
+    "verification": "https://youtu.be/-Ik5GEt_3hY",
+    "showcase": "https://youtu.be/yq_Y5tnc9Qk",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/YummyHeartlessEggBrainSlug-xmIH_GMdWDwk0HZa",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/Ab-uDvo1_2Q",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Memory",
+        "Long"
+    ]
+}

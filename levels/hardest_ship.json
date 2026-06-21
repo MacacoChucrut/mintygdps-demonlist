@@ -1,0 +1,55 @@
+{
+    "id": 1204,
+    "name": "Hardest Ship",
+    "creators": [
+        "Denz8ty, Herobrain"
+    ],
+    "verifier": "MacacoChucrut",
+    "verification": "https://youtu.be/X7owk3zULFo",
+    "records": [
+        {
+            "user": "arrctic",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dact",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Dino",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Ship",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": 2625,
+    "name": "Macacos 180th Demon",
+    "creators": [
+        "Herobrain"
+    ],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Timings",
+        "Medium"
+    ]
+}

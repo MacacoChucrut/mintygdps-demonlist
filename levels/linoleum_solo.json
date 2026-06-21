@@ -1,0 +1,28 @@
+{
+    "id": 3909,
+    "name": "Linoleum (Solo)",
+    "creators": [
+        "moure"
+    ],
+    "verifier": "moure",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/2SGwKPpVGq0",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "2P",
+        "Gimmicky",
+        "XL"
+    ]
+}

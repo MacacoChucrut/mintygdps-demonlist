@@ -1,0 +1,95 @@
+{
+    "id": 908,
+    "name": "not NC",
+    "creators": [
+        "alemaneiroGDPS"
+    ],
+    "verifier": "alemaneiroGDPS",
+    "verification": "#",
+    "records": [
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Zceliojunior",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "novabuilds",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "https://youtu.be/JYdhjkWyCIc?si=Bao6g8lauk7QhnOy",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Learny",
+        "Fast-Paced",
+        "Medium"
+    ]
+}

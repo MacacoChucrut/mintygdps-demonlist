@@ -1,0 +1,101 @@
+{
+    "id": 1805,
+    "name": "Love",
+    "creators": [
+        "nightsIris"
+    ],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "records": [
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "KauanValads123",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Fluke",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "sSnuk",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Sorrow",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Timings",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

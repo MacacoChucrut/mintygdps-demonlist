@@ -1,0 +1,34 @@
+{
+    "id": 3688,
+    "name": "oiia",
+    "creators": [
+        "A01"
+    ],
+    "verifier": "A01",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Fast-Paced",
+        "Long"
+    ]
+}

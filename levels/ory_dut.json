@@ -1,0 +1,58 @@
+{
+    "id": 3042,
+    "name": "Ory Dut",
+    "creators": [
+        "MaxLainoto"
+    ],
+    "verifier": "MaxLainoto",
+    "verification": "#",
+    "records": [
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "TheDunkinGD",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Timings",
+        "Chokepoints",
+        "Medium"
+    ]
+}

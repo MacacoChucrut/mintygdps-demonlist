@@ -1,0 +1,32 @@
+{
+    "id": 2714,
+    "name": "GRAVITATIONAL",
+    "creators": [
+        "ribbonera"
+    ],
+    "verifier": "ribbonera",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Ship",
+        "Memory",
+        "Long"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 2113,
+    "name": "Geometry Trash",
+    "creators": [
+        "roma"
+    ],
+    "verifier": "roma",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "GeometryDash",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Timings",
+        "Chokepoints",
+        "Nerve Control",
+        "XL"
+    ]
+}

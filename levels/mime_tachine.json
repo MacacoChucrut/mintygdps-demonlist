@@ -1,0 +1,27 @@
+{
+    "id": 826,
+    "name": "Mime Tachine",
+    "creators": [
+        "ZacanaiiUwU"
+    ],
+    "verifier": "ZacanaiiUwU",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Gimmicky"
+    ]
+}

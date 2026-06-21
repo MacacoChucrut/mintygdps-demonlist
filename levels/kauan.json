@@ -1,0 +1,81 @@
+{
+    "id": 1339,
+    "name": "Kauan",
+    "creators": [
+        "KauanValads123"
+    ],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/PluckyBitterSpiderAliens-U5bBXTlzRubcVOO1",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Hcmaxi",
+            "link": "https://youtu.be/eqXaax8HLMY",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "https://youtu.be/zOoIyseBEto?si=9j4dUZ-T78osv8Vj",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "SebbeNV",
+            "link": "https://youtu.be/uD0KISWMKs4",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "john trustworthy",
+            "link": "https://youtu.be/vcWkvi1NiAM",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "astral",
+            "link": "https://youtu.be/28PnIeXwukY",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "https://youtu.be/sTvVSGChhxo",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "https://youtu.be/_2bAC-EcwXo",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Duals",
+        "Chokepoints",
+        "Fast-Paced",
+        "Medium"
+    ]
+}

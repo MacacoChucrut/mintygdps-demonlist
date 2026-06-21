@@ -1,0 +1,53 @@
+{
+    "id": 1535,
+    "name": "hot",
+    "creators": [
+        "Deadpoolgd"
+    ],
+    "verifier": "Deadpoolgd",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Mop",
+            "link": "https://youtu.be/Wqq1I7ejV6w?si=e0WR3NZznGSqhb0M",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "yeeee",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Robot",
+        "Chokepoints",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

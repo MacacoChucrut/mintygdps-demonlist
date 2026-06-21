@@ -1,0 +1,45 @@
+{
+    "id": 1589,
+    "name": "Operation Of Memory",
+    "creators": [
+        "ElLucas7Oficial"
+    ],
+    "verifier": "ElLucas7Oficial",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Memory",
+        "Medium"
+    ]
+}
