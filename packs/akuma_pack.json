@@ -1,0 +1,9 @@
+{
+    "name": "Akuma Pack",
+    "levels": [
+        "akuma_iii",
+        "secret_weapon",
+        "akuma_ii"
+    ],
+    "color": "#f44"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Trial Pack II",
+    "levels": [
+        "wave_trial_herobrain",
+        "cube_trial",
+        "ufo_trial"
+    ],
+    "color": "#c59"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Single Gamemode Pack I",
+    "levels": [
+        "step_overdrive",
+        "fake_anathema",
+        "spooky_spider"
+    ],
+    "color": "#ac5"
+}
