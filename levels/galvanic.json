@@ -1,0 +1,36 @@
+{
+    "id": 3816,
+    "name": "Galvanic",
+    "creators": [
+        "NotSoDevy"
+    ],
+    "verifier": "NotSoDevy",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Ship",
+        "Timings",
+        "Learny",
+        "Long"
+    ]
+}

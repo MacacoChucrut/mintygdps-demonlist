@@ -1,0 +1,35 @@
+{
+    "id": 3536,
+    "name": "CODENAME ZERO",
+    "creators": [
+        "Herobrain"
+    ],
+    "verifier": "Herobrain",
+    "verification": "https://youtu.be/mJpD4Vxf-ok",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/eytanE-ZYGk",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "velocity",
+            "link": "https://www.youtube.com/watch?v=XqlmDn8WEh4",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "https://youtu.be/i6-4iABE9g4",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Fast-Paced",
+        "Sequel",
+        "Long"
+    ]
+}

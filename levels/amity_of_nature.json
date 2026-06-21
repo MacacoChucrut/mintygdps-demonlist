@@ -1,0 +1,47 @@
+{
+    "id": 2278,
+    "name": "Amity of Nature",
+    "creators": [
+        "nightsIris"
+    ],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Artimae",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Minigame",
+        "Clicksync",
+        "2P",
+        "Medium"
+    ]
+}

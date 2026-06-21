@@ -1,0 +1,47 @@
+{
+    "id": 4204,
+    "name": "Flames",
+    "creators": [
+        "Hcmaxi, MacacoChucrut"
+    ],
+    "verifier": "Hcmaxi",
+    "verification": "https://youtu.be/j1mACnYqp3A",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "https://youtu.be/8-AYbT7W32A",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "https://youtu.be/8R7_ddAahjk",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "john trustworthy",
+            "link": "https://youtu.be/JaouLnw_CD0",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Fast-Paced",
+        "Nine Circles",
+        "Medium"
+    ]
+}

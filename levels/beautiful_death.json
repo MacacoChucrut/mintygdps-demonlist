@@ -1,0 +1,37 @@
+{
+    "id": 3111,
+    "name": "Beautiful Death",
+    "creators": [
+        "nightsIris"
+    ],
+    "verifier": "nightsIris",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Long"
+    ]
+}

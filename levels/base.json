@@ -1,0 +1,48 @@
+{
+    "id": 838,
+    "name": "base",
+    "creators": [
+        "nebula"
+    ],
+    "verifier": "nebula",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "https://youtu.be/ul2pH34IaAU?feature=shared",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Learny",
+        "Slow-Paced",
+        "Nerve Control",
+        "XL"
+    ]
+}

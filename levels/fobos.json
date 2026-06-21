@@ -1,0 +1,40 @@
+{
+    "id": 3031,
+    "name": "Fobos",
+    "creators": [
+        "rankmon"
+    ],
+    "verifier": "rankmon",
+    "verification": "#",
+    "showcase": "https://youtu.be/zF-kDx5fJ34",
+    "records": [
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Learny",
+        "Chokepoints",
+        "XL"
+    ]
+}

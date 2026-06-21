@@ -1,0 +1,66 @@
+{
+    "id": 2131,
+    "name": "Cube Trial",
+    "creators": [
+        "Herobrain"
+    ],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "records": [
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Hydra",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ItzZen",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Timings",
+        "Slow-Paced",
+        "Medium"
+    ]
+}

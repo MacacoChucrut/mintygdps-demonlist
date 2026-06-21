@@ -1,0 +1,32 @@
+{
+    "id": 2292,
+    "name": "Damn Corridor",
+    "creators": [
+        "Herobrain, lilac"
+    ],
+    "verifier": "Herobrain",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "yeeee",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Nerve Control",
+        "XL"
+    ]
+}

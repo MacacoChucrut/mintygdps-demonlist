@@ -1,0 +1,51 @@
+{
+    "id": 3423,
+    "name": "CICADA3302 (XemonDestroyer)",
+    "creators": [
+        "XemonDestroyer"
+    ],
+    "verifier": "XemonDestroyer",
+    "verification": "https://youtu.be/ewgnfmiPDHQ",
+    "records": [
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Mop",
+            "link": "https://youtu.be/JYdhjkWyCIc?si=Bao6g8lauk7QhnOy",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Fast-Paced",
+        "Long"
+    ]
+}

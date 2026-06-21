@@ -1,0 +1,40 @@
+{
+    "id": 3308,
+    "name": "Dynamical Level",
+    "creators": [
+        "Gonci30, MacacoChucrut, Quantium9, ElLucas7Oficial, Herobrain"
+    ],
+    "verifier": "Gonci30",
+    "verification": "#",
+    "records": [
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Fast-Paced",
+        "Long"
+    ]
+}

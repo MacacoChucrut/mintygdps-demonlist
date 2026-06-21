@@ -1,0 +1,33 @@
+{
+    "id": 1983,
+    "name": "Brazil Time",
+    "creators": [
+        "KauanValads123"
+    ],
+    "verifier": "KauanValads123",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Learny",
+        "Long"
+    ]
+}

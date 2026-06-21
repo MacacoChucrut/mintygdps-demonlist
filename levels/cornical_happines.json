@@ -1,0 +1,53 @@
+{
+    "id": 79,
+    "name": "Cornical Happines",
+    "creators": [
+        "Cash"
+    ],
+    "verifier": "Cash",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "WrongBlock",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Pancake0o",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "nightsIris",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ZacanaiiUwU",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "justabook",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "drip",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ]
+}

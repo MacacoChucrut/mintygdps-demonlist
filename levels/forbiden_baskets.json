@@ -1,0 +1,35 @@
+{
+    "id": 3850,
+    "name": "Forbiden Baskets",
+    "creators": [
+        "ForbidBasket"
+    ],
+    "verifier": "ForbidBasket",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Cube",
+        "Gimmicky",
+        "Learny",
+        "Medium"
+    ]
+}

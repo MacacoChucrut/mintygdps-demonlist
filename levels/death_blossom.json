@@ -1,0 +1,40 @@
+{
+    "id": 860,
+    "name": "Death Blossom",
+    "creators": [
+        "mlny"
+    ],
+    "verifier": "dact",
+    "verification": "https://youtu.be/5CBh6OdYzMw?t=104",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "https://www.twitch.tv/herobrain100_/clip/ScrumptiousCautiousCookieGrammarKing-J-efwkiqMphc7S3x",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "goofyman",
+            "link": "https://youtu.be/1WBP3GBjiOw?t=2416",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "ItzZen",
+            "link": "https://youtu.be/_iANM7i3s_Q",
+            "percent": 100,
+            "mobile": true
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Fast-Paced",
+        "Nine Circles",
+        "Long"
+    ]
+}

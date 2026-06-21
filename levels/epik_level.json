@@ -1,0 +1,68 @@
+{
+    "id": 2352,
+    "name": "Epik level",
+    "creators": [
+        "yeeee, Herobrain"
+    ],
+    "verifier": "yeeee",
+    "verification": "#",
+    "records": [
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Virek",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        },
+        {
+            "user": "MintyGuy",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Gonci30",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "ElLucas7Oficial",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "velocity",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Overall",
+        "Long"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 3126,
+    "name": "Blitzo Prismatic",
+    "creators": [
+        "Blitzerwave09"
+    ],
+    "verifier": "Blitzerwave09",
+    "verification": "#",
+    "records": [
+        {
+            "user": "Herobrain",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "MacacoChucrut",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Dracorex",
+            "link": "#",
+            "percent": 100
+        },
+        {
+            "user": "Quantium",
+            "link": "#",
+            "percent": 100,
+            "mobile": true
+        },
+        {
+            "user": "dact",
+            "link": "",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
+    "tags": [
+        "Wave",
+        "Learny",
+        "Nine Circles",
+        "Long"
+    ]
+}
