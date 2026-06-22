@@ -6,18 +6,30 @@
     ],
     "verifier": "A01",
     "verification": "",
-    "showcase": "EMPTY",
+    "showcase": "",
     "records": [
         {
             "user": "goofyman",
             "link": "",
             "percent": 100,
             "mobile": false
+        },
+        {
+          "user": "Herobrain",
+          "link": "",
+          "percent": 100,
+          "mobile": false
+        },
+        {
+          "user": "MacacoChucrut",
+          "link": "https://medal.tv/games/geometry-dash/clips/mY3aQounKUNsxPiC0?invite=cr-MSwzOWosNjUwNDYzOTUw",
+          "percent": 100,
+          "mobile": false
         }
     ],
     "tags": [
+        "Overall",
         "Fast-Paced",
-        "Medium",
-        " Overall"
+        "Medium"
     ]
 }
