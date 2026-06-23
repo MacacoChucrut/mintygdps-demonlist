@@ -1,0 +1,134 @@
+.page-packs {
+    padding: 0 3rem;
+    overflow-y: hidden;
+}
+
+.packs-tabs {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    overflow-y: auto;
+}
+
+.packs-meta {
+    margin-top: 3rem;
+}
+
+.packs-meta p {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pack-tab {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid;
+    border-radius: 0.6rem;
+    background: transparent;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.pack-tab:hover {
+    transform: translateY(-2px);
+    background-color: var(--color-background-hover);
+}
+
+.pack-tab.active {
+    background: rgba(255,255,255,0.05);
+    font-weight: 950;
+}
+
+.pack-card {
+    background: var(--color-background);
+    border: 3px solid var(--pack-color, var(--color-primary));
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pack-card h2 {
+    text-align: center;
+}
+
+.pack-card.big {
+    margin-top: 3rem;
+}
+
+.pack-card.big h2 {
+    margin-bottom: 2rem;
+}
+
+.pack-view {
+    justify-self: center;
+}
+
+.pack-levels ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.level-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s ease;
+}
+
+.level-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.level-item a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--color-on-background);
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.level-thumb {
+    width: 9rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.level-name {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+    color: var(--color-on-background);
+}
+
+.level-rank {
+    font-size: 0.9rem;
+    color: #aaa;
+    white-space: nowrap;
+}
+
+.level-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.level-content .link {
+    display: flex;
+    align-items: center;
+}
+
+.pack-reward {
+    margin-top: 2rem;
+    text-align: center;
+}
