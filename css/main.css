@@ -86,6 +86,24 @@ main {
     grid-column: span 3;
 }
 
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    border-bottom: 4px solid transparent;
+}
+
+.tabs button:hover {
+    transition: 100ms;
+    background-color: var(--color-background-hover);
+    border-bottom: 4px solid #fff;
+}
+
 .header-brand {
     display: flex;
     align-items: center;
