@@ -1,0 +1,27 @@
+{
+  "id": 67,
+  "name": "Example",
+  "creators": [
+    "Hcmaxi",
+    "velocity"
+  ],
+  "verifier": "lolpanda",
+  "verification": "",
+  "showcase": "",
+  "records": [
+    {
+      "user": "Herobrain",
+      "link": "",
+      "percent": 100
+    },
+    {
+      "user": "Quantium",
+      "link": "",
+      "percent": 100
+    }
+  ],
+  "tags": [
+    "Wave",
+    "what the fuck is this"
+  ]
+}
