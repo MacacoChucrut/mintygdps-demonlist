@@ -7,7 +7,13 @@
     "verifier": "nightsIris",
     "verification": "https://youtu.be/5ORJVmxUGHg",
     "showcase": "https://youtu.be/yWdXd3zrviM",
-    "records": [],
+    "records": [
+        {
+  "user": "Herobrain",
+  "link": "",
+  "percent": 100
+}
+    ],
     "tags": [
         "Overall",
         "Memory",
