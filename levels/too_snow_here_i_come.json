@@ -7,7 +7,14 @@
     "verifier": "Quantium",
     "verification": "",
     "showcase": "#",
-    "records": [],
+    "records": [
+        {
+            "user": "velocity",
+            "link": "#",
+            "percent": 100,
+            "mobile": false
+        }
+    ],
     "tags": [
         "Overall",
         "Long"
