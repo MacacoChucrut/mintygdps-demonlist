@@ -167,10 +167,6 @@ export default {
 
                     <h2>Victors ({{ level.records?.length || 0 }})</h2>
 
-                    <p v-if="selected + 1 > 200">
-                        This level has fallen into the Legacy List and no longer accepts new records.
-                    </p>
-
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
