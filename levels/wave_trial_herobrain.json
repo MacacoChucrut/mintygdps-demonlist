@@ -110,6 +110,12 @@
             "link": "https://youtu.be/WJFtjTAkwW0?si=0AGFOoVxK_2cDmpI",
             "percent": 100,
             "mobile": true
+        },
+        {
+            "user": "A01",
+            "link": "",
+            "percent": 100,
+            "mobile": false
         }
     ],
     "tags": [
