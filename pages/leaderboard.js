@@ -78,7 +78,8 @@ export default {
                                         {{ score.level }}
                                     </a>
                                 </td>
-                                <td class="score"><p>+{{ localize(score.score) }}</p></td>
+                                <td class="score">
+                                <p v-if="score.score !== 0">+{{ localize(score.score) }}</p></td>
                             </tr>
                         </table>
 
