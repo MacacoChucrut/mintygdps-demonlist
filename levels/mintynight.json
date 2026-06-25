@@ -33,20 +33,25 @@
             "mobile": false
         },
         {
-  "user": "Hcmaxi",
-  "link": "",
-  "percent": 100
-},
+            "user": "Hcmaxi",
+            "link": "",
+            "percent": 100
+        },
         {
-  "user": "graymatr",
-  "link": "",
-  "percent": 100
-},
+            "user": "graymatr",
+            "link": "",
+            "percent": 100
+        },
         {
-  "user": "dact",
-  "link": "",
-  "percent": 100
-}
+            "user": "dact",
+            "link": "",
+            "percent": 100
+        },
+        {
+      "user": "Quantium",
+      "link": "",
+      "percent": 100
+    }
     ],
     "tags": [
         "Wave",
