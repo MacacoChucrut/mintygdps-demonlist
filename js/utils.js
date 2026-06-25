@@ -1,23 +1,33 @@
-// https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url
 export function getYoutubeIdFromUrl(url) {
     return url.match(
         /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/,
     )?.[1] ?? '';
 }
 
+export function getMedalIdFromUrl(url) {
+    return url.match(/medal\.tv\/(?:clip|clips|games\/[^\/]+\/clips)\/([^\/?#]+)/)?.[1] ?? '';
+}
+
 export function getVideoPlatform(url) {
-    if (url && /youtu\.?be/.test(url)) return "youtube";
+    if (!url) return "unknown";
+    if (/youtu\.?be/.test(url)) return "youtube";
+    if (/medal\.tv/.test(url)) return "medal";
     return "unknown";
 }
 
 export function embed(video) {
     const platform = getVideoPlatform(video);
+    let src = video;
 
     if (platform === "youtube") {
         return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
+    } else if (platform === "medal") {
+        src = `https://medal.tv/clip/${getMedalIdFromUrl(video)}`;
     }
 
-    return video;
+    const safeSrc = src.replace(/"/g, '&quot;');
+    
+    return `<iframe class="video" id="videoframe" src="${safeSrc}" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
 }
 
 export function localize(num) {
@@ -42,6 +52,11 @@ export function getThumbnailFromId(urlOrId) {
 
     if (platform === "unknown" && possibleYouTubeId) {
         return `https://img.youtube.com/vi/${possibleYouTubeId[0]}/mqdefault.jpg`;
+    }
+
+    if (platform === "medal") {
+        const id = getMedalIdFromUrl(input);
+        if (id) return `https://medal.tv/clip/${id}`;
     }
 
     return '';
