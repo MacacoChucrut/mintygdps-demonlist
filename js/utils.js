@@ -87,7 +87,7 @@ export function score(position) {
         return 0;
     }
 
-    const ratio = (position -1) / (200 - 1);
+    const ratio = Math.pow((position - 1) / 200, 1);
 
     return round(
         500 * Math.pow(10 / 500, ratio)
