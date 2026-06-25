@@ -20,17 +20,14 @@ export function getVideoPlatform(url) {
 
 export function embed(video) {
     const platform = getVideoPlatform(video);
-    let src = video;
 
     if (platform === "youtube") {
         return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
-    } else if (platform === "medal") {
-        src = `https://medal.tv/clip/${getMedalIdFromUrl(video)}`;
     }
-
-    const safeSrc = src.replace(/"/g, '&quot;');
-    
-    return `<iframe class="video" id="videoframe" src="${safeSrc}" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+    if (platform === "medal") {
+        return `https://medal.tv/clip/${getMedalIdFromUrl(video)}`;
+    }
+    return video;
 }
 
 export function localize(num) {
