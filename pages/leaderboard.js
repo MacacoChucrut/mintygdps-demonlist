@@ -97,7 +97,7 @@ export default {
                                     </a>
                                 </td>
                                 <td class="score">
-                                <p v-if="score.score !== 0">+{{ localize(record.score) }}</p></td>
+                                <p v-if="record.score !== 0">+{{ localize(record.score) }}</p></td>
                             </tr>
                         </table>
 
