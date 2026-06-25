@@ -90,6 +90,6 @@ export function score(position) {
     const ratio = Math.pow((position - 1) / 200, 1);
 
     return round(
-        500 * Math.pow(10 / 500, ratio)
+        500 * Math.pow(1 / 500, ratio)
     );
 }
