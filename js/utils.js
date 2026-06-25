@@ -5,7 +5,10 @@ export function getYoutubeIdFromUrl(url) {
 }
 
 export function getMedalIdFromUrl(url) {
-    return url.match(/medal\.tv\/(?:clip|clips|games\/[^\/]+\/clips)\/([^\/?#]+)/)?.[1] ?? '';
+    const match = url.match(
+        /medal\.tv\/(?:games\/[^/]+\/clips|clips?|clip)\/([^/?#]+)/
+    );
+    return match?.[1] ?? '';
 }
 
 export function getVideoPlatform(url) {
