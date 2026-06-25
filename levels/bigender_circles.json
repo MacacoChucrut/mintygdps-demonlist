@@ -11,9 +11,13 @@
         {
             "user": "MacacoChucrut",
             "link": "#",
-            "percent": 100,
-            "mobile": false
-        }
+            "percent": 100
+        },
+    {
+      "user": "dact",
+      "link": "https://youtu.be/rKkHsVMa3ec",
+      "percent": 100
+    }
   ],
   "tags": [
     "Wave",
