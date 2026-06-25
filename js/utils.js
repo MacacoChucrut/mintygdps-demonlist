@@ -96,8 +96,3 @@ export function score(position) {
         500 * Math.pow(10 / 500, ratio)
     );
 }
-
-console.log("video:", video);
-console.log("platform:", platform);
-console.log("medal id:", getMedalIdFromUrl(video));
-console.log("iframe src:", src);
