@@ -10,8 +10,7 @@
         {
             "user": "Virek",
             "link": "#",
-            "percent": 100,
-            "mobile": true
+            "percent": 100
         },
         {
             "user": "Hydra",
@@ -21,14 +20,12 @@
         {
             "user": "rankmon",
             "link": "#",
-            "percent": 100,
-            "mobile": true
+            "percent": 100
         },
         {
             "user": "Herobrain",
             "link": "#",
-            "percent": 100,
-            "mobile": false
+            "percent": 100
         },
         {
             "user": "Gonci30",
@@ -38,26 +35,17 @@
         {
             "user": "Quantium",
             "link": "#",
-            "percent": 100,
-            "mobile": true
+            "percent": 100
         },
         {
             "user": "yeeee",
             "link": "#",
-            "percent": 100,
-            "mobile": false
-        },
-        {
-            "user": "Herobrain",
-            "link": "",
-            "percent": 100,
-            "mobile": false
+            "percent": 100
         },
         {
             "user": "dact",
             "link": "",
-            "percent": 100,
-            "mobile": false
+            "percent": 100
         }
     ],
     "tags": [
