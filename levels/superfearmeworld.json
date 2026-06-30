@@ -62,7 +62,12 @@
             "link": "https://www.youtube.com/watch?v=6XpsjxtVfDM",
             "percent": 100,
             "mobile": true
-        }
+        },
+        {
+  "user": "lolpanda",
+  "link": "",
+  "percent": 100
+}
     ],
     "tags": [
         "Timings",
