@@ -64,8 +64,13 @@
             "mobile": true
         },
         {
-      "user": "BoykisserShadow",
-      "link": "https://youtu.be/4AL98pU6jAk?si=lUc0UTohU4P0HOJa",
+            "user": "BoykisserShadow",
+            "link": "https://youtu.be/4AL98pU6jAk?si=lUc0UTohU4P0HOJa",
+            "percent": 100
+        },
+        {
+      "user": "graymatr",
+      "link": "https://www.youtube.com/watch?v=tt4HK0KUIrg",
       "percent": 100
     }
     ],
